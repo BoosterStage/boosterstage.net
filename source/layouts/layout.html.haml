@@ -1,0 +1,10 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %title= current_page.data.title || "The Small Idea Company"
+    
+    = stylesheet_link_tag 'main.bundle'
+    = javascript_include_tag 'main.bundle'
+  %body
+    = yield
