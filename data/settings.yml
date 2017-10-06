@@ -1,0 +1,15 @@
+site:
+  title: The Small Idea Company
+  title_separator: •
+  description: 'Rapid custom development for brand-new SaaS products'
+  i18n: en
+  geo:
+    placename: 'Austin, TX'
+    region: TX-US
+  url: 'https://mysmallidea.com'
+  twitter_card_img: 'https://raw.githubusercontent.com/flexbox/codeless/master/source/favicon_base.png'
+  author: Ryan Heneise
+
+social:
+  twitter: 'mysmallidea'
+

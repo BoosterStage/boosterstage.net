@@ -7,7 +7,9 @@
     = stylesheet_link_tag 'main.bundle'
     = partial 'layouts/shared/meta_tags'
   %body
-    = yield
-    
+    %section.section.is-medium
+      .conatiner
+        %article.content= yield
+
     = javascript_include_tag 'main.bundle'
     = yield_content :javascripts
