@@ -64,11 +64,11 @@ configure :build do
   activate :minify_html, remove_input_attributes: false
   activate :sitemap, hostname: @app.data.settings.site.url
 
-  activate :sitemap_ping do |config|
-    config.host = "#{@app.data.settings.site.url}"
-  end
-
-  activate :robots,
-    rules: [{:user_agent => '*', :allow => %w(/)}],
-    sitemap: @app.data.settings.site.url+'/sitemap.xml'
+  # activate :sitemap_ping do |config|
+  #   config.host = "#{@app.data.settings.site.url}"
+  # end
+  #
+  # activate :robots,
+  #   rules: [{:user_agent => '*', :allow => %w(/)}],
+  #   sitemap: @app.data.settings.site.url+'/sitemap.xml'
 end
