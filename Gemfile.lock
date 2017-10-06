@@ -147,6 +147,7 @@ DEPENDENCIES
   middleman-sitemap!
   middleman-sitemap-ping
   nokogiri
+  rack
   rake
   redcarpet (~> 3.3, >= 3.3.3)
 

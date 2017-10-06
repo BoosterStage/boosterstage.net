@@ -1,5 +1,6 @@
 source 'http://rubygems.org'
 
+gem 'rack'
 gem 'middleman', '~> 4'
 gem 'middleman-blog'
 gem 'middleman-livereload', '~> 3'
