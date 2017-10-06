@@ -28,4 +28,15 @@ set :images_dir, 'images'
 configure :build do
   # Enable cache buster (except for images)
   activate :asset_hash, ignore: [/\.jpg\Z/, /\.png\Z/]
+  activate :gzip
+  activate :minify_html, remove_input_attributes: false
+  activate :sitemap, hostname: @app.data.settings.site.url
+
+  activate :sitemap_ping do |config|
+    config.host = "#{@app.data.settings.site.url}"
+  end
+
+  activate :robots,
+    rules: [{:user_agent => '*', :allow => %w(/)}],
+    sitemap: @app.data.settings.site.url+'/sitemap.xml'
 end
