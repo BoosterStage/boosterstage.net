@@ -8,25 +8,27 @@ page '/*.json', layout: false
 page '/*.txt', layout: false
 
 activate :blog do |blog|
-  blog.name = 'articles'
+  # blog.name = 'articles'
   # This will add a prefix to all links, template references and source paths
-  # blog.prefix = "articles"
+  blog.prefix = "articles"
 
   # blog.permalink = "{year}/{month}/{day}/{title}.html"
-  blog.permalink = "articles/{title}"
+  blog.permalink = "{title}"
   # Matcher for blog source files
   # blog.sources = "{year}-{month}-{day}-{title}.html"
-  blog.taglink = "articles/tags/{tag}.html"
-  blog.layout = "article"
+  # blog.sources = "{year}-{month}-{day}-{title}.html.markdown"
+  # blog.taglink = "tags/{tag}.html"
+  blog.layout = "article_layout"
   # blog.summary_separator = /(READMORE)/
   # blog.summary_length = 250
-  blog.year_link = "articles/{year}.html"
-  blog.month_link = "articles/{year}/{month}.html"
-  blog.day_link = "articles/{year}/{month}/{day}.html"
+  # blog.year_link = "{year}.html"
+  # blog.month_link = "{year}/{month}.html"
+  # blog.day_link = "{year}/{month}/{day}.html"
   # blog.default_extension = ".markdown"
 
   blog.tag_template = "tag.html"
   blog.calendar_template = "calendar.html"
+  # blog.default_extension = ".html.md"
 
   # Enable pagination
   # blog.paginate = true
@@ -63,6 +65,9 @@ configure :build do
   activate :gzip
   activate :minify_html, remove_input_attributes: false
   activate :sitemap, hostname: @app.data.settings.site.url
+
+  set :relative_links, true
+  activate :relative_assets
 
   # activate :sitemap_ping do |config|
   #   config.host = "#{@app.data.settings.site.url}"
