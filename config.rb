@@ -21,7 +21,7 @@ configure :development do
 end
 
 set :css_dir, 'assets/stylesheets'
-set :js_dir, 'assets/javascript'
+set :js_dir, 'assets/javascripts'
 set :images_dir, 'images'
 
 # Build-specific configuration

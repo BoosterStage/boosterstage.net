@@ -4,12 +4,12 @@ var Clean = require('clean-webpack-plugin');
 
 module.exports = {
   entry: {
-    main: './assets/javascript/main.js',
+    main: './assets/javascripts/main.js',
   },
 
   resolve: {
     modules: [
-      __dirname + '/assets/javascript',
+      __dirname + '/assets/javascripts',
       __dirname + '/assets/stylesheets',
       __dirname + '/node_modules',
     ],
@@ -18,7 +18,7 @@ module.exports = {
 
   output: {
     path: __dirname + '/build',
-    filename: 'assets/javascript/[name].bundle.js',
+    filename: 'assets/javascripts/[name].bundle.js',
   },
 
   module: {
