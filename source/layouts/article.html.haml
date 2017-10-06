@@ -3,13 +3,16 @@
   %head
     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
     %meta{:content => "width=device-width, initial-scale=1.0", "name" => "viewport"}/
+    %meta{content: 'IE=Edge,chrome=1', 'httpequiv': 'X-UA-Compatible'}/
     
     = stylesheet_link_tag 'main.bundle'
     = partial 'layouts/shared/meta_tags'
   %body
-    %section.section.is-medium
-      .conatiner
-        %article.content= yield
+    = partial 'layouts/shared/navbar'
+    %section.section
+      .container
+        %article.content
+          = yield
 
     = javascript_include_tag 'main.bundle'
     = yield_content :javascripts

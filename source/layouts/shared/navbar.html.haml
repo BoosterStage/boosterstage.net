@@ -1,0 +1,15 @@
+%nav.navbar{role: 'navigation', aria_label: 'main navitation'}
+  .container
+    .navbar-brand
+      %a.navbar-item{:href => "/"}= data.settings.site.title
+      %button.button.navbar-burger{"data-target": "navMenu"}
+        %span
+        %span
+        %span
+    .navbar-menu#navMenu
+      .navbar-end
+        = link_to 'Pricing', '/pricing-guide', class: ['navbar-item', 'is-tab', active_if('pricing-guide')].join(' ')
+        = link_to 'Rescue Launch', '/rescue-launch', class: ['navbar-item', 'is-tab', active_if('rescue-launch')].join(' ')
+        = link_to 'Articles', '/articles', class: ['navbar-item', 'is-tab', ('is-active' if current_page.url =~ /articles/)].join(' ')
+
+
