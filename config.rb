@@ -13,6 +13,8 @@ activate :external_pipeline,
          source: ".tmp/dist",
          latency: 1
 
+activate :directory_indexes
+
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload
