@@ -17,7 +17,7 @@ module.exports = {
   },
 
   output: {
-    path: __dirname + '/.tmp/dist',
+    path: __dirname + '/build',
     filename: 'assets/javascript/[name].bundle.js',
   },
 
@@ -78,7 +78,7 @@ module.exports = {
         NODE_ENV: JSON.stringify(process.env.NODE_ENV),
       },
     }),
-    new Clean(['.tmp']),
+    new Clean(['build']),
     new ExtractTextPlugin("assets/stylesheets/[name].bundle.css"),
   ],
 };

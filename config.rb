@@ -10,7 +10,7 @@ page '/index.html'
 activate :external_pipeline,
          name: :webpack,
          command: build? ?  "yarn run build" : "yarn run start",
-         source: ".tmp/dist",
+         source: "build",
          latency: 1
 
 activate :directory_indexes
