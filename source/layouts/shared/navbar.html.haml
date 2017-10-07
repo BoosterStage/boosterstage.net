@@ -1,4 +1,4 @@
-%nav.navbar.is-transparent.has-shadow{role: 'navigation', aria_label: 'main navitation'}
+%nav.navbar.is-transparent.has-shadow.is-fixed{role: 'navigation', aria_label: 'main navitation'}
   .container
     .navbar-brand
       %a.navbar-item{:href => "/"}= data.settings.site.title
@@ -10,7 +10,7 @@
       .navbar-end
         = link_to 'Pricing', '/pricing-guide', class: ['navbar-item', 'is-tab', active_if('pricing-guide')].join(' '), relative: true
         -# = link_to 'Rescue Launch', '/rescue-launch', class: ['navbar-item', 'is-tab', active_if('rescue-launch')].join(' '), relative: true
-        = link_to 'Flight Plan', '/virtual-cto', class: ['navbar-item', 'is-tab', active_if('virtual-cto')].join(' '), relative: true
+        = link_to 'Flight Plan', '/flight-plan', class: ['navbar-item', 'is-tab', active_if('flight-plan')].join(' '), relative: true
         = link_to 'MVP', '/mvp', class: ['navbar-item', 'is-tab', active_if('/mvp')].join(' '), relative: true
         = link_to 'Articles', '/articles', class: ['navbar-item', 'is-tab', ('is-active' if current_page.url =~ /articles/)].join(' '), relative: true
 

@@ -9,7 +9,7 @@ page '/*.txt', layout: false
 
 activate :blog do |blog|
   blog.calendar_template = 'calendar.html'
-  blog.layout = 'article_layout'
+  # blog.layout = 'article_layout'
   blog.permalink = '{title}'
   blog.prefix = 'articles'
   blog.tag_template = 'tag.html'
@@ -49,7 +49,7 @@ configure :build do
   activate :relative_assets
 
   activate :asset_host,
-           host: 'https://boosterstage.netlify.com'
+           host: 'https://boosterstage.net'
 
   # activate :sitemap_ping do |config|
   #   config.host = "#{@app.data.settings.site.url}"

@@ -9,7 +9,19 @@
     = partial 'layouts/shared/meta_tags'
   %body
     = partial 'layouts/shared/navbar'
-    = yield
-    
+    %section.section
+      %article.content
+        .container.is-desktop
+          %h1= current_page.data.title
+          %h2.is-size-5.is-text-muted= current_page.data.subtitle
+
+        - if featured_image?(:hero)
+          .container.is-fluid
+            %figure.image.is-marginless
+              = featured_image_tag(:hero)
+
+        .container.is-desktop
+          = yield
+
     = javascript_include_tag 'main.bundle'
     = yield_content :javascripts
