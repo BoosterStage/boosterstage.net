@@ -14,10 +14,12 @@
         .container.is-desktop
           %h1= current_page.data.title
           %h2.is-size-5.is-text-muted= current_page.data.subtitle
-        - if current_page.data.featured_image
+
+        - if featured_image?(:hero)
           .container.is-fluid
             %figure.image.is-marginless
-              = image_tag current_page.data.featured_image
+              = featured_image_tag(:hero)
+
         .container.is-desktop
           = yield
 

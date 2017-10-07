@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
+# MetaTagsHelper
 module MetaTagsHelper
-  
   def meta_tag_description
     site_description = data.settings.site.description
     page_description = current_page.data.description
@@ -19,14 +21,12 @@ module MetaTagsHelper
     end
   end
 
-  def meta_tag_image
-    if current_page.data['twitter_card_img']
-      path = image_path(current_page.data['twitter_card_img'])
+  def meta_tag_image(style = :twitter)
+    if featured_image?(style)
+      featured_image_path(style)
     else
-      path = data.settings.site.logo
+      data.settings.site.logo
     end
-
-    path
   end
 
   def meta_tag_title

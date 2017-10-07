@@ -8,26 +8,31 @@ layout: article_layout
   %h1.title.has-text-weight-bold Articles
   %h2.subtitle.is-size-6.has-text-grey Articles and in-depth guides for startups looking to build the first version of their apps.
 
-- blog.articles.each_with_index do |article, i|
-  %article
-    = link_to article do
-      %figure.image.is-marginless
-        = image_tag article.url + article.data.featured_image
-      %h2.has-text-weight-semibold= article.title
-      %p.has-text-black= article.data.excerpt || article.summary
+.article-list
+  - blog.articles.each_with_index do |article, i|
+    %article.section
+      = link_to article do
+        %h2.has-text-weight-semibold
+          = article.title
+        
+        - if featured_image?('thumbnail-wide.jpg', article)
+          %figure.image.is-marginless
+            = featured_image_tag('thumbnail-wide.jpg', article)
+        %p.subtitle.is-size-6.has-text-black
+          = article.data.excerpt || article.summary
 
-- if paginate
-  - if next_page
-    %p= link_to 'Next page', next_page
+  - if paginate
+    - if next_page
+      %p= link_to 'Next page', next_page
 
-- if paginate && num_pages > 1
-  %p
-    Page
-    = page_number
-    of
-    = num_pages
+  - if paginate && num_pages > 1
+    %p
+      Page
+      = page_number
+      of
+      = num_pages
 
-  - if prev_page
-    %p= link_to 'Previous page', prev_page
+    - if prev_page
+      %p= link_to 'Previous page', prev_page
 
 

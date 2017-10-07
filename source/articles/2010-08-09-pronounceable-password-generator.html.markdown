@@ -3,7 +3,6 @@ title: Pronounceable Password Generator
 date: 2010-08-09 20:24 UTC
 tags: ruby, rails
 excerpt: Here's a neat little Ruby snippet for generating pronounceable passwords.
-featured_image: code.png
 
 ---
 

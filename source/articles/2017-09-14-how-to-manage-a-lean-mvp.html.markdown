@@ -4,7 +4,7 @@ title: How to Successfully Manage a Lean MVP Project
 subtitle: How Agile methodologies can help make your MVP a success
 date: 2017-09-14 00:00 UTC
 tags: mvp, project-management
-featured_image: toy-airplane.jpg
+featured_image: hero.jpg
 excerpt: How to Successfully Manage an MVP Project Using Agile Principles
 
 ---
@@ -23,7 +23,7 @@ But as computers evolved, so has software development.
 
 We no longer make computers out of wires and vacuum tubes, and the computer in your pocket or on your wrist can do things that even the creators of Star Trek couldn’t imagine. 
 
-![Star Trek Communicator](/media/2017/09/04/15/57/00/a6b10590-0a96-4fd6-abad-350916279685/star-trek-communicator.cd0c1b62a81e4875956427a2daa9ac46.jpg)
+![Star Trek Communicator](star-trek-communicator.jpg)
 
 We no longer have to rely on waterfall charts or spec documents to create software. Almost all software today (especially web and mobile products) are developed using a different set of methodologies that we call Agile. 
 
