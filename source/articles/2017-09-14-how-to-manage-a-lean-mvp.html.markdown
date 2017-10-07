@@ -5,12 +5,13 @@ subtitle: How Agile methodologies can help make your MVP a success
 date: 2017-09-14 00:00 UTC
 tags: mvp, project-management
 featured_image: toy-airplane.jpg
+excerpt: How to Successfully Manage an MVP Project Using Agile Principles
 
 ---
 
-In ancient days, software development was modeled after manufacturing. Projects were organized around a giant, monolithic specification document, called a Spec (picture the Monolith scene from _2001: A Space Odyssey_). 
+In ancient days, software development was modeled after manufacturing. Projects were organized around a giant, monolithic specification document, called a Spec. 
 
-![The Monolith](monolith.gif)
+![Picture the Monolith scene from 2001: A Space Odyssey](monolith.gif)
 
 Project managers would spend months (or longer) putting together a spec document—mapping out and planning every single function and operation of the software, down to the tiniest detail. Then the spec would be given to the engineers, who would implement it. 
 

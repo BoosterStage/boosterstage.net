@@ -4,6 +4,22 @@ per_page: 10
 layout: article_layout
 ---
 
+.content
+  %h1.title.has-text-weight-bold Articles
+  %h2.subtitle.is-size-6.has-text-grey Articles and in-depth guides for startups looking to build the first version of their apps.
+
+- blog.articles.each_with_index do |article, i|
+  %article
+    = link_to article do
+      %figure.image.is-marginless
+        = image_tag article.url + article.data.featured_image
+      %h2.has-text-weight-semibold= article.title
+      %p.has-text-black= article.data.excerpt || article.summary
+
+- if paginate
+  - if next_page
+    %p= link_to 'Next page', next_page
+
 - if paginate && num_pages > 1
   %p
     Page
@@ -15,12 +31,3 @@ layout: article_layout
     %p= link_to 'Previous page', prev_page
 
 
-- blog.articles.each_with_index do |article, i|
-  %h2
-    = link_to article.title, article
-    %span= article.date.strftime('%b %e')
-  = article.summary
-
-- if paginate
-  - if next_page
-    %p= link_to 'Next page', next_page

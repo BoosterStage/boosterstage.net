@@ -14,9 +14,10 @@
         .container.is-desktop
           %h1= current_page.data.title
           %h2.is-size-5.is-text-muted= current_page.data.subtitle
-        .container.is-fullhd
-          %figure.image.is-marginless
-            = image_tag 'toy-airplane.jpg'
+        - if current_page.data.featured_image
+          .container.is-fluid
+            %figure.image.is-marginless
+              = image_tag current_page.data.featured_image
         .container.is-desktop
           = yield
 
