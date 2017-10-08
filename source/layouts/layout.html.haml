@@ -13,9 +13,9 @@
     = partial 'layouts/shared/navbar'
     %section.section
       %article.content
-        .container.is-desktop
+        %header.container.is-desktop.has-border-bottom
           %h1= current_page.data.title
-          %h2.is-size-5.is-text-muted= current_page.data.subtitle
+          %h2.is-size-6.has-text-grey= current_page.data.subtitle
 
         - if featured_image?(:hero)
           .container.is-fluid
