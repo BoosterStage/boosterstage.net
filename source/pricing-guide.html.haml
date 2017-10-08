@@ -53,11 +53,11 @@ layout: landing
       %p{:style => "text-align: center;"}
         %a.button.is-danger.is-rounded.is-large{:href => "/work-with-us"} Book your free discovery call today!
 
-:javascript
+-# :javascript
   fbq('track', 'Viewed Pricing Page');
 / Google Code for Viewed Pricing Page Conversion Page
 
-:javascript
+-# :javascript
   /* <![CDATA[ */
     var google_conversion_id = 992896510;
     var google_conversion_language = "en";
@@ -66,7 +66,16 @@ layout: landing
     var google_conversion_label = "6OuJCN6xnXQQ_su52QM";
     var google_remarketing_only = false;
   /* ]]> */
-%script{:src => "//www.googleadservices.com/pagead/conversion.js", :type => "text/javascript"}
-%noscript
+-# %script{:src => "//www.googleadservices.com/pagead/conversion.js", :type => "text/javascript"}
+-# %noscript
   %div{:style => "display:inline;"}
     %img{:alt => "", :height => "1", :src => "//www.googleadservices.com/pagead/conversion/992896510/?label=6OuJCN6xnXQQ_su52QM&guid=ON&script=0", :style => "border-style:none;", :width => "1"}/
+
+= content_for :javascripts do
+  :javascript
+    window.Cookies.set('viewed_pricing_guide', 'true');
+
+
+
+
+  

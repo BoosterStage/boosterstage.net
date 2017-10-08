@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "bulma": "^0.5.3",
+    "js-cookie": "^2.1.4",
     "sanitize.css": "^4.1.0"
   }
 }
