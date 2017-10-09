@@ -3,22 +3,21 @@ pageable: true
 per_page: 10
 ---
 
-.content
-  %h1.title.has-text-weight-bold Articles
-  %h2.subtitle.is-size-6.has-text-grey Articles and in-depth guides for startups looking to build the first version of their apps.
+%h1.title.has-text-weight-bold Articles
+%h2.subtitle.is-size-6.has-text-grey Articles and in-depth guides for startups looking to build the first version of their apps.
 
 .article-list
   - blog.articles.each_with_index do |article, i|
-    %article.section
+    %article.content
       = link_to article do
-        %h2.has-text-weight-semibold
-          = article.title
         
         - if featured_image?('thumbnail-wide.jpg', article)
           %figure.image.is-marginless
             = featured_image_tag('thumbnail-wide.jpg', article)
-        %p.subtitle.is-size-6.has-text-black
-          = article.data.excerpt || article.summary
+        %h3.is-size-4.has-text-weight-normal
+          = article.title
+        %p.subtitle.is-size-6.has-text-grey
+          = article.data.excerpt || article.data.subtitle || article.summary
 
   - if paginate
     - if next_page

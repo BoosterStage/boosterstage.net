@@ -12,10 +12,10 @@
     = partial 'layouts/shared/body_scripts'
     = partial 'layouts/shared/navbar'
     %section.section
+      %header.container.is-desktop.has-border-bottom
+        %h1.is-size-3.has-text-weight-normal= current_page.data.title
+        %h2.is-size-6.has-text-grey.has-text-weight-light= current_page.data.subtitle
       %article.content
-        %header.container.is-desktop.has-border-bottom
-          %h1= current_page.data.title
-          %h2.is-size-6.has-text-grey= current_page.data.subtitle
 
         - if featured_image?(:hero)
           .container.is-fluid
@@ -24,6 +24,17 @@
 
         .container.is-desktop
           = yield
+          
+          .sharethis-inline-share-buttons
+
+          %nav.pagination
+
+            = link_to "Previous Article", current_page.previous_article, class: 'pagination-previous', disabled: (true unless current_page.previous_article)
+            = link_to "Next Article", current_page.next_article, class: 'pagination-next', disabled: (true unless current_page.next_article)
+            
+            
+
+
 
     = partial 'layouts/shared/footer'
 
