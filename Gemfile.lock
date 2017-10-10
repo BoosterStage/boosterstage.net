@@ -39,10 +39,6 @@ GEM
     ffi (1.9.17)
     haml (4.0.7)
       tilt
-    hamlit (2.8.4)
-      temple (>= 0.8.0)
-      thor
-      tilt
     hamster (3.0.0)
       concurrent-ruby (~> 1.0)
     hashie (3.5.3)
@@ -139,7 +135,6 @@ PLATFORMS
 
 DEPENDENCIES
   builder (~> 3.0)
-  hamlit
   middleman (~> 4)
   middleman-blog
   middleman-livereload (~> 3)

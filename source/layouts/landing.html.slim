@@ -1,18 +1,19 @@
-!!!
-%html
-  %head
-    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
-    %meta{:content => "width=device-width, initial-scale=1.0", "name" => "viewport"}/
-    %meta{content: 'IE=Edge,chrome=1', 'httpequiv': 'X-UA-Compatible'}/
-    
+doctype html
+
+html
+  head
+    meta content= "text/html; charset=UTF-8"              http-equiv= "Content-Type"
+    meta content= "width=device-width, initial-scale=1.0" name= "viewport"
+    meta content= 'IE=Edge,chrome=1'                      httpequiv= 'X-UA-Compatible'
+
     = stylesheet_link_tag 'main.bundle'
     = partial 'layouts/shared/meta_tags'
     = partial 'layouts/shared/head_scripts'
-  %body
+  body
     = partial 'layouts/shared/body_scripts'
     = partial 'layouts/shared/navbar'
     = yield
-    
+
     = partial 'layouts/shared/footer'
     = javascript_include_tag 'main.bundle'
     = yield_content :javascripts

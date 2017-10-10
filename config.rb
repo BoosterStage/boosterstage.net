@@ -1,4 +1,3 @@
-require 'hamlit'
 require 'slim'
 
 # Per-page layout changes:

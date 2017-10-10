@@ -1,0 +1,33 @@
+footer.layout_footer.footer
+  .container.has-text-centered
+    p
+      |
+        Made in #{image_tag("texas.svg", alt: "Texas", height: 16, width: 16)}
+        by The Small Idea Company &copy;
+        #{["2005", Date.today.year].join("&mdash;")}
+        All rights reserved.
+
+    ul.inline
+      li= link_to "Articles", "/articles"
+      li= link_to "Twitter", "https://twitter.com/mysmallidea", target: :blank
+      li= link_to "LinkedIn", "https://linkedin.com/in/heneise", target: :blank
+      li= link_to "StackOverflow", "https://stackoverflow.com/users/155826/mysmallidea", target: :blank
+      li= link_to "GitHub", "https://github.com/mysmallidea", target: :blank
+
+    p 512-522-7183
+
+script type="text/javascript" src="//cdn.callrail.com/companies/994052497/166eb77a9da1d9744ce2/12/swap.js"
+
+<!-- Drip -->
+javascript:
+  var _dcq = _dcq || [];
+  var _dcs = _dcs || {};
+  _dcs.account = '8378222';
+
+  (function() {
+    var dc = document.createElement('script');
+    dc.type = 'text/javascript'; dc.async = true;
+    dc.src = '//tag.getdrip.com/8378222.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(dc, s);
+  })();

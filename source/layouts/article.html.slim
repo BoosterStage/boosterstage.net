@@ -1,0 +1,40 @@
+doctype html
+
+html prefix="og: http://ogp.me/ns#" lang="#{data.settings.site.i18n}"
+  head
+    meta content= "text/html; charset=UTF-8"              http-equiv= "Content-Type"
+    meta content= "width=device-width, initial-scale=1.0" name= "viewport"
+    meta content= 'IE=Edge,chrome=1'                      httpequiv= 'X-UA-Compatible'
+
+    = stylesheet_link_tag 'main.bundle'
+    = partial 'layouts/shared/meta_tags'
+    = partial 'layouts/shared/head_scripts'
+  body
+    = partial 'layouts/shared/body_scripts'
+    = partial 'layouts/shared/navbar'
+    section.section
+      header.container.is-desktop.has-border-bottom
+        h1.is-size-3.has-text-weight-normal= current_page.data.title
+        h2.is-size-6.has-text-grey.has-text-weight-light= current_page.data.subtitle
+      article.content
+        - if featured_image?(:hero)
+          .container.is-fluid
+            figure.image
+              = featured_image_tag(:hero)
+        .container.is-tablet
+          = yield
+          .is-clearfix
+          .sharethis-inline-share-buttons
+
+          nav.tags
+            - current_page.tags.each do |tag|
+              = link_to tag, tag_path(tag), class: 'tag'
+
+          nav.pagination
+            = link_to "Previous Article", current_page.article_previous, class: 'pagination-previous', disabled: (true unless current_page.article_previous)
+            = link_to "Next Article", current_page.article_next, class: 'pagination-next', disabled: (true unless current_page.article_next)
+
+= partial 'layouts/shared/footer'
+
+    = javascript_include_tag 'main.bundle'
+    = yield_content :javascripts
