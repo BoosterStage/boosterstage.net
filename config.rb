@@ -50,7 +50,7 @@ configure :build do
   activate :relative_assets
 
   activate :asset_host,
-           host: 'https://boosterstage.net'
+           host: @app.data.settings.site.url
 
   # activate :sitemap_ping do |config|
   #   config.host = "#{@app.data.settings.site.url}"

@@ -6,7 +6,7 @@ site:
   geo:
     placename: 'Austin, TX'
     region: TX-US
-  url: 'https://boosterstage.us'
+  url: 'https://boosterstage.net'
   twitter_card_img: 'https://raw.githubusercontent.com/flexbox/codeless/master/source/favicon_base.png'
   author: Ryan Heneise
 
