@@ -1,4 +1,5 @@
 require 'hamlit'
+require 'slim'
 
 # Per-page layout changes:
 #
@@ -42,7 +43,7 @@ configure :build do
   # Enable cache buster (except for images)
   activate :asset_hash, ignore: [/\.jpg\Z/, /\.png\Z/]
   activate :gzip
-  activate :minify_html, remove_input_attributes: false
+  # activate :minify_html, remove_input_attributes: false
   activate :sitemap, hostname: @app.data.settings.site.url
 
   set :relative_links, true

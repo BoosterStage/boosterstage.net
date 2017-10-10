@@ -14,4 +14,5 @@ gem 'redcarpet', '~> 3.3', '>= 3.3.3'
 gem 'builder', '~> 3.0'
 
 gem 'hamlit'
+gem 'slim'
 gem 'rake'
