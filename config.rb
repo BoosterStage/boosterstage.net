@@ -14,6 +14,8 @@ activate :blog do |blog|
   blog.permalink = '{title}'
   blog.prefix = 'articles'
   blog.tag_template = 'tag.html'
+  blog.taglink = "tagged/{tag}.html"
+  blog.paginate = true
 end
 
 page '/feed.xml', layout: false

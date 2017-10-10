@@ -22,3 +22,15 @@ article.content
 
   .sharethis-inline-share-buttons
     margin: 3rem 0
+
+  img.left,
+  img.alignleft
+    +from($desktop)
+      display: inline
+      float: left
+      margin: 5px 20px 10px 0
+    +from($widescreen)
+      margin-right: -120px
+      transform: translateX(-140px)
+
+
