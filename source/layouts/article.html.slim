@@ -23,11 +23,12 @@ html prefix="og: http://ogp.me/ns#" lang="#{data.settings.site.i18n}"
               = featured_image_tag(:hero)
         .container.is-tablet
           = yield
-          .is-clearfix
-          .sharethis-inline-share-buttons
+        .is-clearfix
 
       .container.is-tablet
 
+        .sharethis-inline-share-buttons
+        
         nav.tags
           - current_page.tags.each do |tag|
             = link_to tag, tag_path(tag), class: 'tag'
@@ -35,7 +36,7 @@ html prefix="og: http://ogp.me/ns#" lang="#{data.settings.site.i18n}"
         nav.similar
           .columns
             - similar_articles.first(3).each do|article|
-              .column
+              .column.is-one-third
                 a href=article.url
                   .card
                     - if featured_image?('2by1.jpg', article)
@@ -44,7 +45,7 @@ html prefix="og: http://ogp.me/ns#" lang="#{data.settings.site.i18n}"
                           = featured_image_tag('2by1.jpg', article)
                     .card-content
                       .content
-                        p.is-size-6= article.data.short_title or article.title
+                        p= article.data.short_title or article.title
 
         nav.pagination
           = link_to "Previous Article", current_page.article_previous, class: 'pagination-previous', disabled: (true unless current_page.article_previous)

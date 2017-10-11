@@ -8,3 +8,33 @@
     background-size: cover
     background-position: center bottom
 
+  &.is-process
+    // background: #FFF3EB
+
+  &.is-booster-scaffold
+    position: relative
+    background: rgba(255,243,235,1)
+    z-index: 0 
+
+    &:after,
+    &:before
+      content: ''
+      position: absolute
+      top: 0
+      right: 0
+      bottom: 0
+      left: 0
+      
+    &:after
+      background: transparent url('/images/hero/booster-scaffold.png')
+      background-size: cover
+      opacity: 0.3
+      z-index: 0
+
+    &:before
+      background-image: linear-gradient(-180deg, rgba(255,243,235,0.00) 26%, rgba(255,243,235,0.8) 90%);
+      background-size: cover
+      z-index: 1
+
+    .hero-body
+      z-index: 2

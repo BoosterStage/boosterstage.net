@@ -6,9 +6,64 @@ layout: landing
 section.hero.is-large.is-gears
   .hero-body
     .container.has-text-centered
-      h1.title.has-text-weight-bold.is-size-1 Launch Your SaaS Faster
-      h2.subtitle.is-size-3 Rapid custom development for brand-new SaaS products
+      /h1.title.has-text-weight-bold.is-size-1 Launch Your SaaS Faster
+      h1.title.has-text-weight-bold.is-size-1 Get your SaaS in Gear
+      h2.subtitle.is-size-3 
+        | Rapid custom development 
+        br
+        | for brand-new web-based products
       .hero-buttons
-        a.button.is-danger.is-large href="/pricing-guide" role='button' Download our Pricing Guide
+        a.button.is-danger.is-medium href="/pricing-guide" role='button' Download our Pricing Guide
 
+section.hero.is-medium.is-booster-scaffold
+  .hero-body
+    .container
+      h1.is-size-1 Booster Scaffold
+
+      .columns
+        .column.content
+          p 
+            | Launch weeks earlier and save thousands of dollars in development with
+              our booster project scaffold. 
+          
+          p 
+            | Our extended project scaffold is a complete, working Ruby on Rails app
+              that is just waiting to have your features built into it. The scaffold
+              enables us to skip building all the basic features that every app must
+              have and get right to building your app's distinctive features. 
+        .column.content
+          h3 Booster Scaffold Features
+          ul 
+            li	User login & registration
+            li	Connect with FaceBook, Twitter, etc.
+            li	My account page
+            li	Forgot your password
+            li	Admin dashboard
+            li	User management
+            li	User impersonation 
+            li	Subscriptions & Billing 
+
+section.hero.is-medium.is-process
+  .hero-body
+    .container
+      h1.is-size-1 Minimum Viable Process
+
+      .columns.content
+        .column
+          markdown:
+            Your project is built through a series of Sprints—periods of intense 
+            work, punctuated by review and learning. Each sprint results in a 
+            deliverable. Learning is applied to the next sprint. 
+            
+            Your project will likely consist of many sprints. How many depends 
+            on the number and complexity of features. 
+        
+            Sprints are almost always two weeks in length. We may break up
+            more complex features into multiple week-long sprints. Two or more
+            very simple features might be combined into a single sprint.  
+
+          p= link_to 'More about our process', '/mvp.html'
+
+        .column
+          = image_tag('build-measure-learn.png')
 
