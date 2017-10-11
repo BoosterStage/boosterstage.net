@@ -1,5 +1,7 @@
 ---
 title: Flight Plan
+width: is-tablet
+
 ---
 
 Flight Planning is an intensive week-long process that culminates with the delivery of a Flight Plan Document: your plan to help you launch your project quickly and with minimal waste.

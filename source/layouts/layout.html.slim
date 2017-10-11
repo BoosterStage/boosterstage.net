@@ -14,16 +14,17 @@ html
     = partial 'layouts/shared/navbar'
     section.section
       article.content
-        header.container.is-desktop.has-border-bottom
-          h1= current_page.data.title
-          h2.is-size-6.has-text-grey= current_page.data.subtitle
+        header.container.has-border-bottom.is-desktop 
+          h1= yield_content :title or current_page.data.title
+          - if current_page.data.subtitle
+            h2.is-size-6.has-text-grey= current_page.data.subtitle
 
         - if featured_image?(:hero)
           .container.is-fluid
             figure.image
               = featured_image_tag(:hero)
 
-        .container.is-desktop
+        .container class=(current_page.data.width || 'is-desktop')
           = yield
 
     = partial 'layouts/shared/footer'

@@ -29,6 +29,7 @@ activate :external_pipeline,
          latency: 1
 
 activate :directory_indexes
+activate :similar
 
 # Reload the browser automatically whenever files change
 configure :development do

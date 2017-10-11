@@ -13,10 +13,10 @@ html prefix="og: http://ogp.me/ns#" lang="#{data.settings.site.i18n}"
     = partial 'layouts/shared/body_scripts'
     = partial 'layouts/shared/navbar'
     section.section
-      header.container.is-desktop.has-border-bottom
-        h1.is-size-3.has-text-weight-normal= current_page.data.title
-        h2.is-size-6.has-text-grey.has-text-weight-light= current_page.data.subtitle
       article.content
+        header.container.is-desktop.has-border-bottom
+          h1.is-size-3.has-text-weight-normal= current_page.data.title
+          h2.is-size-6.has-text-grey.has-text-weight-light= current_page.data.subtitle
         - if featured_image?(:hero)
           .container.is-fluid
             figure.image
@@ -26,13 +26,29 @@ html prefix="og: http://ogp.me/ns#" lang="#{data.settings.site.i18n}"
           .is-clearfix
           .sharethis-inline-share-buttons
 
-          nav.tags
-            - current_page.tags.each do |tag|
-              = link_to tag, tag_path(tag), class: 'tag'
+      .container.is-tablet
 
-          nav.pagination
-            = link_to "Previous Article", current_page.article_previous, class: 'pagination-previous', disabled: (true unless current_page.article_previous)
-            = link_to "Next Article", current_page.article_next, class: 'pagination-next', disabled: (true unless current_page.article_next)
+        nav.tags
+          - current_page.tags.each do |tag|
+            = link_to tag, tag_path(tag), class: 'tag'
+
+        nav.similar
+          .columns
+            - similar_articles.first(3).each do|article|
+              .column
+                a href=article.url
+                  .card
+                    - if featured_image?('2by1.jpg', article)
+                      .card-image
+                        figure.image.is-2by1
+                          = featured_image_tag('2by1.jpg', article)
+                    .card-content
+                      .content
+                        = article.title
+
+        nav.pagination
+          = link_to "Previous Article", current_page.article_previous, class: 'pagination-previous', disabled: (true unless current_page.article_previous)
+          = link_to "Next Article", current_page.article_next, class: 'pagination-next', disabled: (true unless current_page.article_next)
 
 = partial 'layouts/shared/footer'
 
