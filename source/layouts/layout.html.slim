@@ -26,6 +26,8 @@ html
 
         .container class=(current_page.data.width || 'is-desktop')
           = yield
+      .container class=(current_page.data.width || 'is-desktop')
+        = yield_content :pagination
 
     = partial 'layouts/shared/footer'
 

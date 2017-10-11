@@ -12,17 +12,28 @@
         p.is-size-7.has-text-grey-light Read more...
 
   - if paginate
-    - if next_page
-      p= link_to 'Next page', next_page
-
-  - if paginate && num_pages > 1
-    p
-      Page
-      = page_number
-      of
-      = num_pages
-
-    - if prev_page
-      p= link_to 'Previous page', prev_page
-
-
+    - content_for :pagination do
+      nav.pagination.is-centered role="navigation" aria-label="pagination"
+        - if prev_page
+          a.pagination-previous href=prev_page.url &laquo; Newer Articles
+        - if next_page
+          a.pagination-next href=next_page.url Older Articles &raquo; 
+        - if num_pages > 1
+          ul.pagination-list
+            - window = 2
+            - if page_number - window > 1
+              li
+                span.pagination-ellipsis &hellip;
+            - (page_number - window .. page_number + window).select{|i| i> 0 && i <= num_pages}.each do |i| 
+              li
+                - if i == page_number
+                  a.pagination-link.is-current{href="/articles/page/#{i}" aria-label="Page #{i}" aria-current="page"}= i
+                - else
+                  - p = nil
+                  - (i ... page_number).each do p = p ? p.metadata[:locals]['prev_page'] : prev_page; end
+                  - (page_number ... i).each do p = p ? p.metadata[:locals]['next_page'] : next_page; end
+                  a.pagination-link{href=(p && p.url) aria-label="Go to Page #{i}"}= i
+            - if page_number + window < num_pages
+              li
+                span.pagination-ellipsis &hellip;
+      / http://www.slevenbits.com/blog/2013/01/middleman-blog-pagination.html
