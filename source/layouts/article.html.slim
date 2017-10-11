@@ -44,7 +44,7 @@ html prefix="og: http://ogp.me/ns#" lang="#{data.settings.site.i18n}"
                           = featured_image_tag('2by1.jpg', article)
                     .card-content
                       .content
-                        = article.title
+                        p.is-size-6= article.data.short_title or article.title
 
         nav.pagination
           = link_to "Previous Article", current_page.article_previous, class: 'pagination-previous', disabled: (true unless current_page.article_previous)
