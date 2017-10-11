@@ -1,4 +1,5 @@
 @import '~bulma/sass/utilities/functions';
+@import '~bulma/sass/utilities/initial-variables';
 
 @import url('https://fonts.googleapis.com/css?family=Lato|Rubik:400,500,700');
 $font-stack-system: -apple-system, BlinkMacSystemFont,
@@ -10,7 +11,7 @@ $family-heading: "Rubik", $font-stack-system;
 $family-primary: $family-sans-serif;
 
 $body-size: 19px;
-$size-1: 3rem;
+$size-1: 4rem;
 
 $navbar-height: 3.25rem;
 
@@ -28,6 +29,8 @@ $black          : #222;
 $light          : #eee;
 $dark           : $violet;
 
+// Override Bulma colors
+$dark           : $violet;
 $primary        : $green;
 $info           : $blue;
 $success        : $green;
@@ -43,7 +46,7 @@ $linkedin       : #0077b5;
 $github         : #4078c0;
 $github-invert  : #ffffff;
 
-@import '~bulma/sass/utilities/variables';
+@import '~bulma/sass/utilities/derived-variables';
 $colors: (
     "white"   : ($white, $black),
     "black"   : ($black, $white),
