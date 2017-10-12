@@ -67,3 +67,23 @@ section.hero.is-medium.is-process
         .column
           = image_tag('build-measure-learn.png')
 
+
+section.hero.is-medium.is-recent-work
+  .hero-body
+    .container
+      h1.title What We've Built
+      
+      .columns
+        /pre= blog('portfolio').articles.first(3)
+        - blog('portfolio').articles.first(3).each do|article|
+          .column.is-one-third
+            a href=article.url
+              .card
+                - if featured_image?('2by1.jpg', article)
+                  .card-image
+                    figure.image.is-2by1
+                      = featured_image_tag('2by1.jpg', article)
+                .card-content
+                  .content
+                    h5.is-size-6= article.title
+                    p.is-size-7= article.data.subtitle

@@ -48,8 +48,8 @@ html prefix="og: http://ogp.me/ns#" lang="#{data.settings.site.i18n}"
                         p= article.data.short_title or article.title
 
         nav.pagination
-          = link_to "Previous Article", current_page.article_previous, class: 'pagination-previous', disabled: (true unless current_page.article_previous)
-          = link_to "Next Article", current_page.article_next, class: 'pagination-next', disabled: (true unless current_page.article_next)
+          = link_to "&laquo; Previous Article", current_page.article_previous, class: 'pagination-previous', disabled: (true unless current_page.article_previous)
+          = link_to "Next Article &raquo;", current_page.article_next, class: 'pagination-next', disabled: (true unless current_page.article_next)
 
 = partial 'layouts/shared/footer'
 

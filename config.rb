@@ -17,6 +17,13 @@ activate :blog do |blog|
   blog.paginate = true
 end
 
+activate :blog do |blog|
+  blog.name = 'portfolio'
+  blog.prefix = 'portfolio'
+  blog.permalink = '{title}'
+  blog.layout = 'article'
+end
+
 page '/feed.xml', layout: false
 
 #
