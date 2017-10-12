@@ -76,7 +76,7 @@ section.hero.is-medium.is-recent-work
       .columns
         /pre= blog('portfolio').articles.first(3)
         - blog('portfolio').articles.first(3).each do|article|
-          .column.is-one-third
+          .column.is-one-third.is-portfolio
             a href=article.url
               .card
                 - if featured_image?('2by1.jpg', article)
@@ -85,5 +85,5 @@ section.hero.is-medium.is-recent-work
                       = featured_image_tag('2by1.jpg', article)
                 .card-content
                   .content
-                    h5.is-size-6= article.title
+                    h5.has-text-weight-bold.is-size-6= article.title
                     p.is-size-7= article.data.subtitle
