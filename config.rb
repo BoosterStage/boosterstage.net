@@ -11,6 +11,7 @@ activate :blog do |blog|
   blog.calendar_template = 'calendar.html'
   blog.layout = 'article'
   blog.permalink = '{title}'
+  blog.name = 'articles'
   blog.prefix = 'articles'
   blog.tag_template = 'tag.html'
   blog.taglink = "tagged/{tag}.html"
