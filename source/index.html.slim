@@ -15,13 +15,13 @@ section.hero.is-large.is-gears
       .hero-buttons
         a.button.is-danger.is-medium href="/pricing-guide" role='button' Download our Pricing Guide
 
-section.hero.is-medium.is-booster-scaffold
+section.hero.is-medium.is-dark.is-bold.is-booster
   .hero-body
     .container
       h1.is-size-1 Booster Scaffold
 
-      .columns
-        .column.content
+      .columns.is-variable.is-8.content
+        .column
           p 
             | Launch weeks earlier and save thousands of dollars in development with
               our booster project scaffold. 
@@ -31,8 +31,9 @@ section.hero.is-medium.is-booster-scaffold
               that is just waiting to have your features built into it. The scaffold
               enables us to skip building all the basic features that every app must
               have and get right to building your app's distinctive features. 
-        .column.content
-          h3 Booster Scaffold Features
+          p= link_to 'More about Booster Scaffold', '/booster-scaffold.html', class: 'button'
+        .column
+          h3.has-text-light Booster Scaffold Features
           ul 
             li	User login & registration
             li	Connect with FaceBook, Twitter, etc.
@@ -48,7 +49,7 @@ section.hero.is-medium.is-process
     .container
       h1.is-size-1 Minimum Viable Process
 
-      .columns.content
+      .columns.content.is-variable.is-8
         .column
           markdown:
             Your project is built through a series of Sprints—periods of intense 
@@ -62,28 +63,42 @@ section.hero.is-medium.is-process
             more complex features into multiple week-long sprints. Two or more
             very simple features might be combined into a single sprint.  
 
-          p= link_to 'More about our process', '/mvp.html'
+          p= link_to 'More about our process', '/mvp.html', class: 'button'
 
         .column
           = image_tag('build-measure-learn.png')
 
-
-section.hero.is-medium.is-recent-work
+section.hero.is-medium.is-success.is-flight-plan
   .hero-body
     .container
-      h1.title What We've Built
-      
-      .columns
-        /pre= blog('portfolio').articles.first(3)
-        - blog('portfolio').articles.first(3).each do|article|
-          .column.is-one-third.is-portfolio
-            a href=article.url
-              .card
-                - if featured_image?('2by1.jpg', article)
-                  .card-image
-                    figure.image.is-2by1
-                      = featured_image_tag('2by1.jpg', article)
-                .card-content
-                  .content
-                    h5.has-text-weight-bold.is-size-6= article.title
-                    p.is-size-7= article.data.subtitle
+      h1.is-size-1 Flight Planning
+      p.subtitle Flight Planning is an intensive week-long process that culminates with the delivery of a Flight Plan Document: your plan to help you launch your project quickly and with minimal waste.
+
+      p= link_to "More about Flight Planning", '/flight-plan.html', class: 'button'
+
+section.section.is-recent-work
+  .container
+    h1.title What We've Built
+    
+    .columns
+      /pre= blog('portfolio').articles.first(3)
+      - blog('portfolio').articles.first(3).each do|article|
+        .column.is-one-third.is-portfolio
+          a href=article.url
+            .card
+              - if featured_image?('2by1.jpg', article)
+                .card-image
+                  figure.image.is-2by1
+                    = featured_image_tag('2by1.jpg', article)
+              .card-content
+                .content
+                  h5.has-text-weight-bold.is-size-6= article.title
+                  p.is-size-7= article.data.subtitle
+
+section.section
+  .container.has-text-centered
+    p Ready to get started? 
+    .hero-buttons
+      a.button.is-danger.is-medium href="/pricing-guide" role='button' Download our Pricing Guide
+
+

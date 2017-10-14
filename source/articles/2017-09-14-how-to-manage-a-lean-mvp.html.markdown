@@ -12,7 +12,7 @@ excerpt: How to Successfully Manage an MVP Project Using Agile Principles
 
 In ancient days, software development was modeled after manufacturing. Projects were organized around a giant, monolithic specification document, called a Spec. 
 
-![Picture the Monolith scene from 2001: A Space Odyssey](monolith.gif)
+![Picture the Monolith scene from 2001: A Space Odyssey](2017-09-14-how-to-manage-a-lean-mvp/monolith.gif)
 
 Project managers would spend months (or longer) putting together a spec document—mapping out and planning every single function and operation of the software, down to the tiniest detail. Then the spec would be given to the engineers, who would implement it. 
 
@@ -24,7 +24,7 @@ But as computers evolved, so has software development.
 
 We no longer make computers out of wires and vacuum tubes, and the computer in your pocket or on your wrist can do things that even the creators of Star Trek couldn’t imagine. 
 
-![Star Trek Communicator](star-trek-communicator.jpg)
+![Star Trek Communicator](2017-09-14-how-to-manage-a-lean-mvp/star-trek-communicator.jpg)
 
 We no longer have to rely on waterfall charts or spec documents to create software. Almost all software today (especially web and mobile products) are developed using a different set of methodologies that we call Agile. 
 

@@ -1,0 +1,55 @@
+---
+title: Booster Scaffold
+subtitle: Skip the scaffold and get right to your app's distinctive features
+width: is-tablet
+layout: landing
+
+---
+
+section.section
+  article.content
+    header.container.is-desktop.has-border-bottom
+      h1.is-size-3.has-text-weight-normal= current_page.data.title
+      h2.is-size-6.has-text-grey.has-text-weight-light= current_page.data.subtitle
+    - if featured_image?(:hero)
+      .container.is-fluid
+        figure.image
+          = featured_image_tag(:hero)
+
+    .container.is-desktop
+      .columns.is-multiline
+        .column.is-half
+          h2 Launch Weeks Earlier
+          p
+            | We've distilled the basic features that every app needs into a simple,
+              extendable boilerplate scaffold that serves as the basis for every app
+              that we build. 
+
+        .column.is-half
+          markdown: 
+            ## Favorable Licensing
+            
+            Booster Scaffold is licensed under the [MIT
+            License](https://mit-license.org/), so you can integrate it into your
+            business with no fuss. 
+
+        .column.is-half
+          markdown:
+            ## All the Basic Features
+
+            Every app needs certain features that are the foundation of a successful
+            project, but aren't part of what makes your app special. Features like
+            user authentication, user access levels, administrative dashboards, and
+            subscription billing are part of every app. Why spend time (and money)
+            building those features? Booster has everything you need baked right in. 
+        .column.is-half
+          h2 Booster Scaffold Features
+          ul 
+            li	User login & registration
+            li	Connect with FaceBook, Twitter, etc.
+            li	My account page
+            li	Forgot your password
+            li	Admin dashboard
+            li	User management
+            li	User impersonation 
+            li	Subscriptions & Billing 
