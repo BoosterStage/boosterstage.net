@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function(){
     pricingNav.forEach((el) => {
       el.addEventListener('click', function(e){
         e.preventDefault()
-        _dcq.push(["showForm", {id: "36601678"}])
+        _dcq.push(["showForm", {id: "396474459"}])
       })
     })
   }
