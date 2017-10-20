@@ -2,7 +2,7 @@
 
 title: "How to find product-market fit before your product exists"
 subtitle: "Product validation is not a one-time event. Instead it’s a stair-step. It’s important to stop and test product-market fit at every stage as you develop your business. But that validation looks different at each stage."
-date: 2017-07-28 00:00 UTC
+date: 2017-07-28 
 tags: mvp, validation, lean startup
 
 ---

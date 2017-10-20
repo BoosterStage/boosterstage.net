@@ -26,9 +26,6 @@ html prefix="og: http://ogp.me/ns#" lang="#{data.settings.site.i18n}"
         .is-clearfix
 
       .container.is-tablet
-
-        .sharethis-inline-share-buttons
-        
         nav.tags
           - current_page.tags.each do |tag|
             = link_to tag, tag_path(tag), class: 'tag'
@@ -51,6 +48,8 @@ html prefix="og: http://ogp.me/ns#" lang="#{data.settings.site.i18n}"
           = link_to "&laquo; Previous Article", current_page.article_previous, class: 'pagination-previous', disabled: (true unless current_page.article_previous)
           = link_to "Next Article &raquo;", current_page.article_next, class: 'pagination-next', disabled: (true unless current_page.article_next)
 
+
+        .sharethis-inline-share-buttons
 = partial 'layouts/shared/footer'
 
     = javascript_include_tag 'main.bundle'

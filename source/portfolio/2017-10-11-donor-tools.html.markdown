@@ -2,7 +2,7 @@
 
 title: Donor Tools
 subtitle: Advanced donor and donation management platform for nonprofits.
-date: 2017-10-11 22:41 UTC
+date: 2017-10-11
 
 ---
 

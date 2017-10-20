@@ -1,5 +1,7 @@
 require 'slim'
 
+Time.zone = "America/Chicago"
+
 # Per-page layout changes:
 #
 # With no layout

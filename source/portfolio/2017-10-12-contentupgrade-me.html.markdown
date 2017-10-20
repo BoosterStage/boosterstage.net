@@ -2,7 +2,7 @@
 
 title: ContentUpgrade.me
 subtitle: Lead magnet list-building tool for Medium and Wordpress bloggers.
-date: 2017-10-12 01:57 UTC
+date: 2017-10-12 
 excerpt: ContentUpgrade.me is a list-building tool for authors who publish on Medium.com.
 
 ---

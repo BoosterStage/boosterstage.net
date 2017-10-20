@@ -2,7 +2,7 @@
 
 title: Biola University
 subtitle: A custom content management strategy and backend CMS.
-date: 2017-10-12 01:58 UTC
+date: 2017-10-12 
 
 ---
 
