@@ -4,7 +4,7 @@
 module MetaTagsHelper
   def meta_tag_description
     site_description = data.settings.site.description
-    page_description = current_page.data.description
+    page_description = current_page.data.description || current_page.data.excerpt
 
     if page_description.nil? || page_description.empty?
       description = site_description

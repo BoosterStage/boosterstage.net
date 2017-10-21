@@ -40,6 +40,7 @@ activate :external_pipeline,
 
 activate :directory_indexes
 activate :similar
+activate :minify_html
 
 # Reload the browser automatically whenever files change
 configure :development do
