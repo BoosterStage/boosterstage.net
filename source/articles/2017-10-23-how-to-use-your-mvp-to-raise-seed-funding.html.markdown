@@ -47,7 +47,9 @@ Nothing beats raising financing from your customers.
 
 Raising money from your customers validates that they love your product, they get something of value, and you never have to pay it back.
 
-<a href="https://ctt.ec/noadD">Tweet: Raising money from your customers validates that they love your product, they get something of value, and you never have to pay it back.</a>
+<blockquote class="tweet-this">
+Nothing beats raising financing from your customers. 
+</blockquote>
 
 But what exactly do I mean by “raising money” from customers? If customers are already paying for the product, won’t this annoy them? 
 
