@@ -70,6 +70,10 @@ This is where we begin to realize the value of the iterative approach.
 
 What can be done with learning? 
 
+<blockquote class="tweet-this">
+Learning is the true value of iterative MVP development.
+</blockquote>
+
 Obviously we don’t mean that you need to be educated about your product. You are your product’s number one expert. 
 
 When we talk about learning, we’re talking about a scientific approach to launching a new product. That means making assumptions and then testing those assumptions. 
