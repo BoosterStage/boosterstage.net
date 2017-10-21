@@ -7,7 +7,7 @@ elements.forEach((el) => {
   var currentUrl = window.location;
   var tweetStr = document.createElement('div')
   tweetStr.classList.add('tweet-quote')
-  tweetStr.innerHTML = '<a href="https://twitter.com/share" data-text="' +blockQuoteText+ '"  class="twitter-share-button" data-via="doodlemarks" data-url="' +currentUrl+ '" data-size="large" data-count="vertical">Tweet</a>'
+  tweetStr.innerHTML = '<a href="https://twitter.com/share" data-text="' +blockQuoteText+ '"  class="twitter-share-button" data-via="Booster_Stage" data-url="' +currentUrl+ '" data-size="large" data-count="vertical">Tweet</a>'
   el.appendChild(tweetStr);
 
 })
