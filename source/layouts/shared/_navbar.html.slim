@@ -2,11 +2,7 @@ nav.navbar.is-transparent.has-shadow role='navigation' aria_label='main navitati
   .container
     .navbar-brand
       a.navbar-item href="/"
-        = data.settings.site.title
-        - if data.settings.site.tagline
-          span.is-hidden-mobile
-            ' &nbsp;&bull;&nbsp;
-            = data.settings.site.tagline
+        = image_tag "BoosterStageLogo.png", srcset: "BoosterStageLogo@2x.png 2x", alt: data.settings.site.title
       label.navbar-burger for="menu-toggle"
         span
         span
