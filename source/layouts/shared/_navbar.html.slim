@@ -2,7 +2,7 @@ nav.navbar.is-transparent.has-shadow role='navigation' aria_label='main navitati
   .container
     .navbar-brand
       a.navbar-item href="/"
-        = image_tag "BoosterStageLogo.png", srcset: "BoosterStageLogo@2x.png 2x, BoosterStageLogo@3x 3x, BoosterStageLogo@4x 4x", alt: data.settings.site.title
+        = image_tag "BoosterStageLogo.png", srcset: "#{image_path('BoosterStageLogo@2x.png')} 2x, #{image_path('BoosterStageLogo@3x')} 3x, #{image_path('BoosterStageLogo@4x')} 4x", alt: data.settings.site.title
       label.navbar-burger for="menu-toggle"
         span
         span
