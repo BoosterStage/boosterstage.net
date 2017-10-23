@@ -1,5 +1,6 @@
 site:
-  title: Booster Stage • Rapid Web Development
+  title: Booster Stage
+  tagline: Rapid Web Development
   title_separator: •
   description: 'Rapid custom development for brand-new SaaS products'
   i18n: en

@@ -1,15 +1,20 @@
 nav.navbar.is-transparent.has-shadow role='navigation' aria_label='main navitation'
   .container
     .navbar-brand
-      a.navbar-item href="/"= data.settings.site.title
-      button.button.navbar-burger data-target="navMenu"
+      a.navbar-item href="/"
+        = data.settings.site.title
+        - if data.settings.site.tagline
+          span.is-hidden-mobile
+            ' &nbsp;&bull;&nbsp;
+            = data.settings.site.tagline
+      label.navbar-burger for="menu-toggle"
         span
         span
         span
+    input#menu-toggle.is-hidden type="checkbox"
     .navbar-menu#navMenu
       .navbar-end
         = link_to 'Pricing', '/pricing-guide', data: {pricing: true}, id: 'nav--pricing', class: ['navbar-item', 'is-tab', active_if('pricing-guide')].join(' '), relative: true
-        -# = link_to 'Rescue Launch', '/rescue-launch', class: ['navbar-item', 'is-tab', active_if('rescue-launch')].join(' '), relative: true
         = link_to 'Flight Plan', '/flight-plan', class: ['navbar-item', 'is-tab', active_if('flight-plan')].join(' '), relative: true
         = link_to 'MVP', '/mvp', class: ['navbar-item', 'is-tab', active_if('mvp')].join(' '), relative: true
         = link_to 'Articles', '/articles', class: ['navbar-item', 'is-tab', ('is-active' if current_page.url =~ /articles/)].join(' '), relative: true

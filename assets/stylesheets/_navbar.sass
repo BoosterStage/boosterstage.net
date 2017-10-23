@@ -8,3 +8,9 @@ nav.navbar
   &.is-transparent
     background: rgba(255,255,255,0.7)
 
+  +until($desktop)
+    #menu-toggle:checked + #navMenu
+      display: block;
+
+  #navMenu
+    transition: all 200ms ease-out
