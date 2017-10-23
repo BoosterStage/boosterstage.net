@@ -42,6 +42,10 @@
   stroke: none
 }
 
+.resp-sharing-button:hover{
+  color: #fff;
+}
+
 .resp-sharing-button--twitter {
   background-color: #55acee
 }
