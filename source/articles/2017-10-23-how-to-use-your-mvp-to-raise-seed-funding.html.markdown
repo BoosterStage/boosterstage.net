@@ -1,14 +1,13 @@
 ---
 
 title: How to use your MVP to raise seed funding
+subtitle: You've got your MVP, traction, and revenue. Where can you look to raise funding for growth? 
 date: 2017-10-23 
 tags: mvp, business, funding
-excerpt: My company has a MVP, traction, and revenue. Now we are seeking seed money to fund our growth. Where do I begin looking?
-description: You've got your MVP, traction, and revenue. What's the best way to raise funding for growth? 
 
 ---
 
-I really liked this question that came through Quora recently: 
+I really liked [this question that came through Quora](https://www.quora.com/My-company-has-a-MVP-traction-and-revenue-We-are-seeking-40k-in-funding-Where-do-I-begin-looking/answer/Ryan-Crispin-Heneise-1?srid=utkuT) recently: 
 
 > My company has a MVP, traction, and revenue. We are seeking $40k in funding. Where do I begin looking?
 
