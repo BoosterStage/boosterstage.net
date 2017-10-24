@@ -57,7 +57,6 @@ configure :build do
   activate :asset_hash, ignore: [/\.jpg\Z/, /\.png\Z/]
   activate :gzip
   # activate :minify_html, remove_input_attributes: false
-  activate :sitemap, hostname: @app.data.settings.site.url
 
   set :relative_links, true
   activate :relative_assets
@@ -82,12 +81,13 @@ configure :build do
       ]
     }
   end
-  
-  # activate :sitemap_ping do |config|
-  #   config.host = "#{@app.data.settings.site.url}"
-  # end
 
-  # activate :robots,
-  #   rules: [{:user_agent => '*', :allow => %w(/)}],
-  #   sitemap: @app.data.settings.site.url+'/sitemap.xml'
+  activate :sitemap, hostname: @app.data.settings.site.url
+  activate :sitemap_ping do |config|
+    config.host = "#{@app.data.settings.site.url}"
+  end
+
+  activate :robots,
+    rules: [{:user_agent => '*', :allow => %w(/)}],
+    sitemap: @app.data.settings.site.url+'/sitemap.xml'
 end
