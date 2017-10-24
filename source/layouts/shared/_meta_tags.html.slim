@@ -5,6 +5,9 @@ meta name="description"           content=meta_tag_description
 meta name="author"                content="#{data.settings.site.author}"
 meta name="robots"                content="index, follow"
 
+link href=meta_tag_url rel='canonical'
+link href="#{meta_tag_url}feed.xml" rel='alternate' title=data.settings.site.title type='application/rss+xml'
+
 / Geocoding
 meta name="geo.placename"         content="#{data.settings.site.geo.placename}"
 meta name="geo.position"          content="#{data.settings.site.geo.position}"
@@ -34,4 +37,4 @@ meta name="twitter:site"          content="@#{data.settings.social.twitter}"
 meta name="twitter:title"         content=meta_tag_title
 meta name="twitter:description"   content=meta_tag_description
 meta name="twitter:image"         content=meta_tag_image(:twitter)
-
+meta name="twitter:creator"       content="@#{data.settings.social.twitter_creator}"

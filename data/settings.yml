@@ -7,11 +7,11 @@ site:
     placename: 'Austin, TX'
     region: TX-US
   url: 'https://boosterstage.net'
-  twitter_card_img: 'https://raw.githubusercontent.com/flexbox/codeless/master/source/favicon_base.png'
   author: Ryan Heneise
 
 social:
-  twitter: 'mysmallidea'
+  twitter: 'Booster_Stage'
+  twitter_creator: 'crispinheneise'
   facebook:
     app_id: '897588423737232'
 
