@@ -6,7 +6,7 @@ blog: articles
 xml.instruct!
 xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
   site_url = @app.data.settings.site.url
-  xml.title @app.data.settings.site.name
+  xml.title @app.data.settings.site.title
   xml.subtitle @app.data.settings.site.description
   xml.id URI.join(site_url, blog.options.prefix.to_s)
   xml.link "href" => URI.join(site_url, blog.options.prefix.to_s)
