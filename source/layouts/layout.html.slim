@@ -14,7 +14,8 @@ html
     = partial 'layouts/shared/navbar'
     section.section
       article.content
-        header.container.has-border-bottom.is-desktop 
+        header.container.has-border-bottom.is-desktop  class=(current_page.data.width || 'is-desktop')
+
           h1= yield_content :title or current_page.data.title
           - if current_page.data.subtitle
             h2.is-size-6.has-text-grey= current_page.data.subtitle
