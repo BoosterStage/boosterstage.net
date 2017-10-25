@@ -102,4 +102,9 @@ section.section
 
     iframe scrolling="no" width="100%" height="285" frameborder="0" border="no" src="https://contentupgrade.me/Yl4yBeJj.html?ref="
 
-
+- if build? 
+  - content_for :javascripts do
+    javascript:
+      fbq('track', 'ViewContent', {
+        'content_name': '#{ escape_javascript current_page.data.title }'
+      });

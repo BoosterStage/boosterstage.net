@@ -55,29 +55,14 @@ section.section.content
       p.has-text-centered
         a.button.is-danger.is-rounded.is-large href="/work-with-us" Book your free discovery call today!
 
-- if build?
-  javascript:
-    fbq('track', 'Lead',{
-      value: 5000,
-      currency: 'USD'
-    });
-
-  / Google Code for Viewed Pricing Page Conversion Page
-  javascript:
-    /* <![CDATA[ */
-      var google_conversion_id = 992896510;
-      var google_conversion_language = "en";
-      var google_conversion_format = "3";
-      var google_conversion_color = "ffffff";
-      var google_conversion_label = "6OuJCN6xnXQQ_su52QM";
-      var google_remarketing_only = false;
-    /* ]]> */
-  script src="//www.googleadservices.com/pagead/conversion.js" type="text/javascript"
-  noscript
-    div style="display:inline;"
-      img alt="" height="1" src="//www.googleadservices.com/pagead/conversion/992896510/?label=6OuJCN6xnXQQ_su52QM&guid=ON&script=0" style="border-style:none;" width="1"
+= partial 'layouts/shared/conversion'
 
 - content_for :javascripts do
   javascript:
     window.Cookies.set('viewed_pricing_guide', 'true');
 
+  - if build?
+    javascript:
+      fbq('track', 'ViewContent', {
+        'content_name': '#{ escape_javascript current_page.data.title }'
+      });
