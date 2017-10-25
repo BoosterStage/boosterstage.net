@@ -52,7 +52,7 @@ $github-invert  : #ffffff;
 $colors: (
     "white"   : ($white, $black),
     "black"   : ($black, $white),
-    "light"   : ($light, $light-invert),
+    "light"   : ($light, $black),
     "dark"    : ($dark, $dark-invert),
     "primary" : ($primary, $primary-invert),
     "info"    : ($info, $info-invert),
