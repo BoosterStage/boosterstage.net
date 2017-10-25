@@ -2,6 +2,7 @@
 
 title: Let's Get Started
 subtitle: "Bring Your Idea to Life: Free Strategy Call"
+featured_image: 'professionals-at-whiteboard.jpeg'
 
 ---
 
