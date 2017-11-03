@@ -55,14 +55,7 @@ section.section.content
       p.has-text-centered
         a.button.is-danger.is-rounded.is-large href="/work-with-us" Book your free discovery call today!
 
-= partial 'layouts/shared/conversion'
-
 - content_for :javascripts do
   javascript:
     window.Cookies.set('viewed_pricing_guide', 'true');
 
-  - if build?
-    javascript:
-      fbq('track', 'ViewContent', {
-        'content_name': '#{ escape_javascript current_page.data.title }'
-      });
