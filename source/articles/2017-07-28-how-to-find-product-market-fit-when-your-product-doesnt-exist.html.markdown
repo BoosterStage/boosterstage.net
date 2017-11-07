@@ -56,8 +56,6 @@ Could you demonstrate your idea with an existing platform? What can you string t
 By now you know a lot about your customer. You know who they are. You know what they're feeling, and you know that your solution could be the right one for them. It's time to turn that knowledge into content. Content is how The World will find out about your product, it's how you will communicate your message to a broader audience, and it's how you will convince individuals that you are an expert and that they should trust you. [A well-defined content strategy](https://blog.kissmetrics.com/build-a-company-without-product/) is often the missing piece that could make the difference between success and failure. None of this is easy or automatic. Companies that look like overnight successes are almost always standing on years of work or experience. It's not foolproof but by combining these steps you can build an audience, demonstrate value, and become an expert before ever writing a line of code.
 
 <div style="width: 100%; position: relative;">
-  <iframe scrolling="no" width="100%" height="271" frameborder="0" border="no" src="https://contentupgrade.me/wK4n1V8E.html?ref="></iframe>
+  <iframe scrolling="no" width="100%" height="290" frameborder="0" border="no" src="https://contentupgrade.me/Yl4yBeJj.html?ref="></iframe>
 </div>
-
-
 
