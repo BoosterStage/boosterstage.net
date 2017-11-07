@@ -22,12 +22,12 @@ module MetaTagsHelper
   end
 
   def meta_tag_image(style = :twitter)
-    if current_page.data.featured_image
-      image_path current_page.data.featured_image
-    elsif current_page.data.featured_image_path
-      current_page.data.featured_image_path
-    elsif featured_image?(style)
-      featured_image_path(style)
+    if current_page.data.relative_image
+      image_path current_page.data.relative_image
+    elsif current_page.data.relative_image_path
+      current_page.data.relative_image_path
+    elsif relative_image?(style)
+      relative_image_path(style)
     else
       data.settings.site.logo
     end

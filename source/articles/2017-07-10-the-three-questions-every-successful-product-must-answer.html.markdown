@@ -13,9 +13,8 @@ Remember that old Kevin Costner movie Field of Dreams? “If you build it, they 
 
 This doesn’t happen in real life: **if all you do is build it, I guarantee they will not come**. Sorry to be the bearer of bad news. Many a startup has died in the field of dreams, waiting for customers to come to them.
 
-<p class="center">
-<img src="https://media.giphy.com/media/DkHvDAQRCyQHm/giphy.gif" alt="Picture from the movie Field of Dreams" width="500" height="247" />
-</p>
+
+![Picture from the movie Field of Dreams](field-of-dreams.gif)
 
 This doesn’t have to be your fate.
 

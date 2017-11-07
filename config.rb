@@ -53,6 +53,7 @@ end
 set :css_dir, 'assets/stylesheets'
 set :js_dir, 'assets/javascripts'
 set :images_dir, 'images'
+# activate :relative_assets
 
 # Build-specific configuration
 configure :build do
@@ -62,7 +63,6 @@ configure :build do
   # activate :minify_html, remove_input_attributes: false
 
   set :relative_links, true
-  activate :relative_assets
 
   activate :asset_host,
            host: @app.data.settings.site.url

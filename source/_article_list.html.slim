@@ -2,9 +2,9 @@
   - page_articles.each_with_index do |article, i|
     article.content
       = link_to article do
-        - if featured_image?('thumbnail-wide.jpg', article)
+        - if relative_image?('thumbnail-wide.jpg', article)
           figure.image.is-marginless
-            = featured_image_tag('thumbnail-wide.jpg', article)
+            = relative_image_tag('thumbnail-wide.jpg', article)
         h3.is-size-4.has-text-weight-normal
           = article.title
         p.subtitle.is-size-6.has-text-grey
