@@ -7,8 +7,9 @@
 @import 'image';
 @import 'layout';
 @import 'navbar';
+@import 'portfolio';
 @import 'pricing';
+@import 'sharingbuttons';
 @import 'tables';
 @import 'typography';
-@import 'portfolio';
-@import 'sharingbuttons';
+@import '~bulma-pricingtable/pricing-table';

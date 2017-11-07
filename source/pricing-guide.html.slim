@@ -5,57 +5,175 @@ subtitle: How much will it cost to build your MVP?
 layout: landing
 
 ---
-
-
-section.hero.is-rocket.is-large
+section.hero.is-small
   .hero-body
-    .container.has-text-centered
-      h1.title.has-text-white.is-size-1
-        | Booster Stage
-        br>
-        span.has-text-weight-bold Pricing Guide
+    .section.container.is-desktop
+      h1.title= current_page.data.title
+      h2.subtitle= current_page.data.subtitle
+
+.container.is-desktop.content
+
+  section.section 
+    figure.image.is-hidden-mobile.is-pulled-right style="width: 300px;"
+      = image_tag('winding-road.jpg')
+    markdown:
+      How much will it cost to build your MVP? Ask ten different web development firms, and you'll get ten different answers. 
+
+      The path to shipping software is not always straight and narrow.
+      Recognizing this, we've put together a pricing guide that we hope will not
+      only help you to plan your expenses, but also help you to
+      reduce the risk that's naturally involved in selecting a company to
+      develop your Minimum Viable Product (MVP). 
+
+      *This is a make or break moment*. Your product is the heart of your
+      business. Getting your MVP right the first time means the difference
+      between success and, well... having to start over.
+
+      All that translates into high risk for you. Just at a moment when you need to
+      reduce risk as much as possible. 
+
+      **Our job is to reduce your risk.** One of the ways we do this is by
+      structuring our pricing around our [Lean
+      methodology](/articles/how-to-manage-a-lean-mvp/). In practical terms,
+      what this means is that we work in a series of sprints (more on that
+      below), and each sprint is billed separately. This gives you a
+      tremendous amount of control over your spending and the velocity of
+      your project. 
 
 
-section.section.content
-  .columns.is-centered
-    .column.is-half
-      h3.has-text-weight-bold Hi, thanks for downloading our Pricing Guide! 
-      p This guide is intended to give you a general idea of how much you should expect to invest in your project based on how many features you'll need, and the complexity of those features. 
 
-.container.content
-  #pricing-grid.tile.is-vertical.is-ancestor.has-text-centered
-    .tile.is-parent
-      article.pricing-item.tile.is-child.box
-        h4 Extended Starter Scaffold: FREE
-        p Extended project scaffold jump-starts our project so that we don’t have to spend any time building the basics. Includes user login & social registration, admin dashboard, user access levels, and content management system.
+  .container.is-tablet= partial 'pricing_table.html'
 
-    .tile
-      .tile.is-parent
-        article.tile.is-child.box
-          h4 Flight Plan
-          h3.has-text-weight-bold $3,000
-          p Flight planning lays out the overall scope,  sets milestones, and defines deliverables.  Read more about flight planning on our website.
-      .tile.is-parent
+  section.section
+    figure.image.is-hidden-tablet.is-marginless
+      = image_tag('desk-with-journal-and-square.jpg')
+    figure.is-pulled-left.image.is-hidden-mobile style="width: 200px"
+      = image_tag('desk-with-journal-and-square-vertical.jpg')
+    markdown: 
+      ## Sprint: The Basic Unit of Work
 
-        article.tile.is-child.box
-          h4 Project Sprint
-          h3
-            small starting at
-            strong $8,000
-          p A period of intensive work with a specific goal. Most projects consist of several sprints. Cost shown is for basic web-based app functionality. Cost will vary based on sprint complexity.
+      Your project will be billed and completed as a series of sprints. A sprint
+      is a period of intense work with a specific goal and a strict deadline. 
 
-section.section.content
-  .columns.is-centered
-    .column.is-half
-      p We'll be able to give you a much more detailed estimate, along with a comprehensive project plan, if you opt to go through our Flight Planning process (highly recommended). Flight planning is an intensive project discovery and planning process that results in a document that will guide all our work together. From there, we can dig in to the project, building on free Extended Starter Scaffold. Your product will start to come together over a series of sprints, where each sprint tackles a distinct feature and results in usable, testable software. 
-      p Our goal is to help you launch your project as quickly as possible, and to give you control over your costs. That’s why we’ve modeled our process on Lean Startup and Agile methodologies.
-      p We work on your project in discrete sprints. Sprints are usually two-weeks in length. We kick off each sprint with a planning meeting, followed by a period of intense work. We then pause for review the following Wednesday, process any necessary revisions, and follow up with a mini-launch on Friday. The review period is used to test what was built during the sprint, to put it in front of users, to learn as much as we can, and then to apply that learning to the next sprint. 
-      p You can push hard and fast, one sprint after another, or you can take time between sprints to test, learn, and iterate on your business idea. The pace is completely up to you.
-      p.has-text-centered Ready to get started?
-      p.has-text-centered
-        a.button.is-danger.is-rounded.is-large href="/work-with-us" Book your free discovery call today!
+      Sprints are usually two-weeks in length. We kick off each sprint with a
+      planning meeting, followed by a period of intense work. We then pause for
+      review the following Wednesday, process any necessary revisions, and
+      follow up with a mini-launch on Friday. The review period is used to test
+      what was built during the sprint, to put it in front of users, to learn as
+      much as we can, and then to apply that learning to the next sprint. 
+      
+      Through our iterative approach, your project is broken down into many smaller units that we call Sprints. 
 
-- content_for :javascripts do
-  javascript:
-    window.Cookies.set('viewed_pricing_guide', 'true');
+      Each Sprint results in working software that you can actually use, test, and ship to early adopters. The goal of each Sprint is to put new features in the hands of users in as short a time as possible, to test those features, and then to use feedback that you gather to inform the next sprint. 
 
+      We work with you to define a [Critical Path](/flight-plan)—the particular attributes that your must have in order to be considered a success—and then we begin our iterative development process. Each iteration is called a Sprint, and results in running software that you can actually use and test. 
+
+      ## You are an integral part of the process
+      We do not just take your project spec and hide away like mad inventors while we build your app, then emerge weeks or months later in a puff of glory. 
+
+      Instead, you are a critical and integral part of the process. This is your app, after all. You guide the creation of the [Flight Plan](/flight-plan), you help us define the [Critical Path](/critical-path "Critical Path"), you [communicate with your early adopters](/articles/early-adopters-pivot-mvp) and collect their feedback. 
+
+      We’ll meet with you many times ofer the course of your project and during each Sprint. At the beginning of each sprint, we’ll have a Kickoff meeting. The objective of the Kickoff meeting is to agree on exactly which feature or features will be built during this Sprint, and what the expected outcome will be. Then, during the sprint we’ll meet with you daily for a very brief, 15-minute “Scrum”, where we share progress and talk about any needs that we have or issues that are blocking progress. Finally, on the last day of the Sprint we deploy your project to a staging environment and meet with you again to go over what has been done, discuss next steps, and talk about user tests and experiments that can be run to validate our work and inform the next Sprint. 
+          
+
+    figure.is-pulled-right.image.is-hidden-mobile style="width: 200px"
+      = image_tag('sparklers-joy.jpg')
+    markdown: 
+      ## Launch Early, Launch Often
+
+      Our goal is to help you launch your project as quickly as possible, and to
+      give you control over your costs. That’s why we’ve modeled our process on
+      Lean Startup and Agile methodologies.
+
+      We work on your project in discrete sprints. Sprints are usually two-weeks
+      in length. We kick off each sprint with a planning meeting, followed by a
+      period of intense work. We then pause for review the following Wednesday,
+      process any necessary revisions, and follow up with a mini-launch on
+      Friday. The review period is used to test what was built during the
+      sprint, to put it in front of users, to learn as much as we can, and then
+      to apply that learning to the next sprint. 
+
+      You can push hard and fast, one sprint after another, or you can take
+      time between sprints to test, learn, and iterate on your business
+      idea. The pace is completely up to you.
+
+
+section.section.hero.is-light.is-bold
+  .container.is-desktop.content
+
+    .columns
+      .column
+        h2 
+          | Booster Stage pricing is clear and straightforward. Each sprint is
+            billed separately and results in working software that you can use and
+            test. 
+      .column
+        markdown:
+          - No monolithic project estimates.
+          - No estimate padding.
+          - No never-ending projects.
+          - No ambiguous pricing.
+          - No hourly billing.
+
+
+.container.is-desktop.content
+  section.section
+    markdown: 
+      ## Forest for the trees
+
+      #{ image_tag('forest.jpg') }
+
+      One of the tricky things about software estimates is that it's sometimes difficult to see the forest for the trees. It's easy to get caught up in the details of how we're going to build that big beautiful app that you have in your head, and forget that first and foremost, [your app has to be viable](/articles/the-three-questions-every-successful-product-must-answer/). What do we mean by viable? 
+
+      - Your app must solve a real or perceived problem for someone. 
+      - You must be able to reach that someone with your product. 
+      - They must be willing to pay for it. 
+
+      Just completing your project according to spec is not enough. These three conditions must be met for your app to succeed.
+
+    markdown:
+      ## Is your project a whale? 
+
+      Have you gotten a whale of a project estimate from another firm? Chances are your project actually is bigger than you might think. 
+
+      There is a positive correlation between the length of your project and your risk. The longer your project takes to get in front of real users, the higher your risk. This is because, no matter how awesome your software looks, no matter how easy is it to use, until it’s introduced to real users in the real world (and they decide to pay for it), we can’t be sure that it solves a real problem for your end user. [The only way to know that for sure is to ask users to pay](/articles/how-to-use-your-mvp-to-raise-seed-funding/ "Money is the only true form of validation"). The quickest way to answer this question is through our Iterative Development approach. 
+            
+      #{ image_tag('whale.jpg') }
+
+  section.section
+    h2.has-text-centered Our promise to you
+    .columns.is-multiline
+      .column.is-half
+        h4 No monolithic project estimates.
+        p
+          | Instead of putting together a gigantic "statement of work" and trying to anticipate every single detail ahead of time, we create a more general "Flight Plan". The Flight Plan is a guide and outline that describes your project and its major features at a high level. This gives us a good sense of how many individual sprints your project may take to complete. However, each sprint is billed individually. This gives us the ability to pivot if we need to, as we are not locked into a gigantic specification document that may become obsolete as soon as we introduce customers to your product. 
+
+      .column.is-half
+        h4 No estimate padding.
+        p 
+          | We never pad our estimates. Because each Sprint is a distinct unit of work, we don’t have to. Padding estimates is literally planning for failure. Padding means that we’re just taking a wild guess as to how long something will take, and we’re adding 50% or more time just in case the guess is wildly wrong. If your project ends up taking longer than expected (as most projects tend to), it’s OK. On the other hand, if you decide to scale back the scope of the project based on user feedback (for example, if we planned to create features A, B, and C, but user testing revealed that users are willing to pay for features A and B, but don’t really care about C), you’re not locked into the scope of work. You have the flexibility to pivot to respond to user feedback. 
+
+
+      .column.is-half
+        h4 No ambiguous pricing.
+        p 
+          | Where does that number really come from? Is it an hourly rate multiplied by some number? How accurate is the estimate? Can the hourly rate be negotiated? Can we just do this hourly and see how it goes? Our Sprint-based pricing makes all these questions go away. Each Sprint is billed separately and you know exactly what you are paying for before we start. 
+
+      .column.is-half
+        h4 No hourly billing. 
+        p 
+          | Nothing against hourly billing per se. Though it can seem attractive because it gives you some control over your expenses, we’ll let you in on a little secret: hourly billing is actually not favorable to you, the client. Hourly billing disincentivizes rapid development. It does this because there is no penalty for taking too long on a particular task. Sprint-based billing, on the other hand, is favorable to both sides: it provides you with a fixed budget and a clearly-defined deliverable, and it allows us to structure our time to accomplish a task that is fixed in scope. 
+
+  section.section
+    h2 You are in the Pilot’s Seat
+    p
+      | Our goal is to pull that beautiful vision out of your head and make it real. But this is your project. It’s your brainchild, your invention, your inspiration. Our iterative Sprint-based approach puts you in control of your project. You control the pace: you can push fast, doing one Sprint after another. Or you can slow down and conduct more extensive user testing to gather and apply feedback between Sprints. Data that you gather from users is fed back into our process and helps you to decide to pivot or double-down. 
+
+section.hero.is-small.is-warning.is-bold
+  .hero-body
+    .section.container.has-text-centered
+      h2.title Schedule your free strategy call today
+      h3.subtitle 
+        | Take advantage of our free, no-obligation, 30-minute strategy call today. 
+      a.button.is-success.is-medium href="/work-with-us" Schedule now
+      
