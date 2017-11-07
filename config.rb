@@ -8,6 +8,10 @@ Time.zone = "America/Chicago"
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
+page '/feed.xml', layout: false
+page '/404.html', directory_index: false
+
+proxy "_redirects", "netlify-redirects", ignore: true
 
 activate :blog do |blog|
   blog.calendar_template = 'calendar.html'
@@ -27,7 +31,6 @@ activate :blog do |blog|
   blog.layout = 'article'
 end
 
-page '/feed.xml', layout: false
 
 #
 # Use webpack for assets
