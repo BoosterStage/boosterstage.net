@@ -53,14 +53,14 @@ end
 set :css_dir, 'assets/stylesheets'
 set :js_dir, 'assets/javascripts'
 set :images_dir, 'images'
-# activate :relative_assets
 
 # Build-specific configuration
 configure :build do
   # Enable cache buster (except for images)
-  activate :asset_hash, ignore: [/\.jpg\Z/, /\.png\Z/]
+  activate :asset_hash, ignore: [/\.jpg\Z/, /\.png\Z/, /\.gif\Z/]
   activate :gzip
   # activate :minify_html, remove_input_attributes: false
+  # activate :relative_assets
 
   set :relative_links, true
 
