@@ -11,6 +11,8 @@ nav.navbar.is-transparent.has-shadow role='navigation' aria_label='main navitati
     .navbar-menu#navMenu
       .navbar-end
         = link_to 'Pricing', '/pricing-guide', data: {pricing: true}, id: 'nav--pricing', class: ['navbar-item', 'is-tab', active_if('pricing-guide')].join(' '), relative: true
+        noscript
+          = link_to 'Pricing Request', '/pricing-request', class: 'navbar-item is-tab', relative: true
         = link_to 'Flight Plan', '/flight-plan', class: ['navbar-item', 'is-tab', active_if('flight-plan')].join(' '), relative: true
         = link_to 'MVP', '/mvp', class: ['navbar-item', 'is-tab', active_if('mvp')].join(' '), relative: true
         = link_to 'Articles', '/articles', class: ['navbar-item', 'is-tab', ('is-active' if current_page.url =~ /articles/)].join(' '), relative: true

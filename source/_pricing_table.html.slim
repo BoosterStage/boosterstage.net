@@ -1,0 +1,38 @@
+.pricing-table.is-horizontal
+  .pricing-plan 
+    .plan-header 
+      = link_to 'Flight Plan', '/flight-plan.html'
+    /.plan-items 
+      .plan-item Critical path for your project
+      .plan-item Lean canvas exercise
+
+    .plan-footer
+      .plan-price
+        span.plan-price-amount
+          span.plan-price-currency $
+          | 3,000
+  /.pricing-plan
+    .plan-header One-week Sprint
+    .plan-items
+      .plan-item Small or simple features
+      .plan-item Daily 15-minute check-in
+      .plan-item Friday delivery
+      .plan-item Review & plan next sprint
+    .plan-footer
+      .plan-price
+        span.plan-price-amount
+          span.plan-price-currency $
+          | 4,000
+  .pricing-plan.is-active
+    .plan-header 
+      = link_to 'MVP Sprint', '/mvp.html'
+    /.plan-items
+      .plan-item Two-week sprint
+      .plan-item Daily 15-minute check-in
+      .plan-item Thursday (wk 2) delivery
+      .plan-item Review & plan next sprint
+    .plan-footer
+      .plan-price
+        span.plan-price-amount
+          span.plan-price-currency $
+          | 7,000
