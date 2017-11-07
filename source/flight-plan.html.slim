@@ -26,9 +26,27 @@ section.hero.is-medium.is-flight-plan.is-bold.is-fade-to-white
           = image_tag("professionals-at-whiteboard.jpeg")
 
   section.section
+    .columns.is-variable.is-8
+      .column.one-third
+        figure.image.is-square
+          = image_tag('winding-road-square.jpg')
+      .column.is-two-thirds
+        h2 Critical Path
+        markdown:
+          New projects are constantly pulled in a dozend different directions.
+          Your app needs many different features—how do you decide what to
+          build first? 
+          
+          The path to shipping your validated MVP in the fewest number of steps
+          is your Critical Path. It's a list of steps and milestones that must
+          be reached in order for validated learning to happen, and ultimate, to
+          successfully launch your project. 
+          successful implementation. 
+    
+  section.section
     h2 Is Flight Planning right for you? 
     .columns.is-variable.is-8
-      .column.one-thirds
+      .column.is-half
         markdown: 
           We do Flight Planning before every new project that we take on. We
           don't only do it for our clients, we also regularly do flight
@@ -38,19 +56,18 @@ section.hero.is-medium.is-flight-plan.is-bold.is-fade-to-white
           every new project, it's not always the right time. Use these tips to
           decide whether you're at a place to begin the Flight Planning process,
           or whether you're still in the ideation stage. 
-      .column.two-thirds
+      .column.is-half
         p You're ready for Flight Planning if: 
         ul
           li 
             | You've completed the 
             = link_to "Lean Canvas excercise", '/articles/how-to-complete-a-lean-canvas'
-            | (or equivalent).
-          li You have a good idea of who your customers are, what problem you'll be solving, and how you'll be solving it. 
+          li You have a good idea of who your customers are, what problem you'll be solving, and how you'll be solving it
           li 
             | You have a budget set aside for development 
             |(
-            a data-drip-show-form="36601678" href="/pricing" See our Pricing Guide
-            |).
+            a href="/pricing-guide" role='button' data={pricing: true} See our Pricing Guide
+            |)
 
 
 
@@ -58,13 +75,12 @@ section.hero.is-medium.is-flight-plan.is-bold.is-fade-to-white
     h2 How does Flight Planning work?
 
     .columns
-      .column.is-one-quarter.has-text-right
-        h4 Day 1
+      .column.is-one-quarter.has-text-right-tablet
+        h3 Day 1
       .column
         markdown:
-          Flight Planning kicks off with a full day (up to six hours) marathon
-          meeting where we break out the sharpies and write down everything we
-          can think of about your app. 
+          Flight Planning kicks off with a full day meeting where we break out 
+          the sharpies and sketch out the Critical Path for your project. 
           
           If practical, I’ll come to your location. We can meet at your office,
           or I’ll book a meeting space. Lunch will be provided. 
@@ -77,8 +93,8 @@ section.hero.is-medium.is-flight-plan.is-bold.is-fade-to-white
           * Any particular technical requirements (API access, etc.)
 
     .columns
-      .column.is-one-quarter.has-text-right
-        h4 Days 2-4
+      .column.is-one-quarter.has-text-right-tablet
+        h3 Days 2-4
       .column
         markdown:
           I’ll spend the next five days creating wireframes, visual mockups, and
@@ -96,16 +112,16 @@ section.hero.is-medium.is-flight-plan.is-bold.is-fade-to-white
 
 
     .columns
-      .column.is-one-quarter.has-text-right
-        h4 Day 6
+      .column.is-one-quarter.has-text-right-tablet
+        h3 Day 6
       .column
         markdown:
           We’ll meet in person if possible, otherwise via video conference. We’ll need to set aside at least two uninterrupted hours for this meeting, and we’ll need all the stakeholders to be present. The purpose of this meeting will be to go over the Flight Plan Document. You’ll have an opportunity to ask any questions or clarifications, and to submit revisions.
 
 
     .columns
-      .column.is-one-quarter.has-text-right
-        h4 Day 7
+      .column.is-one-quarter.has-text-right-tablet
+        h3 Day 7
       .column
         markdown:
           #### Final delivery of Flight Plan Document.
