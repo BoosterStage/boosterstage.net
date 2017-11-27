@@ -14,6 +14,7 @@ nav.navbar.is-transparent.has-shadow role='navigation' aria_label='main navitati
         noscript
           = link_to 'Pricing Request', '/pricing-request', class: 'navbar-item is-tab', relative: true
         = link_to 'Flight Plan', '/flight-plan', class: ['navbar-item', 'is-tab', active_if('flight-plan')].join(' '), relative: true
+        = link_to 'Launchpad', '/launchpad', class: ['navbar-item', 'is-tab', active_if('launchpad')].join(' '), relative: true
         = link_to 'MVP', '/mvp', class: ['navbar-item', 'is-tab', active_if('mvp')].join(' '), relative: true
         = link_to 'Articles', '/articles', class: ['navbar-item', 'is-tab', ('is-active' if current_page.url =~ /articles/)].join(' '), relative: true
 

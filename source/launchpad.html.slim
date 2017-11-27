@@ -1,6 +1,6 @@
 ---
 title: Booster Stage Launchpad
-subtitle: Skip the scaffold and get right to your app's distinctive features
+subtitle: Save thousands of dollars and weeks of development time, and get right to your app's distinctive features.
 width: is-tablet
 layout: landing
 
@@ -11,45 +11,140 @@ section.section
     header.container.is-desktop.has-border-bottom
       h1.is-size-3.has-text-weight-normal= current_page.data.title
       h2.is-size-6.has-text-grey.has-text-weight-light= current_page.data.subtitle
+
     - if relative_image?(:hero)
       .container.is-fluid
         figure.image
           = relative_image_tag(:hero)
 
     .container.is-desktop
-      .columns.is-multiline
+      
+      p.is-size-5
+        | 
+          Every app needs certain features that are the foundation of a successful
+          project, but aren't part of what makes your app special. Features like
+          user authentication, user access levels, administrative dashboards, and
+          subscription billing are part of every app. Why spend time (and money)
+          building those features? Booster has everything you need baked right in. 
+
+      .section.columns.is-multiline
         .column.is-half
-          h2 Launch Weeks Earlier
-          p
-            | We've distilled the basic features that every app needs into a simple,
-              extendable boilerplate scaffold that serves as the basis for every app
-              that we build. 
+          markdown:
+            ## Launch Weeks Earlier
+
+            We've distilled the basic features that every app needs into a simple,
+            extendable boilerplate scaffold that serves as the basis for every app
+            that we build. 
 
         .column.is-half
           markdown: 
             ## Favorable Licensing
-            
+
             Booster Scaffold is licensed under the [MIT
             License](https://mit-license.org/), so you can integrate it into your
             business with no fuss. 
 
-        .column.is-half
-          markdown:
-            ## All the Basic Features
 
-            Every app needs certain features that are the foundation of a successful
-            project, but aren't part of what makes your app special. Features like
-            user authentication, user access levels, administrative dashboards, and
-            subscription billing are part of every app. Why spend time (and money)
-            building those features? Booster has everything you need baked right in. 
-        .column.is-half
-          h2 Launchpad Features
-          ul 
-            li	User login & registration
-            li	Connect with FaceBook, Twitter, etc.
-            li	My account page
-            li	Forgot your password
-            li	Admin dashboard
-            li	User management
-            li	User impersonation 
-            li	Subscriptions & Billing 
+      .tile.is-ancestor.is-vertical.features
+        .tile
+          .tile.is-parent
+            .tile.is-child.box
+              h3
+                span.icon
+                  i.fa.fa-user-circle
+                | User login and registration
+              p 
+                | Launchpad supports user login and registration via <a href="http://devise.plataformatec.com.br" target="_blank">Devise</a>. Forgotten password reminders, user account confirmation, account lockout, and "remember me" functionality are supported out of the box. 
+          .tile.is-parent
+            .tile-is-child.box
+              h3
+                span.icon
+                  i.fa.fa-shield
+                | SSL & Security
+              p 
+                | Launchpad provides industry-standard SSL (HTTPS) by default. The Ruby on Rails architecture provides strong CSRF (Cross-Site Request Forgery) protection, XSS (Cross-Site Srciping) prevention, SQL Injection prevention, and more. 
+        .tile
+          .tile.is-parent
+            .tile.is-child.box
+              h3
+                span.icon
+                  i.fa.fa-facebook-square
+                | Social Authentication
+              p Authenticate users with virtually any third-party social authentication service that you choose, including Facebook, Twitter, Google, Github, and more. Optionally provide a formless social signup process. 
+          .tile.is-parent
+            .tile.is-child.box 
+              h3 
+                span.icon
+                  i.fa.fa-users
+                | Multitenancy (Teams)
+              p Multitenancy allows user accounts to be grouped together by Tenant, or Team. Each team can have their own data, and only users in that team can have access to that team's data. Teams can be configured by subdomain, by subdirectory, or by cookie. 
+
+        .tile
+          .tile.is-parent
+            .tile.is-child.box 
+              h3 
+                span.icon
+                  i.fa.fa-key
+                | Roles & User Access Policies
+              p Every app ships with "Admin" and "User" roles. Define any number of additional user access policies to meet your app's administrative needs.
+          .tile.is-parent
+            .tile.is-child.box
+              h3 
+                span.icon
+                  i.fa.fa-user
+                | User Account Management
+              p Administrators can create users, update user profiles, change passwords, ban users, and delete user accounts. 
+
+        .tile
+          .tile.is-parent
+            .tile.is-child.box 
+              h3 
+                span.icon
+                  i.fa.fa-dashboard
+                | Admin Dashboard
+              p Backend administrative dashboard lets users with "Admin" role create, read, update, and delete any record in your app's database. 
+          .tile.is-parent
+            .tile.is-child.box 
+              h3 
+                span.icon
+                  i.fa.fa-user-secret
+                | User Impersonation
+              p Provide exceptional support by logging in to any user's account as that user, without asking for their password. User impersonation allows you to quickly see what they see and respond to their needs. 
+
+        .tile
+          .tile.is-parent
+            .tile.is-child.box 
+              h3 
+                span.icon
+                  i.fa.fa-dollar
+                | Payment Integration
+              p Built-in support for one-time and recurring payments via Stripe. 
+          .tile.is-parent
+            .tile.is-child.box 
+              h3 
+                span.icon
+                  i.fa.fa-credit-card
+                | Pricing Plans & Subscriptions
+              p Define recurring pricing plans that make sense for your business model. Optionally provide a free trial, and allow users to upgrade or downgrade.
+
+        .tile
+          .tile.is-parent
+            .tile.is-child.box 
+              h3 
+                span.icon
+                  i.fa.fa-clock-o
+                | Up-to-Date Everything
+              p Launchpad ships with the latest version of Ruby on Rails, plus your choice of front-end framework: React or Vue.js.
+          .tile.is-parent
+            .tile.is-child.box 
+              h3 
+                span.icon
+                  i.fa.fa-desktop
+                | UI-Framework Agnostic
+              p The Launchpad might look nice by default, but you'll want to integrate your own visual elements and UI framework. Launchpad ships by default with Vue.js, but this can be replaced with your UI framework of choice and your own CSS and design assets. 
+
+
+    .section.container.is-tablet
+      div style="width: 100%; position: relative;"
+        iframe scrolling="no" width="100%" height="211" frameborder="0" border="no" allowtransparency="true" src="https://contentupgrade.me/PrJGqd8y.html?ref="
+
