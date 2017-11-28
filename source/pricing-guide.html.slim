@@ -14,8 +14,8 @@ section.hero.is-small
 .container.is-desktop.content
 
   section.section 
-    figure.image.is-hidden-mobile.is-pulled-right style="width: 300px;"
-      = image_tag('winding-road.jpg')
+    figure.image.is-hidden-mobile.is-hidden-print.is-pulled-right style="width: 300px;"
+      = image_tag('./winding-road.jpg')
     markdown:
       How much will it cost to build your MVP? Ask ten different web development firms, and you'll get ten different answers. 
 
@@ -42,16 +42,16 @@ section.hero.is-small
 
 
 
-  section.section
+  section.section.has-page-break
     = partial 'pricing_table.html'
 
-  section.section
+  section.section.has-page-break
     .columns
       .column.is-narrow
         figure.image.is-hidden-tablet.is-marginless
-          = image_tag('desk-with-journal-and-square.jpg')
+          = image_tag('./desk-with-journal-and-square.jpg')
         figure.image.is-hidden-mobile style="width: 200px"
-          = image_tag('desk-with-journal-and-square-vertical.jpg')
+          = image_tag('./desk-with-journal-and-square-vertical.jpg')
       .column
         markdown: 
           ## Sprint: The Basic Unit of Work
@@ -72,6 +72,7 @@ section.hero.is-small
           pause for review, process any necessary revisions, and then celebrate
           a mini-launch. 
 
+  section.section.has-page-break
     markdown:
       ## You are an integral part of the process
 
@@ -97,7 +98,7 @@ section.hero.is-small
       next steps, and talk about user tests and experiments that can be run to
       validate our work and inform the next Sprint. 
       
-  section.section
+  section.section.has-page-break
     .columns
       .column
         markdown: 
@@ -113,10 +114,10 @@ section.hero.is-small
 
       .column.is-narrow
         figure.image.is-hidden-mobile style="width: 200px"
-          = image_tag('sparklers-joy.jpg')
+          = image_tag('./sparklers-joy.jpg')
 
 
-section.section.hero.is-light.is-bold
+section.section.hero.is-light.is-bold.has-page-break
   .container.is-desktop.content
 
     .columns
@@ -139,7 +140,7 @@ section.section.hero.is-light.is-bold
     markdown: 
       ## Forest for the trees
 
-      #{ image_tag('forest.jpg') }
+      #{ image_tag('./forest.jpg') }
 
       One of the tricky things about software estimates is that it's sometimes
       difficult to see the forest for the trees. It's easy to get caught up in
@@ -155,8 +156,11 @@ section.section.hero.is-light.is-bold
       Just completing your project according to spec is not enough. These three
       conditions must be met for your app to succeed.
 
+  section.section
     markdown:
       ## Is your project a whale? 
+
+      #{ image_tag('./whale.jpg') }
 
       Have you gotten a whale of a project estimate from another firm? Chances
       are your project actually is bigger than you might think. 
@@ -171,12 +175,10 @@ section.section.hero.is-light.is-bold
       pay](/articles/how-to-use-your-mvp-to-raise-seed-funding/ "Money is the
       only true form of validation"). The quickest way to answer this question
       is through our Iterative Development approach. 
-            
-      #{ image_tag('whale.jpg') }
 
   section.section
     h2.has-text-centered Our promise to you
-    .columns.is-multiline
+    .columns.is-multiline.has-page-break
       .column.is-half
         markdown: 
           #### No monolithic project estimates.
@@ -208,6 +210,7 @@ section.section.hero.is-light.is-bold
           scope of work. You have the flexibility to pivot to respond to user
           feedback. 
 
+    .columns.is-multiline.has-page-break
       .column.is-half
         markdown:
           #### No ambiguous pricing.
@@ -233,7 +236,7 @@ section.section.hero.is-light.is-bold
           deliverable, and it allows us to structure our time to accomplish a
           task that is fixed in scope. 
 
-  section.section
+  section.section.has-page-break
     markdown:
       ## You are in the Pilot’s Seat
 
