@@ -3,7 +3,7 @@
 title: How to Create Your MVP
 subtitle: Launching an MVP is about the process, not the product.
 date: 2017-09-05 
-tags: business
+tags: MVP, Minimum Viable Product, Product Design
 excerpt: "What exactly is an MVP? The answer is: it depends. It depends on the stage of your business, and where you are with your product." 
 
 ---

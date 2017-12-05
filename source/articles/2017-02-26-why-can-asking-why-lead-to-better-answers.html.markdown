@@ -3,7 +3,7 @@
 title: Why asking "Why" Can Lead to Better Answers
 subtitle: "Why the \"5 Whys\" technique is recognized as one of the most effective ways to address root cause issues."
 date: 2017-02-26 
-tags: business
+tags: Product Validation
 
 ---
 

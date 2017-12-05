@@ -7,6 +7,9 @@
             = relative_image_tag('thumbnail-wide.jpg', article)
         h3.is-size-4.has-text-weight-normal
           = article.title
+        nav.tags
+          - article.tags.each do |tag|
+            = link_to tag, tag_path(tag), class: 'tag'
         p.subtitle.is-size-6.has-text-grey
           = article.data.excerpt || article.data.subtitle || article.summary
         p.is-size-7.has-text-grey-light Read more...

@@ -1,0 +1,11 @@
+---
+width: "is-desktop"
+title: Tags
+blog: articles
+
+---
+
+
+nav.tags
+  - blog.tags.each do |tag|
+    = link_to tag[0], tag_path(tag[0]), class: 'tag'
