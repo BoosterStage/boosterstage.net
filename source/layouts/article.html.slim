@@ -27,6 +27,7 @@ html prefix="og: http://ogp.me/ns#" lang="#{data.settings.site.i18n}"
         .is-clearfix
 
       .container.is-tablet
+        h4.is-size-6.has-text-weight-bold More like this:
         nav.tags
           - current_page.tags.each do |tag|
             = link_to tag, tag_path(tag), class: 'tag'

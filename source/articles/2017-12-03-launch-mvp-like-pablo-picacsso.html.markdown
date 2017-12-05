@@ -5,7 +5,7 @@ subtitle: Who would have thought that a cubist's minimalism could teach us somet
 excerpt:  The question that the Critical Path designer asks is not “how much can we fit in to the first version and still hit our deadline”; it's “how little can we build and still make it work”.
 
 date: 2017-12-03 00:00 CST
-tags: MVP, Minimum Viable Product, Project Management, Product Design
+tags: MVP, Minimum Viable Product, Project Management, Product Design, Critical Path
 
 ---
 
@@ -130,3 +130,9 @@ doesn't materially add to the actual delivery of our desired result.
     Picasso's “Bull”, Plate 11
   </figcaption>
 </figure>
+
+
+<div style="width: 100%; position: relative;">
+  <iframe scrolling="no" width="100%" height="303" frameborder="0" border="no" allowtransparency="true" src="https://contentupgrade.me/VG4k1vpD.html?ref="></iframe>
+</div>
+
