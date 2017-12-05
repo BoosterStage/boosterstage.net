@@ -50,6 +50,8 @@ pile of stones](https://m.signalvnoise.com/running-in-circles-aae73d79ce19). If
 it were, we could count the number of tasks to be done and multiply by how much
 time each task takes and know exactly how long something will take to build. 
 
+<blockquote class="twitter-tweet" data-cards="hidden" data-lang="en"><p lang="en" dir="ltr">Like art, software development is not a linear process. It is not like moving a pile of stones. <a href="https://t.co/Uogc4EUZxa">https://t.co/Uogc4EUZxa</a> <a href="https://t.co/rG3FJidRxC">pic.twitter.com/rG3FJidRxC</a></p>&mdash; Booster Stage (@Booster_Stage) <a href="https://twitter.com/Booster_Stage/status/938112004455305216?ref_src=twsrc%5Etfw">December 5, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
 Instead, software development is more like drawing a sketch. A certain minimum
 number of lines are required in order for an image to become recognizable. But
 like Picasso, an experienced developer is able to abstract and reduce a feature
@@ -80,7 +82,7 @@ the Critical Path comes in.
 ### The Critical Path
 
 A Critical Path is a list of the fewest number of features that have to be
-built in order for the project to be considered a success. 
+built in order to validate that you're building the right product.
 
 When you have a large list of things to do, a critical path helps to focus the
 list on just those things that materially advance the goals of the project.
@@ -165,6 +167,8 @@ detailed. Oh, you can (and should) have multiple buyer personas.
 If you’re new to buyer personas, a great place to start is [The Crucial Steps
 to Actually Quantifying Your Customer Personas on the Price Intelligently
 blog](http://www.priceintelligently.com/blog/bid/194501/The-Crucial-Steps-to-Actually-Quantifying-Your-Customer-Personas). 
+
+<blockquote class="twitter-tweet" data-cards="hidden" data-lang="en"><p lang="en" dir="ltr">A Critical Path is a list of the fewest number of features that have to be built in order to validate that you&#39;re building the right product. <a href="https://t.co/MotYQbLE0f">https://t.co/MotYQbLE0f</a></p>&mdash; Booster Stage (@Booster_Stage) <a href="https://twitter.com/Booster_Stage/status/938112564457885696?ref_src=twsrc%5Etfw">December 5, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 **Next, list all the features your app will have.** At this stage it’s helpful
 to pretend like you’re writing the marketing copy for your website. How would
