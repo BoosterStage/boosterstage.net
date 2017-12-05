@@ -16,9 +16,8 @@ module MetaTagsHelper
       puts "== path:#{current_page.url} meta description is missing on settings.yml"
     elsif description.length > 150
       puts "== path:#{current_page.url} meta description should be between 140-150 characters. You have: #{description.length}"
-    else
-      description
     end
+    return description
   end
 
   def meta_tag_image(style = :twitter)
