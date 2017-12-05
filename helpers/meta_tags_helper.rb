@@ -47,12 +47,10 @@ module MetaTagsHelper
       puts "== path:#{current_page.url} title is missing on settings.yml"
     elsif title.length > 70
       puts "== path:#{current_page.url} title should be under 70 characters. You have: #{title.length}"
-    else
-      title += ' ' + separator + ' '
-      title += site_title
-
-      title
     end
+    title += ' ' + separator + ' '
+    title += site_title
+    return title
   end
 
   def meta_tag_url
