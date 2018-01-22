@@ -31,6 +31,11 @@ activate :blog do |blog|
   blog.layout = 'article'
 end
 
+activate :blog do |careers|
+  careers.name = 'careers'
+  careers.prefix = 'careers'
+  careers.layout = 'article'
+end
 
 #
 # Use webpack for assets
