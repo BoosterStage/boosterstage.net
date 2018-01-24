@@ -6,7 +6,7 @@ excerpt: Booster Stage is hiring an entry-level full-stack developer.
 
 ---
 
-We’re looking for someone who has a little experience and a lot of aptitude for web development. The ideal candidate is a quick learner and is teachable. Even though you may not yet be proficient at writing Ruby or Javascript code, you should be able to read and understand HTML and CSS, and have a basic understanding of how the web works. You will be expected to create Ruby and Javascript code, so it helps to be a quick learner. 
+Booster Stage is looking for a developer who has a little experience and a lot of aptitude for web development. The ideal candidate is a quick learner and is teachable. Even though you may not yet be proficient at writing Ruby or Javascript code, you should be able to read and understand HTML and CSS, and have a basic understanding of how the web works. You will be expected to create Ruby and Javascript code, so it helps to be a quick learner. 
 
 #### Skills we're looking for:
 - Great communication, especially written English
@@ -34,7 +34,6 @@ Even though this position doesn't require a ton of experience, we are looking fo
 - 100% Remote
 - Set your own hours
 - Training budget: up to $1000/year to spend on books and courses. 
-- Paid time off
 - Focused work
 
 
