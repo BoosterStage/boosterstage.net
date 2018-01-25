@@ -2,7 +2,9 @@
 
 title: Ruby on Rails Developer
 date: 2018-01-22 14:55 CST
-excerpt: Booster Stage is hiring an entry-level full-stack developer. 
+subtitle: Booster Stage is hiring an entry-level full-stack developer. 
+excerpt: Booster Stage is looking for a developer who has a little experience and a lot of aptitude for web development. The ideal candidate is a quick learner and is teachable. Even though you may not yet be proficient at writing Ruby or Javascript code, you should be able to read and understand HTML and CSS, and have a basic understanding of how the web works. You will be expected to create Ruby and Javascript code, so it helps to be a quick learner. 
+layout: layout
 
 ---
 
@@ -17,9 +19,9 @@ Booster Stage is looking for a developer who has a little experience and a lot o
 #### Skills you’ll be expected to build:
 - Ruby on Rails
 - Javascript
-- UI/UX
+- UI/UX design
 
-#### Bonus points for:
+#### Bonus points for experience in:
 - Graphic design
 - User interface design
 
@@ -33,9 +35,8 @@ Even though this position doesn't require a ton of experience, we are looking fo
 ### Perks
 - 100% Remote
 - Set your own hours
-- Training budget: up to $1000/year to spend on books and courses. 
+- Training budget: up to $1000/year to spend on books and courses
 - Focused work
-
 
 
 ### Job details
