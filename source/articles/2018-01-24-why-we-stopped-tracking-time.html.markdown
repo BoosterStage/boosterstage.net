@@ -52,7 +52,7 @@ Not at all. In fact some week we work more than 40 hours, and some weeks we work
 
 ### Does that mean we spend all day goofing off?
 
-LOL. Hardly. Self-discipline is one of our core values as a company. We still use tools like pomodoro timers and content blockers to help us focus. And recently we’ve discovered RescueTime, which tracks activity in the background and generates a report of how we’ve spent our time.
+LOL. Hardly. Self-discipline is one of our core values as a company. We still use tools like pomodoro timers and content blockers to help us focus. And recently we’ve discovered [ RescueTime ](https://rescuetime.com), which tracks activity in the background and generates a report of how we’ve spent our time.
 
 Time tracking is one of those activities that seems like basic business essentials. But we've found out that it's possible to function, and even thrive, without it. 
 
