@@ -85,4 +85,4 @@ we sometimes tweet what we're reading at
 grown up we also hang out on [LinkedIn](https://www.linkedin.com/company/1292733/).
 
 
-Ready to apply? Send your resume and cover letter to hello@boosterstage.net. 
+Ready to apply? Send your resume and cover letter to hello+jobs@boosterstage.net. 
