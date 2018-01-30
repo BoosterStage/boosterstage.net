@@ -15,7 +15,7 @@ Booster Stage is looking for a full-stack developer who has a little experience 
 ### Requirements
 - Great communication, especially written English.
 - 1+ years of professional software development experience.
-- OR recent completion of programming bootcamp.
+- 1+ years experience with Ruby on Rails.
 
 Even though you may not yet be senior-level at writing Ruby or Javascript code, you should be able to read and understand Ruby code and find your way around a Rails project. You must be proficient at HTML and CSS, and have a pretty good understanding of how the web works. You will be expected to create Ruby and Javascript code right off the bat. 
 
