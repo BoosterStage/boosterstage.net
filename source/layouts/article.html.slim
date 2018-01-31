@@ -54,7 +54,6 @@ html prefix="og: http://ogp.me/ns#" lang="#{data.settings.site.i18n}"
         div.is-disqus= partial 'layouts/shared/disqus'
 
     = partial 'layouts/shared/footer'
-
     = javascript_include_tag 'main.bundle'
     = yield_content :javascripts
     script id="dsq-count-scr" src="//boosterstage.disqus.com/count.js" async=true
