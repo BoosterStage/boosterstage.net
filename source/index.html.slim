@@ -3,28 +3,100 @@ title: Rapid custom development for brand-new SaaS products
 layout: landing
 ---
 
-section.hero.is-large.is-gears
+section.hero.is-large.is-danger
   .hero-body
     .container.has-text-centered
       h1.title.is-size-1-tablet
-        | Launch Your SaaS. Now.
-      /h1.title.has-text-weight-bold.is-size-1 Launch in Five Days
-      h2.subtitle.is-size-3-tablet
-        | Rapid custom development 
-        | for brand-new web-based products
-      /h2.subtitle.is-size-3-desktop Booster Stage helps bootstrapped startups launch their MVP
+        span Launch Early. 
+        span Launch Often.
+      h2.subtitle.is-size-5-mobile
+        span.inline-tablet Build and launch your web-based SaaS faster 
+        span.inline-tablet so you can get your first customers.
       
       .hero-buttons
-        a.button.is-danger.is-medium href="/pricing-guide" role='button' data={pricing: true} Get our Pricing Guide
+        a.button.is-white.is-medium href="/pricing-guide" role='button' data={pricing: true} Get our Pricing Guide
 
-section.hero.is-medium.is-dark.is-bold.is-booster
+section.sales-letter.container
+  .columns.is-gapless.is-centered
+    .column.is-two-thirds-desktop.is-three-quarters-tablet.is-narrow
+      .content.box
+
+        p.has-text-centered.has-text-weight-bold Hi there! We build brand-new products for the web.
+
+        markdown: 
+
+          Launching a new software product can be an epxensive and risky
+          business. The last thing you want is to invest time and money into
+          your precious product, just to have to go back to the drawing board. 
+
+          Trust us, that’s not the best way. Launching software doesn’t have to
+          be risky. 
+
+          We take the risk out of launching brand new web-based SaaS (Software
+          as a Service) apps. **Our goal is to help you get your first paying
+          customers fast**. Because we believe that the best way to validate
+          that you’re building the right product is to ask people to pay for it.
+
+          Starting with our own Launchpad project scaffold, we can build and
+          launch your web app in a matter of days, not months. 
+
+          Launching early makes a huge difference—you'll be able to test faster,
+          make changes quicker, and get your first customers to validate your
+          business model. From there the only way to go is up!
+
+        div.has-text-centered
+          a class="button is-danger" href="/manifesto" Read Our Manifesto
+
+section.hero.is-medium
   .hero-body
     .container
-      h1.title.is-size-1-tablet Launchpad 
-      h2.subtitle.is-size-3-tablet Instant Project Scaffold
+      h1.title.is-size-3-tablet Minimum Viable Process
 
-      .columns.is-variable.is-8.content
-        .column
+      .columns.content.is-variable
+        .column.is-two-thirds
+          markdown:
+            Your project is built through a series of Sprints—periods of intense 
+            work, punctuated by review and learning. Each sprint results in a 
+            deliverable. Learning is applied to the next sprint. 
+
+            Your project will likely consist of many sprints. How many depends 
+            on the number and complexity of features. 
+
+            Sprints are almost always two weeks in length. We may break up
+            more complex features into multiple week-long sprints. Two or more
+            very simple features might be combined into a single sprint.  
+
+          p= link_to 'More about our process', '/mvp.html', class: 'button'
+
+        .column.is-one-third
+          = image_tag('build-measure-learn.png')
+
+section.hero.is-medium.is-flight-plan
+  .hero-body
+    .container
+      h1.title.is-size-1-tablet Flight Planning
+      p.subtitle Flight Planning is an intensive week-long process that culminates with the delivery of a Flight Plan Document: your plan to help you launch your project quickly and with minimal waste.
+
+      p= link_to "More about Flight Planning", '/flight-plan.html', class: 'button'
+
+/section.hero.is-medium.is-light
+/  .hero-body
+/    .container
+/      h1.title.has-text-centered Startup as a Service
+/      .columns.is-centered.content
+/        .column.is-half
+/          p We know startups
+/          p Booster Stage helps bootstrapped startup founders build and launch their first SaaS (Software as a Service) product. We use Lean design principles to create your MVP (Minimum Viable Product) very quickly. Our process emphasizes efficiency, learning, and speed. Our goal is to launch running software as quickly as possible so that you can field test it, get your first users, and ultimately launch to paying customers in the shortest time possible. 
+/        .column.is-half
+/          ' picture?
+
+
+section.hero.is-danger.is-medium
+  .hero-body
+    .container
+      .columns.is-centered.content
+        .column.is-three-fifths
+          h1.title.is-size-3-tablet Launchpad
           p 
             | Launch weeks earlier and save thousands of dollars in development with
               our Launchpad instant project scaffold. 
@@ -36,8 +108,8 @@ section.hero.is-medium.is-dark.is-bold.is-booster
               have and get right to building your app's distinctive features. 
 
           p= link_to 'More about Launchpad', '/launchpad.html', class: 'button'
-        .column
-          h3.has-text-light Launchpad Features
+        .column.is-two-fifths
+          h2.subtitle.is-size-5-tablet Instant Project Scaffold Features
           ul 
             li	User login & registration
             li	Connect with FaceBook, Twitter, etc.
@@ -48,42 +120,12 @@ section.hero.is-medium.is-dark.is-bold.is-booster
             li	User impersonation 
             li	Subscriptions & Billing 
 
-section.hero.is-medium.is-process
-  .hero-body
-    .container
-      h1.title.is-size-1-tablet Minimum Viable Process
 
-      .columns.content.is-variable.is-8
-        .column
-          markdown:
-            Your project is built through a series of Sprints—periods of intense 
-            work, punctuated by review and learning. Each sprint results in a 
-            deliverable. Learning is applied to the next sprint. 
-            
-            Your project will likely consist of many sprints. How many depends 
-            on the number and complexity of features. 
-        
-            Sprints are almost always two weeks in length. We may break up
-            more complex features into multiple week-long sprints. Two or more
-            very simple features might be combined into a single sprint.  
-
-          p= link_to 'More about our process', '/mvp.html', class: 'button'
-
-        .column
-          = image_tag('build-measure-learn.png')
-
-section.hero.is-medium.is-success.is-flight-plan
-  .hero-body
-    .container
-      h1.title.is-size-1-tablet Flight Planning
-      p.subtitle Flight Planning is an intensive week-long process that culminates with the delivery of a Flight Plan Document: your plan to help you launch your project quickly and with minimal waste.
-
-      p= link_to "More about Flight Planning", '/flight-plan.html', class: 'button'
 
 section.section.is-recent-work
   .container
     h1.title What We've Built
-    
+
     .columns
       /pre= blog('portfolio').articles.first(3)
       - blog('portfolio').articles.first(3).each do|article|

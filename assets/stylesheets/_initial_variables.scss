@@ -1,25 +1,26 @@
 @import '~bulma/sass/utilities/functions';
 @import '~bulma/sass/utilities/initial-variables';
 
-@import url('https://fonts.googleapis.com/css?family=Lato|Rubik:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Lato|Rubik|Cutive+Mono:400,500,700');
 $font-stack-system: -apple-system, BlinkMacSystemFont,
                     'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
                     'Fira Sans', 'Droid Sans', 'Helvetica Neue',
                     sans-serif;
 $family-sans-serif: "Lato", $font-stack-system;
-$family-heading: "Rubik", $font-stack-system;
+$family-heading: "Rubik", $family-sans-serif;
 $family-primary: $family-sans-serif;
 $family-serif: "Merriweather", "Georgia", serif;
+$family-fixed: "Courier New", Courier, monospace;
 
 $body-size: 18px;
-$size-1: 4rem;
+// $size-1: 4rem;
 
 $column-gap: 1.5rem;
 
-$navbar-height: 3.25rem;
+$navbar-height: 4.25rem;
 
 // Colors
-$red            : #F26645;
+$red            : #D0021B;
 $orange         : #F26645;
 $yellow         : #FCD059;
 $green          : #1DBA64;
@@ -29,17 +30,17 @@ $violet         : #715da9;
 
 $white          : #fff;
 $black          : #222;
-$light          : #eee;
-$dark           : $violet;
+// $dark           : $violet;
 
 // Override Bulma colors
-$dark           : $violet;
+// $dark           : $violet;
 $primary        : $green;
 $info           : $blue;
 $info-invert    : $black;
 $success        : $green;
 $warning        : $yellow;
 $danger         : $red;
+$link           : $red;
 
 // Social media colors
 $facebook       : #3b5998;
