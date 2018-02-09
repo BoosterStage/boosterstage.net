@@ -7,9 +7,6 @@ document.addEventListener('DOMContentLoaded', function(){
     pricingNav.forEach((el) => {
       el.addEventListener('click', function(e){
         e.preventDefault()
-        console.log('click')
-        // Smallchat("open")
-        // _dcq.push(["showForm", {id: "396474459"}])
       })
     })
   }
