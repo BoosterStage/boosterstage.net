@@ -27,10 +27,16 @@ html prefix="og: http://ogp.me/ns#" lang="#{data.settings.site.i18n}"
               = relative_image_tag(:hero)
 
         .container class=(current_page.data.width || 'is-desktop')
-          = yield
+          .columns
+            .column.is-two-thirds
+              = yield
+            .column.is-auto
+              = current_page.data.sidebar
+
       .container class=(current_page.data.width || 'is-desktop')
         = yield_content :pagination
 
     = partial 'layouts/shared/footer'
     = javascript_include_tag 'main.bundle'
     = yield_content :javascripts
+
