@@ -34,7 +34,7 @@ module MetaTagsHelper
 
   def meta_tag_title
     site_title = data.settings.site.title
-    page_title = current_page.data.title
+    page_title = current_page.data.title || yield_content(:title)
     separator  = data.settings.site.title_separator
 
     if page_title.nil? || page_title.empty?

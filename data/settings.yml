@@ -1,6 +1,6 @@
 site:
   title: Booster Stage
-  title_separator: •
+  title_separator: ⋮
   description: 'Rapid custom development for brand-new SaaS products'
   logo: 'https://boosterstage.net/images/logos/BoosterStageLogo@4x.png'
   i18n: en
