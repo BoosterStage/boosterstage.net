@@ -46,3 +46,6 @@ Hours are not the best measure of productivity, nor of value. That is why we do 
 ### The Golden Rule
 In Managing Oneself, Peter Drucker says that "manners are the lubricating oil of an organization". As an organization, we treat one another, and our clients, as well as we would like to be treated. 
   
+### Right is Better than Perfect
+Many a startup has sacrificed itself on the altar of perfection. 
+Getting things done *right*, on the other hand, is essential. We strive to build the right product to solve the right problem for the right customers. Pixels can be polished later. 
