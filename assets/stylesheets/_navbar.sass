@@ -16,3 +16,24 @@ nav.navbar
 
   #navMenu
     transition: all 200ms ease-out
+
+
+  // .navbar.is-info .navbar-start > a.navbar-item:hover,
+  // .navbar.is-info .navbar-start > a.navbar-item.is-active,
+  // .navbar.is-info .navbar-start .navbar-link:hover,
+  // .navbar.is-info .navbar-start .navbar-link.is-active,
+  // .navbar.is-info .navbar-end > a.navbar-item:hover,
+  // .navbar.is-info .navbar-end > a.navbar-item.is-active,
+  // .navbar.is-info .navbar-end .navbar-link:hover,
+  // .navbar.is-info .navbar-end .navbar-link.is-active
+
+
+  &.is-info
+    .navbar-start, .navbar-end
+      a.navbar-item
+        transition: all .1s ease-in-out;
+
+        &:hover,
+        &.is-active,
+        &
+          color: white
