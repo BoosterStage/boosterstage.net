@@ -71,7 +71,7 @@ section.hero.is-medium
         .column.is-one-third
           = image_tag('build-measure-learn.png')
 
-section.hero.is-medium.is-flight-plan
+section.hero.is-flight-plan
   .hero-body
     .container
       h1.title.is-size-1-tablet Flight Planning
@@ -79,24 +79,13 @@ section.hero.is-medium.is-flight-plan
 
       p= link_to "More about Flight Planning", '/flight-plan.html', class: 'button'
 
-/section.hero.is-medium.is-light
-/  .hero-body
-/    .container
-/      h1.title.has-text-centered Startup as a Service
-/      .columns.is-centered.content
-/        .column.is-half
-/          p We know startups
-/          p Booster Stage helps bootstrapped startup founders build and launch their first SaaS (Software as a Service) product. We use Lean design principles to create your MVP (Minimum Viable Product) very quickly. Our process emphasizes efficiency, learning, and speed. Our goal is to launch running software as quickly as possible so that you can field test it, get your first users, and ultimately launch to paying customers in the shortest time possible.
-/        .column.is-half
-/          ' picture?
-
 
 section.hero.is-medium
   .hero-body
     .container
+      h1.title Launchpad
       .columns.is-centered.content
         .column.is-three-fifths
-          h1.title.is-size-3-tablet Launchpad
           p
             | Launch weeks earlier and save thousands of dollars in development with
               our Launchpad instant project scaffold.
@@ -109,8 +98,8 @@ section.hero.is-medium
 
           p= link_to 'More about Launchpad', '/launchpad.html', class: 'button'
         .column.is-two-fifths
-          h2.subtitle.is-size-5-tablet Instant Project Scaffold Features
-          ul
+          h2.subtitle.is-size-6 Launchpad Features
+          ul.is-size-7
             li	User login & registration
             li	Connect with FaceBook, Twitter, etc.
             li	My account page
@@ -120,7 +109,19 @@ section.hero.is-medium
             li	User impersonation
             li	Subscriptions & Billing
 
-
+section.container.testimonials
+      .columns.is-centered
+        .testimonial.column.is-half.is-narrow-desktop
+          figure.image.is-48x48.is-rounded
+            = image_tag('testimonials/beonalert.jpg')
+          blockquote
+            p
+              ' “Booster Stage has been a great investment for BeOnAlert,
+              ' helping us get a working product ready for initial release and testing with
+              ' Beta customers in just a few short weeks.”
+            footer
+              cite Diane, BeOnAlert
+      p= link_to "Start a Project", '/start.html', class: 'button is-info'
 
 section.section.is-recent-work
   .container
@@ -145,4 +146,4 @@ section.section
   .container.has-text-centered
     p Ready to get started?
     .hero-buttons
-      a.button.is-info.is-inverted href="/pricing-guide" role='button' data={pricing: true} Download our Pricing Guide
+      a.button.is-info href="/pricing-guide" role='button' data={pricing: true} Download our Pricing Guide
