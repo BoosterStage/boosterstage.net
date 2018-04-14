@@ -1,4 +1,3 @@
-
 nav.navbar
   font-family: $family-heading
   // font-weight: bold
@@ -33,6 +32,9 @@ nav.navbar
       a.navbar-item
         transition: all .1s ease-in-out;
 
+  +desktop
+    &.is-info .navbar-end
+      .navbar-item
         &:hover,
         &.is-active,
         &
