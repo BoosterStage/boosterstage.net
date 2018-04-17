@@ -119,11 +119,10 @@ section.testimonials
 section.section.is-recent-work
   .container
     h1.title What We've Built
-
     .columns
       - blog('work').articles.first(3).each do|article|
         .column.is-one-third.is-portfolio
-          a href=article.url
+          a href=(article.data.redirect_url || article.url)
             .card
               - if relative_image?('2by1.jpg', article)
                 .card-image

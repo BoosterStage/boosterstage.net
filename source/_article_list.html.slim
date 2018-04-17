@@ -9,7 +9,7 @@
           = article.title
         nav.tags
           - article.tags.each do |tag|
-            = link_to tag, tag_path(tag), class: 'tag'
+            span.tag= tag
         p.subtitle.is-size-6.has-text-grey
           = article.data.excerpt || article.data.subtitle || article.summary
         p.is-size-7.has-text-grey-light
