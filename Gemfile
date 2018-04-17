@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
 gem 'levenshtein-ffi', require: 'levenshtein'
-gem 'middleman', '~> 4'
+gem 'middleman'
 gem 'middleman-blog'
 gem 'middleman-blog-similar'
 gem 'middleman-favicon-maker'

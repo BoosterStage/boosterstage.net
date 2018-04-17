@@ -1,0 +1,39 @@
+doctype html
+
+html prefix="og: http://ogp.me/ns#" lang="#{data.settings.site.i18n}"
+  head
+    meta content= "text/html; charset=UTF-8"              http-equiv= "Content-Type"
+    meta content= "width=device-width, initial-scale=1.0" name= "viewport"
+    meta content= 'IE=Edge,chrome=1'                      httpequiv= 'X-UA-Compatible'
+
+    = partial 'layouts/shared/head_scripts'
+    = partial 'layouts/shared/meta_tags'
+    = partial 'layouts/shared/favicon'
+    = stylesheet_link_tag 'main.bundle'
+  body
+    = partial 'layouts/shared/body_scripts'
+    = partial 'layouts/shared/navbar'
+    section.section
+      article.content
+        header.container.is-desktop.has-border-bottom
+          h1.is-size-3.has-text-weight-normal= current_page.data.title
+          h2.is-size-6.has-text-grey.has-text-weight-light= current_page.data.subtitle
+        - if relative_image?(:hero)
+          .container.is-fluid
+            figure.image
+              = relative_image_tag(:hero)
+        .container.is-tablet
+          = yield
+        .is-clearfix
+
+      .container.is-tablet
+        h4.is-size-6.has-text-weight-bold More like this:
+        nav.tags
+          - current_page.tags.each do |tag|
+            = link_to tag, tag_path(tag), class: 'tag'
+
+    = partial 'layouts/shared/footer'
+    = javascript_include_tag 'main.bundle'
+    = yield_content :javascripts
+    script id="dsq-count-scr" src="//boosterstage.disqus.com/count.js" async=true
+    = partial 'layouts/shared/body_end_scripts'

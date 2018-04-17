@@ -25,10 +25,13 @@ activate :blog do |blog|
 end
 
 activate :blog do |blog|
-  blog.name = 'portfolio'
-  blog.prefix = 'portfolio'
+  blog.name = 'work'
+  blog.prefix = 'work'
   blog.permalink = '{title}'
-  blog.layout = 'article'
+  blog.layout = 'article_work'
+
+  blog.tag_template = 'tag.html'
+
 end
 
 activate :blog do |careers|
