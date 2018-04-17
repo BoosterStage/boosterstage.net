@@ -49,3 +49,6 @@ In Managing Oneself, Peter Drucker says that "manners are the lubricating oil of
 ### Done Right is Better than Perfect
 Many a startup has sacrificed itself on the altar of perfection.
 Getting things done *right*, on the other hand, is essential. We strive to build the right product to solve the right problem for the right customers. Pixels can be polished later.
+
+### Sawubona
+"Sawubona" is a Zulu greeting that translates to "I see you". But it means far more than only seeing someone with our eyes. The implication is that “I am here with you; I acknowledge your value; my attention is turned to you; I seek to understand you.” We desire to acknowledge one another’s value, to be fully present when we are together, and to understand one another first, and only then to be understood. 
