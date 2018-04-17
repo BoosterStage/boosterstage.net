@@ -3,6 +3,7 @@
 title: Donor Tools
 subtitle: Advanced donor and donation management platform for nonprofits.
 date: 2017-10-11
+redirect_url: https://www.donortools.com
 
 ---
 
