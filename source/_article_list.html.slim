@@ -1,7 +1,7 @@
 .article-list
   - page_articles.each_with_index do |article, i|
     article.content
-      = link_to article.data.redirect_url || article.path do
+      = link_to article.data.redirect_url || article.url do
         - if relative_image?('thumbnail-wide.jpg', article)
           figure.image.is-marginless
             = relative_image_tag('thumbnail-wide.jpg', article)
