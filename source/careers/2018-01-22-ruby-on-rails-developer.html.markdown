@@ -1,6 +1,7 @@
 ---
 
-title: Ruby on Rails Developer
+published: false
+title: Entry-Level Ruby on Rails Developer
 date: 2018-01-22 14:55 CST
 subtitle: Booster Stage is hiring an entry-level full-stack developer. 
 excerpt: Booster Stage is looking for a developer who has a little experience and a lot of aptitude for web development. The ideal candidate is a quick learner and is teachable. Even though you may not yet be senior-level at writing Ruby or Javascript code, you should be able to read and understand Ruby code and find your way around a Rails project.
