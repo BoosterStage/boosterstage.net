@@ -21,11 +21,6 @@ html prefix="og: http://ogp.me/ns#" lang="#{data.settings.site.i18n}"
           - if current_page.data.subtitle
             h2.is-size-6.has-text-grey= current_page.data.subtitle
 
-        - if relative_image?(:hero)
-          .container.is-fluid
-            figure.image
-              = relative_image_tag(:hero)
-
         .container class=(current_page.data.width || 'is-desktop')
           .columns
             .column.is-two-thirds
