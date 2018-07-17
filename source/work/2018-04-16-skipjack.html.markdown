@@ -1,0 +1,11 @@
+---
+
+title: Skipjack
+date: 2018-04-16 17:52 CDT
+published: false
+tags: MVP, Freight Logistics
+subtitle: A brand-new line of business
+
+---
+
+

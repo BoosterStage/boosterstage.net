@@ -838,9 +838,9 @@ bulma-pricingtable@^0.1.0:
   version "0.1.10"
   resolved "https://registry.yarnpkg.com/bulma-pricingtable/-/bulma-pricingtable-0.1.10.tgz#67cfd1e8e3455c3c7b47040020446c22620b2798"
 
-bulma@^0.6.2:
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/bulma/-/bulma-0.6.2.tgz#f4b1d11d5acc51a79644eb0a2b0b10649d3d71f5"
+bulma@0.7.1:
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/bulma/-/bulma-0.7.1.tgz#73c2e3b2930c90cc272029cbd19918b493fca486"
 
 cache-base@^1.0.1:
   version "1.0.1"
