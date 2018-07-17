@@ -2,7 +2,7 @@
 
 title: How to find a technical cofounder (and should you?)
 subtitle: Finding and hiring the right people is one of the most challenging parts of any business. 
-date: 2018-06-14 13:04 CDT
+date: 2018-07-17 11:00 CDT
 tags: Growth, Funding, Business
 excerpt: If you’re not a developer, this can seem like a great big stop sign. How on earth will you get your project built if you don’t have the skills and know-how to create it yourself? 
 
