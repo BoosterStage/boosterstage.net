@@ -3,7 +3,7 @@
 title: How to find a technical cofounder (and should you?)
 subtitle: Finding and hiring the right people is one of the most challenging parts of any business. 
 date: 2018-06-14 13:04 CDT
-tags: Growth, Funding
+tags: Growth, Funding, Business
 excerpt: If you’re not a developer, this can seem like a great big stop sign. How on earth will you get your project built if you don’t have the skills and know-how to create it yourself? 
 
 ---
@@ -39,7 +39,7 @@ Or, what if you *are* technically-oriented yourself? Do you really want to spend
 You really have only two choices: you can pay someone to build it for you, or you can find a technical cofounder. But how? If you don’t already know someone (and you’re not too keen on going into business with your cousin who made a website once in high school), where do you look? What do you look for in a technical cofounder? 
 
 ## Where to look for a technical cofounder
-This is hard to answer, because a lot of depends on who you already know. 
+[Where can you find a technical cofounder?](https://hackernoon.com/have-a-good-idea-but-cant-code-how-to-find-a-technical-co-founder-a5efe0224312) This is hard to answer, because a lot of depends on who you already know. 
 
 Your personal network is the first place to start. Start by talking to people who you know who are well-connected. I know someone whose day will be made if she can help you make a business connection. Who do you know like that? Tell them your idea, and ask them who you should talk to. Don’t be shy about sharing your idea at this point (see NDA, below).
 
@@ -97,6 +97,8 @@ Negotiating salaries can be challenging, but equity can be even more so.
 
 Unfortunately, there’s no simple answer to how much equity each cofounder should have. 
 
+> Never split equity 50/50
+
 The only rule of thumb that I’ve seen almost universally accepted is this: never split 50/50. The reason is because, in the event of a disagreement, you will need a way to break the tie. If both members have the same authority, you will end up with a stalemate. Every ship needs a captain, every kitchen needs a sous-chef, and every business needs a manager. 
 
 I’ve seen many two-person partnerships work well. A notable example is Drip, founded by Rob Walling and Derrick Reimer. However, they're rarely split 50/50. In a healthy partnership each member has an area of responsibility. At Drip, Rob ran the business and Derrick was responsible for the software. They consulted one another and each considered the other's input, but at the end of the day, Rob made the decisions about how to run and grow the business, and Derrick made the decisions about how the product would be built. 
@@ -146,6 +148,8 @@ In a lot of ways, a cofounder relationship is like a marriage: it’s a contract
 A cofounder relationship is a partnership. Unlike an employee, you cannot just fire a cofounder. If you have a serious dispute, you’ll have to be able to resolve it amicably, or it could sink the company. Even if you think you’ll never need it, you must have a process in place for dispute resolution and a clear hierarchy for decision making (see “Coming to Terms”, above). There are many ways a good relationship can go bad. 
 
 This is why, like selecting a spouse, it can’t hurt to be excessively choosy when deciding who to partner with. Do not partner with someone who is “just ok”. Avoid anyone who is not willing to be as committed to your business as you are. Avoid characters who are lackadaisical, untrustworthy, or careless. It would be better to wait indefinitely to find the right person than to get into a contractual business relationship with the wrong person. 
+
+[Founders should have shared experience together](https://savvyapps.com/blog/5-reasons-to-not-search-for-a-cto-or-technical-co-founder). You should know this person very well before you get into a contractual relationship with them, because you are going to be spending a lot of time together. Make sure that you share values, and that this is a person whom you will be able to respect and be friendly with for the coming years. 
 
 Do you really need a technical cofounder? You might not. Here’s a short list of businesses that you might have heard of who started with a single founder: 
 
