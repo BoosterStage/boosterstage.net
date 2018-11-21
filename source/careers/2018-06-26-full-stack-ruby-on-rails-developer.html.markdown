@@ -8,8 +8,6 @@ excerpt: Booster Stage has an immediate opening for a Ruby on Rails developer to
 
 ---
 
-
-
 Launching software is hard. At Booster Stage, we’re on a mission to help businesses launch extraordinary software products. We believe market validation, agile methodology, and iterative development are keys to launching successful web-based products. 
 
 We have an immediate opening for a Ruby on Rails developer to help us build cutting-edge, fully-tested, agile web applications for our clients. 
