@@ -17,7 +17,8 @@ As **Agile Project Manager and Product Success Advocate** you will:
 
 * Communicate with clients regularly to understand the problem, solution, and product.
 * Create detailed Statements of Work based on client requirements.
-* Translate SoWs into UI/UX diagrams and screen designs. 
+* Translate SoWs into actionable tasks for the development team. 
+* Sometimes create wireframe diagrams to guide developers. 
 * Create Github issues for each feature that will be built.
 * Communicate daily with developers to translate requirements and review work. 
 
@@ -36,13 +37,13 @@ The ability to think and act on multiple projects simultaneously is crucial. Mos
 * Friendly, amiable, easy to talk to
 * Astonishing listening skills
 * UI/UX design experience 
-* Project management experience
+* Agile project management experience
 
 ### Helpful skills
 
 * Ability to set up and run a Ruby on Rails project in your local development environment.
-* Ability to use Git, checkout source code, review commits, and resolve code conflicts if necessary. 
-* Understanding of HTML & CSS and the ability to make it do what you want. 
+* Ability to use Git, checkout source code, review commits, and comment on commits.
+* Basic understanding of HTML & CSS. 
 * Understanding of relational databases and their conventions and requirements. 
 * Experience with payment platforms and credit card processing. 
 
