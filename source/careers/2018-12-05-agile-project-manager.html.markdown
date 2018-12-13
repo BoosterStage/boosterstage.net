@@ -14,6 +14,12 @@ The Product Success Advocate part of your job means that your role is to help ma
 
 In a very real way, you’ll become part of our clients’ team. They should come to believe that you deeply understand their problem and the solution, and that you actually are on their team, building their product. 
 
+A web development background is helpful, though not absolutely necessary. Though you won’t be writing code, you should be able to check out the codebase, get it running on your local development environment, and review code commits. 
+
+You must be able to read and understand technical and API documentation, and translate this to technical requirements meant for our team. You must be able to write clear and concise specifications that are detailed enough to provide developers with actionable tasks, but readable enough to be understood by a normal human. 
+
+The ability to think and act on multiple projects simultaneously is crucial. Most of the time you’ll be working on 2-3 projects at once, each with a dedicated developer. 
+
 **What does a typical day look like?**
 
 Every day you'll need to pull down the latest codebase and check it out. You're inspecting the dev team's work and making sure that the project is progressing according to schedule. You'll also need to:
@@ -28,13 +34,6 @@ Every day you'll need to pull down the latest codebase and check it out. You're 
 * Identify bugs or usability issues, and then create Github issues with documentation and screenshots so that they can be addressed. 
 
 A typical development cycle is six weeks long, broken up into two-week sprints. You'll need to collaborate closely with our development team to craft the scope of each sprint in a realistic way. 
-
-A web development background is helpful, though not absolutely necessary. Though you won’t be writing code, you should be able to check out the codebase, get it running on your local development environment, and review code commits. 
-
-You must be able to read and understand technical and API documentation, and translate this to technical requirements meant for our team. You must be able to write clear and concise specifications that are detailed enough to provide developers with actionable tasks, but readable enough to be understood by a normal human. 
-
-The ability to think and act on multiple projects simultaneously is crucial. Most of the time you’ll be working on 2-3 projects at once, each with a dedicated developer. 
-
 
 ### Requirements
 
