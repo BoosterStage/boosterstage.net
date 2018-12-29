@@ -24,3 +24,4 @@
 /node_modules
 *.sublime-project
 *.sublime-workspace
+.similar.db
