@@ -50,6 +50,7 @@ GEM
     erubis (2.7.0)
     eventmachine (1.2.7)
     execjs (2.7.0)
+    executable-hooks (1.6.0)
     fast_blank (1.0.0)
     fastimage (2.1.5)
     ffi (1.9.25)
@@ -158,6 +159,7 @@ PLATFORMS
 
 DEPENDENCIES
   builder (~> 3.0)
+  executable-hooks
   levenshtein-ffi
   middleman
   middleman-blog
