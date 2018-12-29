@@ -97,11 +97,11 @@ Negotiating salaries can be challenging, but equity can be even more so.
 
 Unfortunately, there’s no simple answer to how much equity each cofounder should have. 
 
-> Never split equity 50/50
-
 The only rule of thumb that I’ve seen almost universally accepted is this: never split 50/50. The reason is because, in the event of a disagreement, you will need a way to break the tie. If both members have the same authority, you will end up with a stalemate. Every ship needs a captain, every kitchen needs a sous-chef, and every business needs a manager. 
 
 I’ve seen many two-person partnerships work well. A notable example is Drip, founded by Rob Walling and Derrick Reimer. However, they're rarely split 50/50. In a healthy partnership each member has an area of responsibility. At Drip, Rob ran the business and Derrick was responsible for the software. They consulted one another and each considered the other's input, but at the end of the day, Rob made the decisions about how to run and grow the business, and Derrick made the decisions about how the product would be built. 
+
+> Pro tip: Never split equity 50/50
 
 #### Speaking of 50/50
 

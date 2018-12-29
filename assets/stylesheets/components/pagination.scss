@@ -1,0 +1,10 @@
+.pagination {
+
+  a {
+    @apply border rounded;
+    @apply py-2 px-4 mr-4;
+    @apply no-underline text-grey-darker;
+    @apply inline-block;
+  }
+
+}

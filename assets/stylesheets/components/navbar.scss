@@ -1,0 +1,28 @@
+// Redefines hidden below `.flex` to increase its specificity
+// This allows us to apply `.hidden` to navbar elements to override
+// the flex positioning. Otherwise, `.flex` will take precidence.
+.hidden {
+  display: none ;
+}
+
+.horizintal-nav {
+  @apply list-reset text-sm leading-normal;
+
+  li {
+    @apply py-1;
+  }
+
+  a {
+    @apply no-underline;
+    @apply text-grey;
+
+    &:hover {
+      @apply border-b;
+    }
+  }
+
+  li.current a {
+    @apply text-teal;
+    @apply font-bold;
+  }
+}

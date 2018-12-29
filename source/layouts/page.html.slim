@@ -1,0 +1,16 @@
+- content_for :body do
+  section
+    article
+      header class="container w-full px-4 my-4 md:my-16 leading-normal"
+        h1 class="font-headline md:text-5xl"= current_page.data.title
+        h2 class="font-headline font-normal text-grey-darker"= current_page.data.subtitle
+
+      - if relative_image?(:hero)
+        div class="max-w-full lg:max-w-4xl mx-auto w-full  mb-16 "
+          figure class="image w-full"
+            = relative_image_tag(:hero, current_page, class: 'w-full')
+
+      div class="container mx-auto mb-16 pb-12 px-4 border-b"
+        = yield
+
+== partial 'layouts/main'

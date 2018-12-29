@@ -11,24 +11,27 @@
     "build": "NODE_ENV=production ./node_modules/webpack/bin/webpack.js --bail -p"
   },
   "devDependencies": {
-    "autoprefixer": "^6.7.2",
-    "babel-core": "^6.22.1",
-    "babel-loader": "^6.2.10",
-    "babel-preset-env": "^1.1.8",
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.2.3",
+    "@babel/preset-env": "^7.2.3",
+    "autoprefixer": "^9.4.2",
+    "babel-loader": "^8.0.4",
     "clean-webpack-plugin": "^0.1.15",
-    "css-loader": "^0.26.1",
-    "extract-text-webpack-plugin": "^2.0.0-beta",
-    "node-sass": "4.9.2",
-    "postcss": "^5.2.12",
-    "postcss-loader": "^1.2.2",
-    "sass-loader": "^5.0.1",
-    "style-loader": "^0.13.1",
-    "webpack": "^2.2.1"
-  },
-  "dependencies": {
-    "bulma": "0.7.1",
-    "bulma-pricingtable": "^0.1.0",
+    "css-loader": "^2.0.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "html-webpack-plugin": "^3.2.0",
     "js-cookie": "^2.1.4",
-    "sanitize.css": "^4.1.0"
-  }
+    "node-sass": "^4.10.0",
+    "postcss": "^7.0.6",
+    "postcss-loader": "^3.0.0",
+    "sanitize.css": "^4.1.0",
+    "sass-loader": "^7.1.0",
+    "stimulus": "^1.1.0",
+    "style-loader": "^0.23.1",
+    "tailwindcss": "^0.7.3",
+    "vanilla-masker": "^1.2.0",
+    "webpack": "^4.28.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {}
 }

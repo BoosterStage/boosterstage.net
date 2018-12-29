@@ -1,8 +1,17 @@
-import 'main.scss'
+// Load our css
+import "../stylesheets/main.scss";
 
-import * as Cookies from "js-cookie";
-window.Cookies = Cookies
+// Utility function to require all files in a directory...
+function requireAll(r) {
+  r.keys().forEach(r);
+}
 
-// import '_pricing'
-import '_tweet'
-import '_resize_listener'
+// Set up Stimulus and import controllers
+import { Application } from "stimulus";
+import { definitionsFromContext } from "stimulus/webpack-helpers";
+const application = Application.start();
+const context = require.context("./controllers/", true, /\.js$/); // eslint-disable-line no-undef
+application.load(definitionsFromContext(context));
+
+// Require everything in our modules directory
+requireAll(require.context("./modules/", true, /\.js$/)); // eslint-disable-line no-undef

@@ -12,8 +12,8 @@ module ImagesHelper
   end
 
   # Image path helpers
-  def relative_image_tag(style, article = current_page)
-    image_tag relative_image_path(style, article)
+  def relative_image_tag(style, article = current_page, html = {})
+    image_tag(relative_image_path(style, article), html)
   end
 
   def relative_image_path(style, article = current_page)

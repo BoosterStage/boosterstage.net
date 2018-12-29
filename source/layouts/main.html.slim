@@ -1,0 +1,20 @@
+doctype html
+
+html prefix="og: http://ogp.me/ns#" lang="#{data.settings.site.i18n}"
+  head
+    meta content= "text/html; charset=UTF-8"              http-equiv= "Content-Type"
+    meta content= "width=device-width, initial-scale=1.0" name= "viewport"
+    meta content= 'IE=Edge,chrome=1'                      httpequiv= 'X-UA-Compatible'
+
+    = partial 'layouts/shared/head_scripts'
+    = partial 'layouts/shared/meta_tags'
+    = partial 'layouts/shared/favicon'
+    = stylesheet_link_tag 'main.bundle'
+  body class=["border-t-8", "border-red-light", @body_class, page_classes]
+    = partial 'layouts/shared/body_scripts'
+    = partial 'layouts/shared/navbar'
+    = yield_content :body
+    = partial 'layouts/shared/footer'
+    = javascript_include_tag 'main.bundle'
+    = yield_content :javascripts
+    = partial 'layouts/shared/body_end_scripts'

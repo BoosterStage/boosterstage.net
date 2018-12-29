@@ -1,0 +1,61 @@
+---
+title: BeOnAlert
+subtitle: Zero to Beta Testing in Two Weeks
+date: 2018-04-16 16:23 CDT
+tags: MVP, Human Resources
+
+---
+
+Workplace sexual harassment is not a very nice thing to talk about. It’s even worse to experience it yourself. 
+
+Unfortunately, many victims of workplace harassment have little recourse. What are you going to do, tell your boss? The one who harassed you? Tell his boss? The result is that much harassment is swept under the rug. Kept quiet. In fact, over 70% of workplace sexual harassment goes unreported. Worse, of the cases that are reported, 95% of perpetrators face no punishment or repercussions for their actions.
+
+When that happens, vulnerable people may find themselves working in a toxic situation. By the time they realize the danger, it may be too late.
+
+What if there were a way for victims of workplace sexual harassment to seek help? And what if potential employees could take the temperature of an organization before starting a new job?
+
+Preventing and addressing workplace sexual harassment is what BeOnAlert.com is all about.
+
+BeOnAlert gives victims of sexual harassment a voice: a neutral third party where reports will not go unheeded. Anyone who has experienced harassment in the workplace can submit a report. Every report is reviewed by BeOnAlert, and if necessary, action can be taken, including contacting attorneys and the employer.
+
+But BeOnAlert is more than just a sexual harassment reporting tool. It’s also a corporate ethics management platform that gives human resources departments a tool to manage complaints made against individuals in their organization.
+
+
+## Zero to Beta Testing
+
+Diane, BeOnAlert's founder, came to us with an idea. What if we could help companies make their workplaces safer? What if we could help victims of workplace harassment seek restitution? What if we could warn potential employees before joining a workplace with a toxic environment?
+
+What can you do with just an idea?
+
+**Actually, we can do a lot.**
+
+Starting with [Launchpad](/launchpad), our starter project built on [Ruby on Rails](http://rubyonrails.org), we were able to create the basic structure and outline of the app in just a few hours. Launchpad already had baked in user authentication, social media integration (so that users could sign in using their LinkedIn account), SSL & security, and more.
+
+<figure class="image">
+  <img src="./BeOnAlert-Login.png">
+  <figcaption>Login to BeOnAlert</figcaption>
+</figure>
+
+The next step was to design a report submission process that would be easy for the end user (the employee submitting the report), and flexible enough to allow changes to the process during the beta period.
+
+We set up a complex, multi-step form using Typeform. Once submitted, Typeform posts the form data to a secure API endpoint that we created. Our app then receives the data, processes it, and saves it in the BeOnAlert database. Administrators are notified that there's a new report, and the review process begins.
+
+<figure class="image">
+  <img src="./BeOnAlert-Submit-Report.png" alt="BeOnAlert Submit a Report screenshot">
+  <figcaption>BeOnAlert allows anyone to submit a harassment report</figcaption>
+</figure>
+
+Once the report has been received, a review process begins. Administrators and the person who submitted the report can communicate via an easy-to-use comment thread.
+
+<figure class="image">
+  <img src="./BeOnAlert-Report.png" alt="BeOnAlert Submit a Report screenshot">
+  <figcaption>BeOnAlert personnel receive and process the report.</figcaption>
+</figure>
+
+
+### What's Next?
+
+We were able to create and deploy BeOnAlert's MVP in under two weeks. For Diane, that meant she was able to get their first beta users faster than they thought possible. Feedback from beta users is being fed back into the product, and development is ongoing.
+
+
+<%= partial "testimonials/beonalert.html.slim" %>

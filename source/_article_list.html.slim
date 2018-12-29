@@ -1,46 +1,54 @@
-.article-list
-  - page_articles.each_with_index do |article, i|
-    article.content
-      = link_to article.data.redirect_url || article.url do
-        - if relative_image?('thumbnail-wide.jpg', article)
-          figure.image.is-marginless
-            = relative_image_tag('thumbnail-wide.jpg', article)
-        h3.is-size-4.has-text-weight-normal
-          = article.title
-        nav.tags
-          - article.tags.each do |tag|
-            span.tag= tag
-        p.subtitle.is-size-6.has-text-grey
-          = article.data.excerpt || article.data.subtitle || article.summary
-        p.is-size-7.has-text-grey-light
-          - if defined?(article.data.redirect_url)
-            ' Check it out...
-          - else
-            ' Read more...
+div class="container mx-auto mb-16 pb-12 p-0 max-w-xl border-b"
 
-  - if paginate
-    - content_for :pagination do
-      nav.pagination.is-centered role="navigation" aria-label="pagination"
-        - if prev_page
-          a.pagination-previous href=prev_page.url &laquo; Newer Articles
-        - if next_page
-          a.pagination-next href=next_page.url Older Articles &raquo;
-        - if num_pages > 1
-          ul.pagination-list
-            - window = 2
-            - if page_number - window > 1
-              li
-                span.pagination-ellipsis &hellip;
-            - (page_number - window .. page_number + window).select{|i| i> 0 && i <= num_pages}.each do |i|
-              li
-                - if i == page_number
-                  a.pagination-link.is-current{href="/articles/page/#{i}" aria-label="Page #{i}" aria-current="page"}= i
-                - else
-                  - p = nil
-                  - (i ... page_number).each do p = p ? p.metadata[:locals]['prev_page'] : prev_page; end
-                  - (page_number ... i).each do p = p ? p.metadata[:locals]['next_page'] : next_page; end
-                  a.pagination-link{href=(p && p.url) aria-label="Go to Page #{i}"}= i
-            - if page_number + window < num_pages
-              li
-                span.pagination-ellipsis &hellip;
-      / http://www.slevenbits.com/blog/2013/01/middleman-blog-pagination.html
+  div id="articleList"
+    - page_articles.each_with_index do |article, i|
+      article class="mb-24 leading-normal"
+        a href=(article.data.redirect_url || article.url) class="no-underline"
+          - if relative_image?('thumbnail-wide.jpg', article)
+            figure
+              = relative_image_tag('thumbnail-wide.jpg', article)
+          h3 class="font-headline text-black font-semibold text-2xl"
+            = article.title
+          p class="text-grey-darker mb-2"
+            = article.data.excerpt || article.data.subtitle || article.summary
+
+        div class="flex items-center justify-between"
+
+          a href=(article.data.redirect_url || article.url) class="no-underline text-grey-dark text-sm"
+            - if defined?(article.data.redirect_url)
+              ' Check it out...
+            - else
+              ' Read more...
+
+          p class="tags"
+            - article.tags.each do |tag|
+              a href="/articles/tagged/#{tag.parameterize}" class="tag" == tag
+
+    - if paginate
+      - content_for :pagination do
+        nav.pagination.is-centered role="navigation" aria-label="pagination"
+          - if prev_page
+            a.pagination-previous href=prev_page.url &laquo; Newer Articles
+          - if next_page
+            a.pagination-next href=next_page.url Older Articles &raquo;
+          - if num_pages > 1
+            ul.pagination-list
+              - window = 2
+              - if page_number - window > 1
+                li
+                  span.pagination-ellipsis &hellip;
+              - (page_number - window .. page_number + window).select{|i| i> 0 && i <= num_pages}.each do |i|
+                li
+                  - if i == page_number
+                    a.pagination-link.is-current{href="/articles/page/#{i}" aria-label="Page #{i}" aria-current="page"}= i
+                  - else
+                    - p = nil
+                    - (i ... page_number).each do p = p ? p.metadata[:locals]['prev_page'] : prev_page; end
+                    - (page_number ... i).each do p = p ? p.metadata[:locals]['next_page'] : next_page; end
+                    a.pagination-link{href=(p && p.url) aria-label="Go to Page #{i}"}= i
+              - if page_number + window < num_pages
+                li
+                  span.pagination-ellipsis &hellip;
+
+= yield_content :pagination
+

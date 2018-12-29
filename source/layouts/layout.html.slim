@@ -1,37 +1,4 @@
-doctype html
+- content_for :body do
+  = yield
+== partial 'layouts/main'
 
-html prefix="og: http://ogp.me/ns#" lang="#{data.settings.site.i18n}"
-  head
-    meta content= "text/html; charset=UTF-8"              http-equiv= "Content-Type"
-    meta content= "width=device-width, initial-scale=1.0" name= "viewport"
-    meta content= 'IE=Edge,chrome=1'                      httpequiv= 'X-UA-Compatible'
-
-    = partial 'layouts/shared/head_scripts'
-    = partial 'layouts/shared/meta_tags'
-    = partial 'layouts/shared/favicon'
-    = stylesheet_link_tag 'main.bundle'
-  body
-    = partial 'layouts/shared/body_scripts'
-    = partial 'layouts/shared/navbar'
-    section.section
-      article.content
-        header.container.has-border-bottom.is-desktop  class=(current_page.data.width || 'is-desktop')
-
-          h1= yield_content :title or current_page.data.title
-          - if current_page.data.subtitle
-            h2.is-size-6.has-text-grey= current_page.data.subtitle
-
-        - if relative_image?(:hero)
-          .container.is-fluid
-            figure.image
-              = relative_image_tag(:hero)
-
-        .container class=(current_page.data.width || 'is-desktop')
-          = yield
-      .container class=(current_page.data.width || 'is-desktop')
-        = yield_content :pagination
-
-    = partial 'layouts/shared/footer'
-    = javascript_include_tag 'main.bundle'
-    = yield_content :javascripts
-    = partial 'layouts/shared/body_end_scripts'

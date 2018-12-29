@@ -1,60 +1,47 @@
-doctype html
+- content_for :body do
+  section
+    article
+      header class="container w-full px-4 my-4 md:my-16 leading-normal"
+        h1 class="font-headline md:text-5xl"= current_page.data.title
+        h2 class="font-headline font-normal text-grey-darker"= current_page.data.subtitle
 
-html prefix="og: http://ogp.me/ns#" lang="#{data.settings.site.i18n}"
-  head
-    meta content= "text/html; charset=UTF-8"              http-equiv= "Content-Type"
-    meta content= "width=device-width, initial-scale=1.0" name= "viewport"
-    meta content= 'IE=Edge,chrome=1'                      httpequiv= 'X-UA-Compatible'
+      - if relative_image?(:hero)
+        div class="max-w-full lg:max-w-4xl mx-auto w-full  mb-16 "
+          figure class="image w-full"
+            = relative_image_tag(:hero, current_page, class: 'w-full')
 
-    = partial 'layouts/shared/head_scripts'
-    = partial 'layouts/shared/meta_tags'
-    = partial 'layouts/shared/favicon'
-    = stylesheet_link_tag 'main.bundle'
-  body
-    = partial 'layouts/shared/body_scripts'
-    = partial 'layouts/shared/navbar'
-    section.section
-      article.content
-        header.container.is-desktop.has-border-bottom
-          h1.is-size-3.has-text-weight-normal= current_page.data.title
-          h2.is-size-6.has-text-grey.has-text-weight-light= current_page.data.subtitle
-        - if relative_image?(:hero)
-          .container.is-fluid
-            figure.image
-              = relative_image_tag(:hero)
-        .container.is-tablet
-          = yield
-        .is-clearfix
+      div class="markdown text-lg leading-normal font-normal antialiased container mx-auto mb-16 pb-12 p-0 lg:max-w-md border-b"
+        = yield
 
-      .container.is-tablet
-        h4.is-size-6.has-text-weight-bold More like this:
-        nav.tags
-          - current_page.tags.each do |tag|
-            = link_to tag, tag_path(tag), class: 'tag'
+    div id="articleFooter" class="container mx-auto lg:max-w-md"
+      h4 class="font-headline text-xl" More like this:
+      nav class="tags mb-8"
+        - current_page.tags.each do |tag|
+          = link_to tag, tag_path(tag), class: 'tag'
 
-        nav.similar
-          .columns
-            - similar_articles.first(3).each do|article|
-              .column.is-one-third
-                a href=article.url
-                  .card
-                    - if relative_image?('2by1.jpg', article)
-                      .card-image
-                        figure.image.is-2by1
-                          = relative_image_tag('2by1.jpg', article)
-                    .card-content
-                      .content
-                        p= article.data.short_title or article.title
+      nav id="similar" class="my-12"
+        div class="flex -mr-4"
+          - similar_articles.first(3).each do |article|
+            a class="block shadow w-1/3 mr-4 text-grey-darker no-underline leading-normal text-sm" href=article.url
+              - if relative_image?('2by1.jpg', article)
+                figure.image.is-2by1
+                  = relative_image_tag('2by1.jpg', article)
+              div class="p-4"
+                .content
+                  p= article.data.short_title or article.title
 
-        nav.pagination
-          = link_to "&laquo; Previous Article", current_page.article_previous, class: 'pagination-previous', disabled: (true unless current_page.article_previous)
-          = link_to "Next Article &raquo;", current_page.article_next, class: 'pagination-next', disabled: (true unless current_page.article_next)
+      nav id="Pagination" class="pagination my-12"
+        - if current_page.article_previous
+          = link_to "&laquo; Previous Article", current_page.article_previous, class: 'pagination-previous'
+        - if current_page.article_next
+          = link_to "Next Article &raquo;", current_page.article_next, class: 'pagination-next float-right'
 
-        div.is-sharingbuttons= partial 'layouts/shared/sharingbuttons'
-        div.is-disqus= partial 'layouts/shared/disqus'
+      div id="sharingButtons" class="mb-12"= partial 'layouts/shared/sharingbuttons'
+      div.is-disqus= partial 'layouts/shared/disqus'
 
-    = partial 'layouts/shared/footer'
-    = javascript_include_tag 'main.bundle'
-    = yield_content :javascripts
-    script id="dsq-count-scr" src="//boosterstage.disqus.com/count.js" async=true
-    = partial 'layouts/shared/body_end_scripts'
+
+
+- content_for :end_scripts do
+  script id="dsq-count-scr" src="//boosterstage.disqus.com/count.js" async=true
+
+== partial 'layouts/main'

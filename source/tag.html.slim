@@ -2,12 +2,12 @@
 pageable: true
 per_page: 12
 width: is-desktop
-blog: articles
 
 ---
 
-- content_for :title do
-  | Articles tagged &ldquo;#{tagname}&rdquo;
+div class="container mx-auto m-16 pb-12 p-0 max-w-xl border-b"
+  h1 class="font-serif font-normal text-2xl"
+    | Articles tagged &ldquo;#{tagname}&rdquo;
 
 
 = partial 'article_list'

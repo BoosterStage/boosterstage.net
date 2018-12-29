@@ -6,18 +6,18 @@ module MetaTagsHelper
     site_description = data.settings.site.description
     page_description = current_page.data.description || current_page.data.excerpt
 
-    if page_description.nil? || page_description.empty?
-      description = site_description
-    else
-      description = page_description
-    end
+    description = if page_description.nil? || page_description.empty?
+                    site_description
+                  else
+                    page_description
+                  end
 
     if description.nil? || description.empty?
       puts "== path:#{current_page.url} meta description is missing on settings.yml"
     elsif description.length > 150
       puts "== path:#{current_page.url} meta description should be between 140-150 characters. You have: #{description.length}"
     end
-    return description
+    description
   end
 
   def meta_tag_image(style = :twitter)
@@ -50,11 +50,10 @@ module MetaTagsHelper
     end
     title += ' ' + separator + ' '
     title += site_title
-    return title
+    title
   end
 
   def meta_tag_url
     host_url(current_page.url)
   end
 end
-

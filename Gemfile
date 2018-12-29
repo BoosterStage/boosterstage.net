@@ -1,9 +1,11 @@
+# frozen_string_literal: true
+
 source 'http://rubygems.org'
 
 gem 'levenshtein-ffi', require: 'levenshtein'
 gem 'middleman'
 gem 'middleman-blog'
-gem 'middleman-blog-similar'
+gem 'middleman-blog-similar', git: 'https://github.com/BoosterStage/middleman-blog-similar'
 gem 'middleman-favicon-maker'
 gem 'middleman-livereload', '~> 3'
 gem 'middleman-minify-html', '~> 3.4.1'

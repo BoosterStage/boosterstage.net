@@ -1,84 +1,65 @@
-var webpack = require('webpack');
-var ExtractTextPlugin = require('extract-text-webpack-plugin');
-var Clean = require('clean-webpack-plugin');
+const webpack = require("webpack");
+
+const ExtractTextPlugin = require("extract-text-webpack-plugin");
+
+const Clean = require("clean-webpack-plugin");
+const devMode = process.env.NODE_ENV !== "production";
+
+const path = require("path");
+
+/* global __dirname module process require */
 
 module.exports = {
   entry: {
-    main: './assets/javascripts/main.js',
+    main: "./assets/javascripts/main.js"
   },
 
   resolve: {
     modules: [
-      __dirname + '/assets/javascripts',
-      __dirname + '/assets/stylesheets',
-      __dirname + '/node_modules',
+      __dirname + "./assets/javascripts",
+      __dirname + "./assets/stylesheets",
+      path.resolve(__dirname, "node_modules")
     ],
-    extensions: ['.js', '.css', '.scss']
+    extensions: [".js", ".css", ".scss"]
   },
 
   output: {
-    path: __dirname + '/build',
-    filename: 'assets/javascripts/[name].bundle.js',
-  },
-
-  module: {
-    loaders: [
-      {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        loader: "babel-loader"
-      },
-      {
-        test: /\.css$/,
-        loader: ExtractTextPlugin.extract({
-          fallback: 'style-loader',
-          use: [
-            'css-loader',
-            {
-              loader: 'postcss-loader',
-              options: {
-                plugins: function () {
-                  return [
-                    require('autoprefixer')
-                  ];
-                }
-              }
-            }
-          ]}),
-      },
-      {
-        test: /\.scss$|.sass$/,
-        loader: ExtractTextPlugin.extract({
-          fallback: 'style-loader',
-          use: [
-            'css-loader',
-            {
-              loader: 'postcss-loader',
-              options: {
-                plugins: function () {
-                  return [
-                    require('autoprefixer')
-                  ];
-                }
-              }
-            },
-            'sass-loader'
-          ]
-        }),
-      }
-    ]
+    path: __dirname + "/build",
+    filename: "assets/javascripts/[name].bundle.js"
   },
 
   plugins: [
-    // Always expose NODE_ENV to webpack, in order to use `process.env.NODE_ENV`
-    // inside your code for any environment checks; UglifyJS will automatically
-    // drop any unreachable code.
-    new webpack.DefinePlugin({
-      'process.env': {
-        NODE_ENV: JSON.stringify(process.env.NODE_ENV),
-      },
-    }),
-    new Clean(['build']),
-    new ExtractTextPlugin("assets/stylesheets/[name].bundle.css"),
+    // new ExtractTextPlugin("style.css")
+    new ExtractTextPlugin({
+      // filename: "assets/stylesheets/[name].bundle.css"
+      filename: devMode
+        ? "assets/stylesheets/[name].bundle.css"
+        : "assets/stylesheets/[name].[hash].bundle.css"
+    })
   ],
+
+  module: {
+    rules: [
+      {
+        test: /\.scss$/,
+
+        use: ExtractTextPlugin.extract({
+          fallback: "style-loader",
+          use: ["css-loader", "postcss-loader", "sass-loader"]
+        })
+      },
+
+      {
+        test: /\.m?js$/,
+        exclude: /(node_modules|bower_components)/,
+        use: {
+          loader: "babel-loader",
+          options: {
+            presets: ["@babel/preset-env"],
+            plugins: ["@babel/plugin-proposal-class-properties"]
+          }
+        }
+      }
+    ]
+  }
 };

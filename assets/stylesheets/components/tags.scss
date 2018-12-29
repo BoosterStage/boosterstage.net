@@ -1,0 +1,15 @@
+.tags {
+  @apply leading-loose ;
+}
+.tag {
+  @apply text-sm text-grey-darkest;
+  @apply bg-grey-lightest;
+  @apply rounded;
+  @apply px-4 no-underline;
+  @apply mr-4;
+  @apply inline-block;
+
+  &:hover {
+    @apply shadow;
+  }
+}

@@ -14,19 +14,19 @@ The answer may sound a little glib: we don’t have an hourly rate. Don’t get 
 
 How is this possible? The answer is simple: We care more about quality of work than about quantity of hours. If we’re producing great work and helping our clients to be successful, time tracking adds an unnecessary layer of administrative overhead that just doesn’t add much value to the process. 
 
-### Time tracking is a waste of time if you aren’t good at project planning. 
+## Time tracking is a waste of time if you aren’t good at project planning. 
 
 All the time tracking tools in the world won’t help you if you can’t effectively scope and estimate projects. 
 
 We’ve all heard nightmare about projects that went dramatically over time. Somebody is always left holding the bag—either the client ends up paying way more than they expected, or the developer ends up working unbillable hours, or both. What happened? It’s almost always due to failure to correctly scope the project, estimate time requirements, and plan for the unknown. 
 
-### Planing for the Unknown
+## Planing for the Unknown
 
 Building in time for research and experimentation is essential. It may only take a few hours of actual code writing to implement a feature, but it might take several days to research the best approach, mock up UI screens, and experiment with different techniques for solving the problem. 
 
 When you’re billing hourly, you have to justify every hour to the client, and unless you’re really careful in how it’s presented, this kind of research can look like waste. 
 
-### Scoping and estimating
+## Scoping and estimating
 
 So how DO we estimate and bill projects? We’ve tried several different approaches — fixed bid, weekly rates, and sprints. The approach that has worked the best for us is based on sprints.
 
@@ -34,7 +34,7 @@ With sprint-based billing, we charge a fixed rate for a one or two-week sprint. 
 
 The scope model also allows the client to generalize the overall cost without locking us into a fixed bid or wild-guessing at hourly ranges. We can look at the project requirements and estimate that a particular project will take four to six two-week sprints. That translates to a range of $40,000 to $60,000. It also gives the client some perspective on what features are most essential to the success of a project. We might end up deferring a particular feature until after launch, just based on the fact that we could launch two weeks earlier and $10,000 cheaper.
 
-### We threw time tracking to the wind
+## We threw time tracking to the wind
 
 But we not only stopped billing hourly, we also stopped tracking our time internally!
 
@@ -42,15 +42,15 @@ And you know what? It didn’t make any difference to our productivity. Maybe it
 
 When I first started doing freelance work I obsessively tracked every minute. I even tracked task switching, and at the end of the day I would audit my time and make sure that I had spent enough time on each client’s project. Inevitably I would feel guilty and ended up working late into the night trying to catch up on hours. 
 
-### Does the client still get what they’re paying for? What about value?
+## Does the client still get what they’re paying for? What about value?
 
 Exactly: value. The client isn’t paying for hours. They’re paying us to help make them successful. For most of our clients that looks like getting their first customers. So if we’re helping them do that, who cares how many hours it took? We still put a tremendous amount of hustle into our clients' projects; the only difference is that the value we produce is not tied directly to our hours of work. 
 
-### Does that mean we don’t work a 40-hour work week?
+## Does that mean we don’t work a 40-hour work week?
 
 Not at all. In fact some week we work more than 40 hours, and some weeks we work fewer. It depends on the kind of work we’re doing, whether there’s a big deadline, and whether we’re over or under-booked.
 
-### Does that mean we spend all day goofing off?
+## Does that mean we spend all day goofing off?
 
 LOL. Hardly. Self-discipline is one of our core values as a company. We still use tools like pomodoro timers and content blockers to help us focus. And recently we’ve discovered [ RescueTime ](https://rescuetime.com), which tracks activity in the background and generates a report of how we’ve spent our time.
 

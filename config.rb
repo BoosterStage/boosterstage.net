@@ -1,6 +1,8 @@
+# frozen_string_literal: true
+
 require 'slim'
 
-Time.zone = "America/Chicago"
+Time.zone = 'America/Chicago'
 
 # Per-page layout changes:
 #
@@ -11,7 +13,7 @@ page '/*.txt', layout: false
 page '/feed.xml', layout: false
 page '/404.html', directory_index: false
 
-proxy "_redirects", "netlify-redirects", ignore: true
+proxy '_redirects', 'netlify-redirects', ignore: true
 
 activate :blog do |blog|
   blog.calendar_template = 'calendar.html'
@@ -20,18 +22,17 @@ activate :blog do |blog|
   blog.name = 'articles'
   blog.prefix = 'articles'
   blog.tag_template = 'tag.html'
-  blog.taglink = "tagged/{tag}.html"
+  blog.taglink = 'tagged/{tag}.html'
   blog.paginate = true
 end
 
 activate :blog do |blog|
-  blog.name = 'work'
-  blog.prefix = 'work'
+  blog.name = 'portfolio'
+  blog.prefix = 'portfolio'
   blog.permalink = '{title}'
-  blog.layout = 'article_work'
+  blog.layout = 'portfolio'
 
   blog.tag_template = 'tag.html'
-
 end
 
 activate :blog do |careers|
@@ -46,12 +47,13 @@ end
 #
 activate :external_pipeline,
          name: :webpack,
-         command: build? ?  'yarn run build' : 'yarn run start',
+         command: build? ? 'yarn run build' : 'yarn run start',
          source: 'build',
          latency: 1
 
 activate :directory_indexes
 activate :similar
+
 activate :minify_html
 
 # Reload the browser automatically whenever files change
@@ -89,17 +91,17 @@ configure :build do
         { icon: 'favicon-96x96.png' },
         { icon: 'favicon-32x32.png' },
         { icon: 'favicon-16x16.png' },
-        { icon: 'favicon.ico', size: '64x64,32x32,24x24,16x16' },
+        { icon: 'favicon.ico', size: '64x64,32x32,24x24,16x16' }
       ]
     }
   end
 
   activate :sitemap, hostname: @app.data.settings.site.url
   activate :sitemap_ping do |config|
-    config.host = "#{@app.data.settings.site.url}"
+    config.host = @app.data.settings.site.url.to_s
   end
 
   activate :robots,
-    rules: [{:user_agent => '*', :allow => %w(/)}],
-    sitemap: @app.data.settings.site.url+'/sitemap.xml'
+           rules: [{ user_agent: '*', allow: %w[/] }],
+           sitemap: @app.data.settings.site.url + '/sitemap.xml'
 end

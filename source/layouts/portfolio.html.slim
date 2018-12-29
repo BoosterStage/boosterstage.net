@@ -1,0 +1,30 @@
+- content_for :body do
+  section
+    article
+      header class="container w-full px-4 my-4 md:my-16 leading-normal"
+        h1 class="font-headline md:text-5xl"= current_page.data.title
+        h2 class="font-headline font-normal text-grey-darker"= current_page.data.subtitle
+
+      - if relative_image?(:hero)
+        div class="max-w-full lg:max-w-4xl mx-auto w-full  mb-16 "
+          figure class="image w-full"
+            = relative_image_tag(:hero, current_page, class: 'w-full')
+
+      div class="container px-4 lg:max-w-lg"
+        = yield
+
+  hr class="border-t border-grey-lighter"
+  div class="container lg:max-w-lg text-center py-24"
+    p Ready to Build Something Together?
+    a class="text-7xl font-headline font-bold no-underline text-red-light hover:text-red" href="/strategy" Get in touch
+
+
+    /div id="articleFooter" class="container lg:max-w-lg"
+      nav id="Pagination" class="pagination my-12"
+        - if current_page.article_previous
+          = link_to "&laquo; Previous Case Study", current_page.article_previous, class: 'pagination-previous', disabled: (true unless current_page.article_previous)
+        - if current_page.article_next
+          = link_to "Next Case Study &raquo;", current_page.article_next, class: 'pagination-next float-right', disabled: (true unless current_page.article_next)
+
+
+== partial 'layouts/main'

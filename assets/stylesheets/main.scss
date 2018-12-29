@@ -1,21 +1,18 @@
-@import 'initial_variables';
-@import "~bulma";
-@import 'articles';
-@import 'buttons';
-@import 'footer';
-@import 'hero';
-@import 'image';
-@import 'layout';
-@import 'navbar';
-@import 'portfolio';
-@import 'pricing';
-@import 'sharingbuttons';
-@import 'tables';
-@import 'typography';
-@import '~bulma-pricingtable';
-@import 'timeline';
-@import 'launchpad';
-@import 'print';
-@import 'testimonials';
-@import 'box';
-@import 'form';
+@tailwind preflight;
+@tailwind components;
+
+// @import url('https://fonts.googleapis.com/css?family=Lato|Rubik:400,500,700');
+@import url("https://use.typekit.net/xok3mtt.css");
+
+@tailwind utilities;
+
+@import 'components/buttons';
+@import 'components/typography';
+@import 'components/sharing_buttons';
+@import 'components/tags';
+@import 'components/pagination';
+@import 'components/lists';
+@import 'components/forms';
+@import 'components/navbar';
+@import 'components/range';
+@import 'components/icons';
