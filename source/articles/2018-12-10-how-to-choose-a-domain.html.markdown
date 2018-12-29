@@ -3,7 +3,7 @@
 title: How to choose a domain for your new SaaS product 
 subtitle: How to brand your product when all the best domains are taken.
 date: 2018-12-10 15:53 CST
-draft: true
+published: false
 tags: launch
 excerpt: Are all the good domains taken? How can you come up with a good brand and a decent domain in 2019?
 
