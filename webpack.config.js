@@ -2,7 +2,6 @@ const webpack = require("webpack");
 
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
-const Clean = require("clean-webpack-plugin");
 const devMode = process.env.NODE_ENV !== "production";
 
 const path = require("path");
@@ -30,9 +29,7 @@ module.exports = {
 
   plugins: [
     new MiniCssExtractPlugin({
-      filename: devMode
-        ? "assets/stylesheets/[name].bundle.css"
-        : "assets/stylesheets/[name].[hash].bundle.css"
+      filename: "assets/stylesheets/[name].bundle.css"
     })
   ],
 

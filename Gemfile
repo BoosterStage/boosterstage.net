@@ -2,7 +2,6 @@
 
 source 'http://rubygems.org'
 
-gem 'executable-hooks'
 gem 'levenshtein-ffi', require: 'levenshtein'
 gem 'middleman'
 gem 'middleman-blog'
