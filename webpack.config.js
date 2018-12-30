@@ -1,6 +1,6 @@
 const webpack = require("webpack");
 
-const ExtractTextPlugin = require("extract-text-webpack-plugin");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 const Clean = require("clean-webpack-plugin");
 const devMode = process.env.NODE_ENV !== "production";
@@ -29,9 +29,7 @@ module.exports = {
   },
 
   plugins: [
-    // new ExtractTextPlugin("style.css")
-    new ExtractTextPlugin({
-      // filename: "assets/stylesheets/[name].bundle.css"
+    new MiniCssExtractPlugin({
       filename: devMode
         ? "assets/stylesheets/[name].bundle.css"
         : "assets/stylesheets/[name].[hash].bundle.css"
@@ -43,10 +41,12 @@ module.exports = {
       {
         test: /\.scss$/,
 
-        use: ExtractTextPlugin.extract({
-          fallback: "style-loader",
-          use: ["css-loader", "postcss-loader", "sass-loader"]
-        })
+        use: [
+          devMode ? 'style-loader' : MiniCssExtractPlugin.loader,
+          'css-loader',
+          'postcss-loader', 
+          'sass-loader'
+        ],
       },
 
       {
