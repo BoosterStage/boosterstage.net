@@ -11,6 +11,7 @@ export default class extends Controller {
 
   estimate() {
     this.budgetTarget.value = this.formatEstimate(this.calculateEstimate());
+    this.weeksTarget.value = this.sprintsTarget.value * 2;
     this.setPos();
   }
 
