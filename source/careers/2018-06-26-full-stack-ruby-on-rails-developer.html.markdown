@@ -2,7 +2,6 @@
 
 title: Full Stack Ruby on Rails Developer
 date: 2018-06-26 09:00 CDT
-layout: job
 subtitle: Booster Stage is hiring a full-stack Ruby on Rails developer.
 excerpt: Booster Stage has an immediate opening for a Ruby on Rails developer to help us build cutting-edge, fully-tested, agile web applications for our clients. 
 

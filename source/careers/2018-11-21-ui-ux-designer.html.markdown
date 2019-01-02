@@ -2,7 +2,6 @@
 
 title: UI/UX Product Designer
 date: 2018-11-21 07:00 CST
-layout: job
 subtitle: Booster Stage is hiring a UI/UX Product Designer
 excerpt: Booster Stage has an immediate opening for a UI/UX design professional to help us build beautiful, easy to use web applications for our clients.
 
