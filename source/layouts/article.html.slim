@@ -1,8 +1,8 @@
 - content_for :body do
   section
     article
-      header class="container w-full px-4 my-4 md:my-16 leading-normal"
-        h1 class="font-headline md:text-5xl"= current_page.data.title
+      header class="container w-full px-4 my-4 md:my-16 leading-tight"
+        h1 class="font-headline md:text-5xl md:mb-4"= current_page.data.title
         h2 class="font-headline font-normal text-grey-darker"= current_page.data.subtitle
 
       - if relative_image?(:hero)
