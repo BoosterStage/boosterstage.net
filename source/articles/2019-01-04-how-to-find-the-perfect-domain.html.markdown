@@ -30,9 +30,7 @@ Having said that, it's worth being a little careful before committing your brand
 
 ## Country-specific domains
 
-One of the most popular ways to find a good domain that matches your brand is to use a country-specific domain.
-
-There are over 200 different country-specific domain extensions, and many are available for general registration. A few of the most popular TLDs:
+One of the most popular ways to find a good domain that matches your brand is to use a country-specific domain. There are over 200 different country-specific domain extensions, and many are available for general registration. A few of the most popular TLDs:
 
 *   .io (British Indian Ocean Territory)
 *   .ly (Libya)
@@ -44,8 +42,6 @@ There are over 200 different country-specific domain extensions, and many are av
 *   .vc (Saint Vincent and the Grenadines)
 *   .sh (St. Helena)
 
-Domains ending in .es, .ly, are popular because they lend themselves to clever English word endings, like "clever.ly".
-
 You'll probably recognize some of these companies:
 
 *   bit.ly
@@ -55,17 +51,50 @@ You'll probably recognize some of these companies:
 *   intercom.io
 *   draw.io
 
-In 99.99% of cases it's not going to be a big deal, but when building your company's brand on a country specific domain, it's important to keep in mind that your domain name may fall under the jurisdiction of that nation. Though it may seem unlikely, a lot of people were freaked out when [Libya siezed one .ly domain without warning](https://techcrunch.com/2011/04/04/letter-ly-abrupt-ly-loses-domain-name-as-a-result-of-the-war-in-libya/).
+Domains ending in .es, .ly, are popular because they lend themselves to clever English word endings, like "clever.ly".
+
+In 99.99% of cases it's not going to be a big deal, but when building your company's brand on a country-specific domain, it's important to keep in mind that your domain name may fall under the jurisdiction of that nation. Though it may seem unlikely, a lot of people were freaked out when [Libya siezed one .ly domain without warning](https://techcrunch.com/2011/04/04/letter-ly-abrupt-ly-loses-domain-name-as-a-result-of-the-war-in-libya/).
 
 It should go without saying that you probably shouldn't base your domain name in a nation that is officially designated as a "state sponsor of terrorism". Not very many registrars support TLDs for Iran (.ir), Syria (.sy), Sudan (.sd), or North Korea (.kp). Fortunately those are pretty crummy domain endings anyway, so it's not much of a loss.
 
 ## Made Up Words
 
-You're in luck, Xobni.com is available! Xobni (pronounced zob-nee) was a company that made applications for Microsoft Office.
+You're in luck, Xobni.com is available! Xobni (pronounced zob-nee) was a company that made applications for Microsoft Office, once upon a time.
 
-The problem with Xobni is... there are so many problems with Xobni. How do you spell it? How do you pronounce it? Imagine trying to explain that domain name to your grandma on the phone.
+The problem with **Xobni** is... there are so many problems with **Xobni**. How do you spell it? How do you pronounce it? Imagine trying to explain these domain names to your grandma on the phone: 
 
-Here's a rule of thumb: don't make up a new word to fit available domains. It's not likely to work out very well.
+- Amedisys
+- Cadabra
+- Furtzii
+- Iggli
+- Kiip
+- Magoosh
+- Qdoba
+- S8te
+- Teaosophy
+- Zippier
+- Zumper
+
+Even worse are made-up words that sound like common words but are spelled differently: 
+
+- Speesees
+- Naymz
+- Takkle
+- Flickr
+- Svbtle
+- del.icio.us
+
+Making up a word is a risky move, but it can also give you a brand that's recognizable and easy to trademark. A few brands have hit it out of the park with their made-up words: 
+
+- Google
+- Yahoo
+- Mozilla
+- Reddit
+- Xerox
+- Kodak
+- Shopify
+
+Rule of thumb: make sure your made-up brand is easy to pronounce, easy to spell, and doesn't leave people scratching their heads. Just because a random string of letters ".com" is available doesn't make it a good brand name. 
 
 ## Dropped Vowels
 
@@ -104,13 +133,13 @@ Now we get to the meat of it: how do we actually go about finding a great domain
 
 Dot com is still king, and .net is still queen, and .org, .edu, .gov, and .us
 fill out the court. But fortunately it’s 2019, and there’s no shortage of new
-TLDs (top level domains). Gone are the days when people would be confused if your domain didn’t end in .com.
+TLDs (top level domains). 
 
-Though my dad still adds “.com” to every web address I give him, no matter how much I insist:
+Gone are the days when people would be confused if your domain didn’t end in .com. Though my dad still adds “.com” to every web address I give him, no matter how much I insist:
 
 > Me: Ok dad, go to mydomain.io<br>
 > Dad: Ok I typed mydomain.io.com - it’s not coming up.<br>
-> Me: SMH
+> Me: `(╯°□°）╯︵ ┻━┻`
 
 [According to Wikipedia](https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains), in addition to the 255 country-specific top-level domains, there are over 1500 new generic top-level domains. Some of my favorite:
 
@@ -151,7 +180,7 @@ There are hundreds more, including industry-specific domains like:
 
 [The list of domains ](https://www.namecheap.com/domains/new-tlds/explore/) literally goes on, and on, and on.
 
-### Use Power Words
+## Use Power Words
 
 Sometimes making up a compound word does make sense, especially if you can
 combine your brand name with a power word.  Job hunters have been using power words to embellish
@@ -211,7 +240,17 @@ Finding a great domain is exciting. Keep in mind that it's not the end of your b
 
 If your domain name is confusingly similar to another product or service in your industry, you might want to reconsider. The last thing you want to hear when your company begins getting traction is "cease and desist" (especially after you've invested in your brand).
 
-If you're unsure about whether you'll run into copyright violations, it's not a bad idea to consult an attorney. They can help you do copyright and trademark searches, help you register your own trademarks, and generally help to keep you out of trouble.
+If you're unsure about whether you'll run into copyright violations, it's not a bad idea to consult an attorney. They can help you do copyright and trademark searches, help you register your own trademarks, and generally help to keep you out of trouble. 
+
+# On Your Own
+
+Here are some great resources that we've used in the past to help us think up great domains: 
+
+- [NameCheap](https://namecheap.com): The registrar that we use.
+- [Onym](https://onym.co/): Tools and resources for naming things.
+- [Panabee](http://www.panabee.com): Find domain variations.
+- [Wordoid](https://wordoid.com/): If you *really* want a made-up word.
+- [Booster Stage Domain Designer](https://docs.google.com/spreadsheets/d/1oKYGOL7isoZEtz9JjPo-qROqyEDYw9VWZHDSrKFRxIY/edit?usp=sharing): The spreadsheet that we start with.
 
 
 # Get Creative

@@ -63,8 +63,8 @@ body {
     }
   }
   blockquote {
-    @apply border-l border-l-8 border-grey-light;
-    @apply bg-grey-lightest;
+    @apply border-l border-l-4 border-teal-light;
+    @apply bg-teal-lightest;
     @apply p-8 mb-12;
 
     p {
@@ -73,6 +73,10 @@ body {
 
     p:last-child {
       @apply mb-0;
+    }
+
+    pre, code {
+      @apply roman;
     }
 
     strong {
