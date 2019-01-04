@@ -1,10 +1,18 @@
 .pagination {
-
-  a {
-    @apply border rounded;
+  .pagination-link {
+    @apply border border-grey-lighter rounded;
+    @apply py-2 px-4 mr-4;
+    @apply no-underline text-grey-darker;
+    @apply inline-block;
+  }
+  .pagination-ellipsis {
     @apply py-2 px-4 mr-4;
     @apply no-underline text-grey-darker;
     @apply inline-block;
   }
 
+  .pagination-current {
+    @apply border-grey-light;
+    @apply bg-grey-lighter;
+  }
 }

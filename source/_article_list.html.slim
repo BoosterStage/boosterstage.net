@@ -1,4 +1,4 @@
-div class="container mx-auto mb-16 pb-12 p-0 max-w-xl border-b"
+div class="container mx-auto mb-16 pb-12 p-0 max-w-xl "
 
   div id="articleList"
     - page_articles.each_with_index do |article, i|
@@ -26,29 +26,29 @@ div class="container mx-auto mb-16 pb-12 p-0 max-w-xl border-b"
 
     - if paginate
       - content_for :pagination do
-        nav.pagination.is-centered role="navigation" aria-label="pagination"
+        nav role="navigation" aria-label="pagination" class="pagination flex items-start"
           - if prev_page
-            a.pagination-previous href=prev_page.url &laquo; Newer Articles
-          - if next_page
-            a.pagination-next href=next_page.url Older Articles &raquo;
+            a class="pagination-link" href=prev_page.url &laquo; Newer Articles
           - if num_pages > 1
-            ul.pagination-list
+            ul class="list-reset flex items-start"
               - window = 2
               - if page_number - window > 1
                 li
-                  span.pagination-ellipsis &hellip;
+                  span class="pagination-ellipsis" &hellip;
               - (page_number - window .. page_number + window).select{|i| i> 0 && i <= num_pages}.each do |i|
                 li
                   - if i == page_number
-                    a.pagination-link.is-current{href="/articles/page/#{i}" aria-label="Page #{i}" aria-current="page"}= i
+                    a class="pagination-link pagination-current" href="/articles/page/#{i}" aria-label="Page #{i}" aria-current="page" = i
                   - else
                     - p = nil
                     - (i ... page_number).each do p = p ? p.metadata[:locals]['prev_page'] : prev_page; end
                     - (page_number ... i).each do p = p ? p.metadata[:locals]['next_page'] : next_page; end
-                    a.pagination-link{href=(p && p.url) aria-label="Go to Page #{i}"}= i
+                    a class="pagination-link" href=(p && p.url) aria-label="Go to Page #{i}" = i
               - if page_number + window < num_pages
                 li
-                  span.pagination-ellipsis &hellip;
+                  span class="pagination-ellipsis" &hellip;
+          - if next_page
+            a class="pagination-link" href=next_page.url Older Articles &raquo;
 
-= yield_content :pagination
+  = yield_content :pagination
 
