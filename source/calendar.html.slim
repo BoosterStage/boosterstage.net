@@ -1,0 +1,15 @@
+---
+pageable: true
+per_page: 12
+width: is-desktop
+
+---
+
+div class="container mx-auto m-16 pb-12 p-0 max-w-xl border-b"
+  h1 class="font-serif font-normal text-2xl"
+    | Archive for 
+    = archive_date(page_type, year, defined?(month) ? month : nil, defined?(day) ? day : nil)
+
+= partial 'article_list'
+
+
