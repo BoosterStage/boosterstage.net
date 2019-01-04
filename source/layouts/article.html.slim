@@ -10,15 +10,17 @@
           figure class="image w-full"
             = relative_image_tag(:hero, current_page, class: 'w-full')
 
-      div class="markdown text-lg leading-normal font-normal antialiased container mx-auto mb-16 pb-12 p-0 lg:max-w-md border-b"
+      div class="markdown text-lg leading-normal font-normal antialiased container mx-auto p-0 lg:max-w-md "
         = yield
 
-    div id="articleFooter" class="container mx-auto lg:max-w-md"
-      h4 class="font-headline text-xl" More like this:
-      nav class="tags mb-8"
-        - current_page.tags.each do |tag|
-          = link_to tag, tag_path(tag), class: 'tag'
+    div id="articleFooter" class="container mx-auto lg:max-w-lg"
 
+
+
+
+
+      div class="mt-8 mb-12" == partial 'layouts/shared/disqus'
+        
       nav id="similar" class="my-12"
         div class="flex -mr-4"
           - similar_articles.first(3).each do |article|
@@ -30,15 +32,20 @@
                 .content
                   p= article.data.short_title or article.title
 
+      div id="sharingButtons" class="mb-12"= partial 'layouts/shared/sharingbuttons'
+
       nav id="Pagination" class="pagination my-12"
         - if current_page.article_previous
           = link_to "&laquo; Previous Article", current_page.article_previous, class: 'pagination-previous'
         - if current_page.article_next
           = link_to "Next Article &raquo;", current_page.article_next, class: 'pagination-next float-right'
 
-      div id="sharingButtons" class="mb-12"= partial 'layouts/shared/sharingbuttons'
-      div.is-disqus= partial 'layouts/shared/disqus'
 
+      div id="moreLikeThis" class="leading-loose"
+        h4 class="font-headline text-xl" More Like This:
+        nav class="tags mb-8"
+          - current_page.tags.each do |tag|
+            = link_to tag, tag_path(tag), class: 'tag'
 
 
 - content_for :end_scripts do

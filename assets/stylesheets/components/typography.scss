@@ -3,9 +3,11 @@ body {
 }
 
 .markdown {
-  a {
-    @apply text-teal;
-    @apply no-underline;
+  a:not(.button) {
+    &:link {
+      @apply text-teal;
+      @apply no-underline;
+    }
 
     &:visited {
       @apply text-teal-dark;
