@@ -63,15 +63,6 @@ let colors = {
   "red-lighter": "hsl(360, 77%, 78%)",
   "red-lightest": "hsl(360, 100%, 98%)",
 
-  "pink-darkest": "#451225",
-  "pink-darker": "#6f213f",
-  "pink-dark": "#eb5286",
-  pink: "#f66d9b",
-  "pink-light": "#fa7ea8",
-  "pink-lighter": "#ffbbca",
-  "pink-lightest": "#ffebef",
-
-
   'teal-darkest': '#0d3331',
   'teal-darker': '#20504f',
   'teal-dark': '#38a89d',
@@ -378,7 +369,9 @@ module.exports = {
   |
   */
 
-  borderColors: global.Object.assign({ default: colors["grey-light"] }, colors),
+  borderColors: global.Object.assign({
+    default: colors["grey-light"]
+  }, colors),
 
   /*
   |-----------------------------------------------------------------------------

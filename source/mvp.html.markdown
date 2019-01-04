@@ -2,6 +2,7 @@
 title: Minimum Viable Process
 subtitle: "More than just a minimum viable product—our Agile-based sprint process minimizes waste, putting you in control of your timeline and your budget."
 layout: about
+section_class: markdown
 
 ---
 

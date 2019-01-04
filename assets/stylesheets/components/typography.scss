@@ -3,6 +3,22 @@ body {
 }
 
 .markdown {
+  a {
+    @apply text-teal;
+    @apply no-underline;
+
+    &:visited {
+      @apply text-teal-dark;
+    }
+
+    &:hover {
+      // @apply underline;
+      @apply border-b-2;
+      @apply border-teal;
+      @apply text-teal-darker;
+    }
+  }
+
   h1,
   h2,
   h3,

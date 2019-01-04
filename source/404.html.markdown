@@ -2,12 +2,16 @@
 title: Page Not Found
 subtitle: The page you were looking for doesn't exist (Error 404)
 layout: page
+section_class: markdown
 
 ---
 
 You may have mistyped the address or the page may have moved.
-
+<br>
 These links should get you on the right track: 
 
 - [Home Page](/)
+- [About Us](/about)
+- [Our Work](/portfolio)
 - [Articles](/articles)
+- [Hire Us](/strategy)
