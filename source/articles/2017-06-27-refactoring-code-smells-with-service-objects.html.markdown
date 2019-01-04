@@ -86,7 +86,7 @@ It's very easy to set up service objects. You can place your files in <code>RAIL
 
 Since a service object is just a PORO (plain old Ruby object) we can set it up and initialize it just like any other object.
 
-<script src="https://gist.github.com/mysmallidea/d2cc7a4db95a1daa792d51a2cab003b0.js"></script>
+<script src="https://gist.github.com/crispinheneise/d2cc7a4db95a1daa792d51a2cab003b0.js"></script>
 
 ### Calling
 
@@ -96,7 +96,7 @@ To call your object, you'd first instantiate it and then call it, like this: <co
 
 If you like, you can also define a <code>call</code> class method. This would allow you to call the object directly: <code>UserCreator.call(params)</code>.
 
-<script src="https://gist.github.com/mysmallidea/72cad7bebc04c48908ed226398515188.js"></script>
+<script src="https://gist.github.com/crispinheneise/72cad7bebc04c48908ed226398515188.js"></script>
 
 ### Processing
 

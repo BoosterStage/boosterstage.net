@@ -10,7 +10,7 @@ tags: Startup Productivity
 
 If you’re like me you probably get a lot of emails every day.
 
-One of the things I do at The Small Idea Company is social outreach to promote my [MVP as a Service](https://mysmallidea.com). Which means I’m constantly signing up for things. Which means I get a **LOT** of email.
+One of the things I do at The Small Idea Company is social outreach to promote my [MVP as a Service](https://boosterstage.net). Which means I’m constantly signing up for things. Which means I get a **LOT** of email.
 
 Most of the email I get isn’t junk (Gmail does a pretty good job of handling those), and many of them I actually want to read. But having them all land in the inbox is a recipe for burnout. And having a cluttered inbox means actually important email could get missed.
 
@@ -26,17 +26,17 @@ How do I automate my inbox?
 
 Did you know that you can add a “+” to your email address?
 
-For example: ryan@mysmallidea.com is my real email address. All of the following are valid email addresses and will all go into my primary email:
+For example: ryan@boosterstage.net is my real email address. All of the following are valid email addresses and will all go into my primary email:
 
-* ryan+courses@mysmallidea.com
-* ryan+promotions@mysmallidea.com
-* ryan+example.com@mysmallidea.com
+* ryan+courses@boosterstage.net
+* ryan+promotions@boosterstage.net
+* ryan+example.com@boosterstage.net
 
 I use the first one whenever I sign up for an online course, or one of those “5-day email courses” that are popular right now. I use this to create a filter in Gmail that will automatically put these emails into a folder (more on that below).
 
 The second one is used when I sign up for any kind of promotion or contest, where I know I probably won’t be needing the content from that signup form. This makes it really easy to remember when it’s a list that I’m ok to unsubscribe from.
 
-The last one is really tricky. Sometimes I’ll sign up for something that I just know is going to end up selling my email identity. I hate those guys, but sometimes it’s unavoidable. Rather than using a throwaway email (Mailinator anyone?), I’ll sometimes append the domain of the site where I’m signing up. For example, lets say I give in to the pressure and sign up for a Forbes account so they stop bugging me. I’ll give them the email address “ryan+forbes.com@mysmallidea.com”. Now any emails they send me will still come to my inbox, but the email address will be tagged with their domain. Now let’s say they sell my email address to a marketing company, and I start getting ads from some random business. But the email is addressed to “ryan+forbes.com”—busted! Now I know who sold my email address. Hit “spam” on that sucker.
+The last one is really tricky. Sometimes I’ll sign up for something that I just know is going to end up selling my email identity. I hate those guys, but sometimes it’s unavoidable. Rather than using a throwaway email (Mailinator anyone?), I’ll sometimes append the domain of the site where I’m signing up. For example, lets say I give in to the pressure and sign up for a Forbes account so they stop bugging me. I’ll give them the email address “ryan+forbes.com@boosterstage.net”. Now any emails they send me will still come to my inbox, but the email address will be tagged with their domain. Now let’s say they sell my email address to a marketing company, and I start getting ads from some random business. But the email is addressed to “ryan+forbes.com”—busted! Now I know who sold my email address. Hit “spam” on that sucker.
 
 ## Filters & Labels
 

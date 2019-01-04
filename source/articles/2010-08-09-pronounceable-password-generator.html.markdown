@@ -8,7 +8,7 @@ excerpt: Here's a neat little Ruby snippet for generating pronounceable password
 
 Here’s a neat little snippet of Ruby code for generating pronounceable passwords.
 
-<script src="https://gist.github.com/mysmallidea/1cb61d1bd1e596f7a4182b169a059f35.js"></script>
+<script src="https://gist.github.com/crispinheneise/1cb61d1bd1e596f7a4182b169a059f35.js"></script>
 
 Just call PronounceablePassword.generate_password! and you’ll get a nice password like “fabulous-99-bottles”
 

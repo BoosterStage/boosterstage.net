@@ -33,7 +33,7 @@ The coolest thing about ContentUpgrade.me is that it also [works with WordPress]
 
 Your first lead magnet is completely free forever, so there’s no reason not to try it, use it, and love it. Just like puppies, but without the commitment!
 
-Head over to [ContentUpgrade.me](https://contentupgrade.me?ref=mysmallidea.com) and create your first Medium.com lead magnet. I’d love to know what you think.
+Head over to [ContentUpgrade.me](https://contentupgrade.me?ref=boosterstage.com) and create your first Medium.com lead magnet. I’d love to know what you think.
 
 [Originally posted on Medium](https://medium.com/contentupgrademe/lead-magnets-on-medium-yes-we-can-54a606267bc7).
 
