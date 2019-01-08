@@ -1,6 +1,6 @@
 ---
 
-title: UI/UX Product Designer
+title: Web UI/UX Product Designer
 date: 2018-11-21 07:00 CST
 subtitle: Booster Stage is hiring a UI/UX Product Designer
 excerpt: Booster Stage has an immediate opening for a UI/UX design professional to help us build beautiful, easy to use web applications for our clients.
@@ -26,10 +26,10 @@ Our product teams consist of a Product Manager, dedicated Developer, and UI/UX P
 
 ### Required Skills
 
-- HTML/CSS
+- Extremely solid UI/UX design chops
+- HTML
+- CSS (SCSS)
 - Javascript
-- Experience working with Webpacker
-- Familiarity with Tailwind ia s plus.
 - Excellent written and spoken English
 - Responsive design
 
@@ -41,19 +41,17 @@ Our product teams consist of a Product Manager, dedicated Developer, and UI/UX P
 
 ### Tools we use
 
-- Ruby on Rails
-- StimulusJS
-- Webpacker & ES6
-- Tailwind CSS
-- Sketch
-- Basecamp
-
+- [Ruby on Rails](https://rubyonrails.org)
+- [StimulusJS](https://stimulusjs.org)
+- [Webpacker](https://github.com/rails/webpacker) ([Webpack](https://webpack.js.org) & [ES6](https://github.com/lukehoban/es6features#readme))
+- [Tailwind CSS](https://tailwindcss.com)
+- [Sketch](https://sketchapp.com)
 
 ### How we work
 
-**You’ll be helping us build web apps for our clients**, most of which are startups. Most of the time we’re building the first version of their product. Sometimes we’re redesigning an existing product.
+**You’ll be helping us build web apps for our clients**, most of which are startups or businesses launching new products. Most of the time we’re building the first version of their product. Sometimes we’re redesigning an existing product.
 
-**You don’t need to be a coder**, but you do need to be comfortable with code. You’ll certainly spend a lot of time in Sketch or Photoshop, but you’ll also be putting together CSS and HTML in the live web application environment.
+**You don’t need to be a coder**, but you do need to be able to find your way around a Ruby on Rails app. You’ll spend a fair amount of time time in Sketch or Photoshop, and you’ll also be implementing CSS and HTML in the web application environment. 
 
 **This job is 100% remote**. Though you’re welcome to come in to work in our Elgin, TX office (near Austin), you’ll have ultimate flexibility over your own working schedule and environment.
 
@@ -61,11 +59,9 @@ Our product teams consist of a Product Manager, dedicated Developer, and UI/UX P
 
 **We promote a distraction-free work environment**. Our work style is modeled after 37signals’ successful approach to productive remote work. We even use Basecamp as our primary communication tool.
 
-**We write**. Because we don’t have the opportunity to chat over the water cooler, we write A LOT to keep each other in the loop. Basecamp is our water cooler, and we use the message board, Campfire, and check-ins extensively to keep each other up to date on what were working on.
+**We write**. Because we don’t have the opportunity to chat over the water cooler, we write A LOT to keep each other in the loop. Basecamp is our water cooler, and we use the message board, Campfire, and check-ins extensively to keep each other up to date on what we're working on.
 
 **You’ll also be encouraged to write for our company blog**. Three to six articles per year should just about do it, although we wouldn’t stop you from writing more frequently. Topics include MVP issues, product design, UI/UX, startup launch stories, and best/worst practices for startups. Writing for your personal blog is also A-OK.
-
-**We consistently deliver high-quality work**. All our products are rigorously tested before we deliver them to our clients. You’ll be required to help maintain our test suite and write new tests as you work on features. The full test suite must pass before you merge in your code.
 
 **We sometimes work together**. Through the magic of the Internet, we sometimes will video conference via Zoom, or we might pair program for a while to work out a difficult problem. If you happen to live near Austin, Texas, then we might even get to work together in person sometimes.
 
@@ -77,12 +73,11 @@ We build new products for the web.
 
 Most of our work involves creating brand-new web apps for startups who are launching their MVP. Though we have also worked for big organizations who act like startups.
 
-We’re a tiny family-owned business. Literally a mom and pop shop. Ryan and Bethany, the owners, have been building stuff for the web since 2004, and we’ve gotten really good at building new products for startups. Over the years we've created numerous websites and products for the web.
+We’re a tiny family-owned business. Literally a mom and pop shop. Ryan and Bethany, the owners, have been building stuff for the web since 2004, and we’ve gotten really good at building new products for startups. Over the years [we've created numerous websites and products](https://boosterstage.net/portfolio/) for the web. 
 
 We blog on the [Booster Stage website](https://boosterstage.net/articles), and
 we sometimes tweet what we're reading at
 [@Booster_Stage](https://twitter.com/Booster_Stage). And when we're feeling
 grown up we also hang out on [LinkedIn](https://www.linkedin.com/company/1292733/).
-
 
 Ready to apply? Send your resume and cover letter to hello+jobs@boosterstage.net. Please include the job title in the subject line.
