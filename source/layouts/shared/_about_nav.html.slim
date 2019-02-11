@@ -1,0 +1,7 @@
+h4 class="py-2 text-grey uppercase text-sm tracking-wide" About Us
+ul class="horizintal-nav"
+  li class="inline md:block pr-2 #{'current' if current_page.path == 'about.html'}"= link_to "Our Company", "/about", class: "no-underline"
+  li class="inline md:block pr-2 #{'current' if current_page.path == 'manifesto.html'}"= link_to "Manifesto", "/manifesto"
+  li class="inline md:block pr-2 #{'current' if current_page.path == 'mvp.html'}"= link_to "Our Process", "/mvp"
+  li class="inline md:block pr-2 #{'current' if current_page.path == 'launchpad.html'}"= link_to "Launchpad", "/launchpad"
+  li class="inline md:block pr-2 #{'current' if current_page.path.match('careers')}"= link_to "Careers", "/careers"

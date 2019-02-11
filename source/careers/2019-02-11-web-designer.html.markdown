@@ -1,35 +1,38 @@
 ---
 
-title: Web UI/UX Product Designer
-date: 2018-11-21 07:00 CST
-subtitle: Booster Stage is hiring a UI/UX Product Designer
-excerpt: Booster Stage has an immediate opening for a UI/UX design professional to help us build beautiful, easy to use web applications for our clients.
-published: false
+title: Web Designer
+date: 2019-02-11 11:30 CST
+tags: 
+subtitle: Booster Stage is hiring a part-time/contract Web Designer
+excerpt: Booster Stage has an immediate opening for a UI/UX web design professional to help us build beautiful, easy to use web applications for our clients.
 
 ---
 
+
 Launching software is hard. At Booster Stage, we’re on a mission to help businesses launch extraordinary software products. We believe market validation, agile methodology, and iterative development are keys to launching successful web-based products.
 
-We have an immediate opening for a UI/UX design professional to help us build beautiful, easy to use web applications for our clients.
+We have an immediate opening for a web design professional to help us build beautiful, easy to use web applications for our clients.
+
+This is a contract/hourly position. 
 
 If you’re a creative designer who is technically oriented, you’ll love this job. We’re bringing the most up-to-date tools and techniques to our clients. You’ll be up to your elbows in HTML, CSS, and Javascript.
 
-As UI/UX Designer you will:
+As Web Designer you will:
 
 - Design new interfaces for web applications.
 - Redesign and refine existing interfaces to accommodate new features as they’re developed.
 - Implement designs using HTML, CSS (SASS), and JavaScript using Tailwind CSS.
-- Communicate with our product managers and development teams to discover requirements and discuss implementation.
+- Communicate with the Lead Software Developer to discover requirements and discuss implementation.
 - Attend client meetings to hear the client describe their product first-hand.
 
-Our product teams consist of a Product Manager, dedicated Developer, and UI/UX Product Designer (that's you).
+Our product teams consist of a Lead Software Developer, dedicated Developer, and Web Designer (that's you).
 
 
 ### Required Skills
 
 - Extremely solid UI/UX design chops
 - HTML
-- CSS (SCSS)
+- CSS/SCSS
 - Javascript
 - Excellent written and spoken English
 - Responsive design

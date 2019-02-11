@@ -38,7 +38,7 @@ end
 activate :blog do |careers|
   careers.name = 'careers'
   careers.prefix = 'careers'
-  careers.layout = 'markdown'
+  careers.layout = 'careers'
   careers.permalink = '{title}.html'
 end
 

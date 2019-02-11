@@ -4,6 +4,7 @@ title: Agile Project Manager and Product Success Advocate
 date: 2018-12-05 07:23 CST
 subtitle: Pull the project out of the client’s head and make it real. 
 excerpt: Booster Stage is seeking an Agile PM with a knack for translating clients' vision to easy-to-use software.
+published: false
 
 ---
 

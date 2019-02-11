@@ -2,7 +2,7 @@ div class="container mx-auto mb-16 pb-12 p-0 max-w-xl "
 
   div id="articleList"
     - page_articles.each_with_index do |article, i|
-      article class="mb-24 leading-normal"
+      article class=['mb-24', 'leading-normal', ('opacity-25' unless article.published?)]
         a href=(article.data.redirect_url || article.url) class="no-underline"
           - if relative_image?('thumbnail-wide.jpg', article)
             figure

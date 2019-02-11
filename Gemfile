@@ -2,6 +2,8 @@
 
 source 'http://rubygems.org'
 
+ruby '2.6.1'
+
 gem 'levenshtein-ffi', require: 'levenshtein'
 gem 'middleman'
 gem 'middleman-blog'
