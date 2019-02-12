@@ -3,15 +3,16 @@
 title: Full Stack Ruby on Rails Developer
 date: 2018-06-26 09:00 CDT
 subtitle: Booster Stage is hiring a full-stack Ruby on Rails developer.
-excerpt: Booster Stage has an immediate opening for a Ruby on Rails developer to help us build cutting-edge, fully-tested, agile web applications for our clients. 
+excerpt: Booster Stage has an immediate opening for a Ruby on Rails developer to help us build cutting-edge, fully-tested, agile web applications for our clients.
 
 ---
 
-Launching software is hard. At Booster Stage, we’re on a mission to help businesses launch extraordinary software products. We believe market validation, agile methodology, and iterative development are keys to launching successful web-based products. 
+Launching software is hard. At Booster Stage, we’re on a mission to help businesses launch extraordinary software products. We believe market validation, agile methodology, and iterative development are keys to launching successful web-based products.
 
-We have an immediate opening for a Ruby on Rails developer to help us build cutting-edge, fully-tested, agile web applications for our clients. 
+We have an immediate opening for a Ruby on Rails developer to help us build cutting-edge, fully-tested, agile web applications for our clients.
 
-### As a Full-Stack Rails Developer you will: 
+# As a Full-Stack Rails Developer you will:
+
 - Write excellent Ruby on Rails code daily
 - Write and update relevant documentation and code comments
 - Review and test your teammates pull requests
@@ -52,6 +53,8 @@ We have an immediate opening for a Ruby on Rails developer to help us build cutt
 
 **This is a full-time contract**, with the expectation that if we like working together you’ll join our company as a full-time employee (unless you’re not a US citizen, in which case you can stay on as a contractor - it really doesn’t make much difference).
 
+**Part-time is an option.** Interested in a part-time/freelance option? That could work also.
+
 **This job is 100% remote.** That means you have ultimate flexibility over your own working schedule and your working environment.
 
 **This is not a 9-5 job** (though it could be if those are your favorite hours). We rarely work over 40 hours per week, barring those rare moments of crunch times when we’re trying to hit a deadline or the server room is on fire.
@@ -60,21 +63,19 @@ We have an immediate opening for a Ruby on Rails developer to help us build cutt
 
 **We write.** Because we don’t have the opportunity to chat over the water cooler, we write A LOT to keep each other in the loop. Basecamp is our water cooler, and we use the message board, campfire, and check-ins extensively to keep each other up to date on what we’re working on.
 
-**You’ll also be encouraged to write for our company blog.** Three to six articles per year should just about do it, although we wouldn’t stop you from writing more frequently. Topics include MVP issues, product design, UI/UX, startup launch stories, and best/worst practices for startups. Writing for your personal blog is also A-OK. 
+**You’ll also be encouraged to write for our company blog.** Three to six articles per year should just about do it, although we wouldn’t stop you from writing more frequently. Topics include MVP issues, product design, UI/UX, startup launch stories, and best/worst practices for startups. Writing for your personal blog is also A-OK.
 
 **We consistently deliver high-quality work.** All our products are rigorously tested before we deliver them to our clients. You’ll be required to help maintain our test suite and write new tests as you work on features. The full test suite must pass before you merge in your code.
 
-**We sometimes work together.** Through the magic of the Internet, we sometimes will video conference via Zoom, or we might pair program for a while to work out a difficult problem. If you happen to live near Austin, Texas, then we might even get to work together in person sometimes. 
+**We sometimes work together.** Through the magic of the Internet, we sometimes will video conference via Zoom, or we might pair program for a while to work out a difficult problem. If you happen to live near Austin, Texas, then we might even get to work together in person sometimes.
 
-**Learning on the Job.** We love learning and are never content with what we already know. As a company, we devote time and resources to learning and expanding our knowledge library. Openness to learning new things is essential. You’ll be expected and encouraged to build your skills and add to your personal toolbox. We encourage self-directed learning, but we may also want you to pursue some particular thread of knowledge for a particular project. 
-
-
+**Learning on the Job.** We love learning and are never content with what we already know. As a company, we devote time and resources to learning and expanding our knowledge library. Openness to learning new things is essential. You’ll be expected and encouraged to build your skills and add to your personal toolbox. We encourage self-directed learning, but we may also want you to pursue some particular thread of knowledge for a particular project.
 
 ## About Booster Stage
 
-We build new products for the web. 
+We build new products for the web.
 
-Most of our work involves creating brand-new web apps for startups who are launching their MVP. Though we have also worked for big organizations who act like startups. 
+Most of our work involves creating brand-new web apps for startups who are launching their MVP. Though we have also worked for big organizations who act like startups.
 
 We’re a tiny family-owned business. Literally a mom and pop shop. Ryan and Bethany, the owners, have been building stuff for the web since 2004, and we’ve gotten really good at building new products for startups. Over the years we've created numerous websites and products for the web.
 
@@ -83,5 +84,4 @@ we sometimes tweet what we're reading at
 [@Booster_Stage](https://twitter.com/Booster_Stage). And when we're feeling
 grown up we also hang out on [LinkedIn](https://www.linkedin.com/company/1292733/).
 
-
-Ready to apply? Send your resume and cover letter to hello+jobs@boosterstage.net. 
+Ready to apply? Send your resume and cover letter to hello+jobs@boosterstage.net.
