@@ -13,7 +13,7 @@ Launching software is hard. At Booster Stage, we’re on a mission to help busin
 
 We have an immediate opening for a web design professional to help us build beautiful, easy to use web applications for our clients.
 
-This is a contract/hourly position. 
+This is a an hourly Independent Contractor position. We're looking for someone to help us with a few discrete projects, who we can call on more frequently as we grow.
 
 If you’re a creative designer who is technically oriented, you’ll love this job. We’re bringing the most up-to-date tools and techniques to our clients. You’ll be up to your elbows in HTML, CSS, and Javascript.
 

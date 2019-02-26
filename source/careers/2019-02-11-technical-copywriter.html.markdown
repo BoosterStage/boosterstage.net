@@ -1,5 +1,5 @@
 ---
-title: Technical Copywriter
+title: Technical Writer
 date: 2019-02-11 11:32 CST
 subtitle: Booster Stage is hiring a Technical Writer (Contract)
 
