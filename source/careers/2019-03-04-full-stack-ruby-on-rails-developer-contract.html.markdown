@@ -1,16 +1,19 @@
 ---
 
-title: Full Stack Ruby on Rails Developer
-date: 2018-06-26 09:00 CDT
-subtitle: Booster Stage is hiring a full-stack Ruby on Rails developer.
+title: Full Stack Ruby on Rails Developer (Contract)
+date: 2019-03-04 14:18 CST
+subtitle: Booster Stage is hiring a contract/hourly Ruby on Rails developer.
 excerpt: Booster Stage has an immediate opening for a Ruby on Rails developer to help us build cutting-edge, fully-tested, agile web applications for our clients.
-published: false
 
 ---
 
 Launching software is hard. At Booster Stage, we’re on a mission to help businesses launch extraordinary software products. We believe market validation, agile methodology, and iterative development are keys to launching successful web-based products.
 
 We have an immediate opening for a Ruby on Rails developer to help us build cutting-edge, fully-tested, agile web applications for our clients.
+
+This is a an contract/hourly Independent Contractor position. We're looking for someone to help us with a few discrete projects, who we can call on more frequently as we grow.
+
+Most projects are at least two weeks in length. Depending on the project, we may work together between two weeks and six weeks at a time. 
 
 # As a Full-Stack Rails Developer you will:
 
