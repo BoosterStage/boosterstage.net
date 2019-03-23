@@ -54,7 +54,6 @@ activate :external_pipeline,
 activate :directory_indexes
 activate :similar
 
-activate :minify_html
 
 # Reload the browser automatically whenever files change
 configure :development do
@@ -67,6 +66,8 @@ set :images_dir, 'images'
 
 # Build-specific configuration
 configure :build do
+  activate :minify_html
+
   # Enable cache buster (except for images)
   activate :asset_hash, ignore: [/\.jpg\Z/, /\.png\Z/, /\.gif\Z/]
   activate :gzip
