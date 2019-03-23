@@ -2,7 +2,7 @@
 
 source 'http://rubygems.org'
 
-ruby '2.6.1'
+ruby '2.6.2'
 
 gem 'levenshtein-ffi', require: 'levenshtein'
 gem 'middleman'
