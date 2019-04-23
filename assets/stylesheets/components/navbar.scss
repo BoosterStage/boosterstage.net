@@ -21,7 +21,7 @@
     }
   }
 
-  li.current a {
+  li.current > a {
     @apply text-teal;
     @apply font-bold;
   }
