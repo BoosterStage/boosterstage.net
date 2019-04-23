@@ -2,8 +2,9 @@
 title: Technical Writer
 date: 2019-02-11 11:32 CST
 subtitle: Booster Stage is hiring a Technical Writer (Contract)
+published: false
+excerpt: Booster Stage has an immediate opening for a Technical Writer to help us write and update documentation for our clients.
 
-excerpt: Booster Stage has an immediate opening for a Technical Writer to help us write and update documentation for our clients, and to provide valuable QA testing. 
 ---
 
 
@@ -70,17 +71,3 @@ We like to find bugs before our customers do. Occasionally a bug slips past our 
 
 **We learn on the job**. We love learning and are never content with what we already know. As a company, we devote time and resources to learning and expanding our knowledge library. Openness to learning new things is essential. You’ll be expected and encouraged to build your skills and add to your personal toolbox. We encourage self-directed learning, but we may also want you to pursue some particular thread of knowledge for a particular project.
 
-## About Booster Stage
-
-We build new products for the web.
-
-Most of our work involves creating brand-new web apps for startups who are launching their MVP. Though we have also worked for big organizations who act like startups.
-
-We’re a tiny family-owned business. Literally a mom and pop shop. Ryan and Bethany, the owners, have been building stuff for the web since 2004, and we’ve gotten really good at building new products for startups. Over the years [we've created numerous websites and products](https://boosterstage.net/portfolio/) for the web. 
-
-We blog on the [Booster Stage website](https://boosterstage.net/articles), and
-we sometimes tweet what we're reading at
-[@Booster_Stage](https://twitter.com/Booster_Stage). And when we're feeling
-grown up we also hang out on [LinkedIn](https://www.linkedin.com/company/1292733/).
-
-Ready to apply? Send your resume and cover letter to hello+jobs@boosterstage.net. Please include the job title in the subject line.

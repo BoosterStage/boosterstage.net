@@ -1,32 +1,33 @@
 ---
 
-title: Web Designer
+title: UI/UX Web Designer
+short_title: Web Designer
 date: 2019-02-11 11:30 CST
-tags: 
-subtitle: Booster Stage is hiring a part-time/contract Web Designer
+subtitle: Booster Stage is hiring a Web Designer (Contract)
 excerpt: Booster Stage has an immediate opening for a UI/UX web design professional to help us build beautiful, easy to use web applications for our clients.
 
 ---
 
-
 Launching software is hard. At Booster Stage, we’re on a mission to help businesses launch extraordinary software products. We believe market validation, agile methodology, and iterative development are keys to launching successful web-based products.
 
-We have an immediate opening for a web design professional to help us build beautiful, easy to use web applications for our clients.
+We have an immediate opening for a UI/UX design professional to help us build beautiful, easy to use web applications for our clients.
 
-This is a an hourly Independent Contractor position. We're looking for someone to help us with a few discrete projects, who we can call on more frequently as we grow.
+This is an hourly Independent Contractor position. We're looking for someone to help us with a few discrete projects on a regular basis, who we can call on more frequently as we grow.
 
 If you’re a creative designer who is technically oriented, you’ll love this job. We’re bringing the most up-to-date tools and techniques to our clients. You’ll be up to your elbows in HTML, CSS, and Javascript.
 
-As Web Designer you will:
+Our product teams consist of a Project Manager, Web Developer, and Web Designer (that's you).
+
+As UI/UX Web Designer you will:
 
 - Design new interfaces for web applications.
 - Redesign and refine existing interfaces to accommodate new features as they’re developed.
 - Implement designs using HTML, CSS (SASS), and JavaScript using Tailwind CSS.
-- Communicate with the Lead Software Developer to discover requirements and discuss implementation.
-- Attend client meetings to hear the client describe their product first-hand.
-
-Our product teams consist of a Lead Software Developer, dedicated Developer, and Web Designer (that's you).
-
+- Assist the development team with creating interactive UI elements with
+  JavaScript using the Stimulus framework.
+- Communicate with the Project Manager to discover requirements and discuss implementation.
+- Attend client meetings to develop a firm understanding of project
+  requirements.
 
 ### Required Skills
 
@@ -49,9 +50,8 @@ Our product teams consist of a Lead Software Developer, dedicated Developer, and
 - [StimulusJS](https://stimulusjs.org)
 - [Webpacker](https://github.com/rails/webpacker) ([Webpack](https://webpack.js.org) & [ES6](https://github.com/lukehoban/es6features#readme))
 - [Tailwind CSS](https://tailwindcss.com)
-- [Sketch](https://sketchapp.com)
 
-### How we work
+## How we work
 
 **You’ll be helping us build web apps for our clients**, most of which are startups or businesses launching new products. Most of the time we’re building the first version of their product. Sometimes we’re redesigning an existing product.
 
@@ -60,6 +60,8 @@ Our product teams consist of a Lead Software Developer, dedicated Developer, and
 **This job is 100% remote**. Though you’re welcome to come in to work in our Elgin, TX office (near Austin), you’ll have ultimate flexibility over your own working schedule and environment.
 
 **This is not a 9-5 job** (though it could be if those are your favorite hours). We rarely work over 40 hours per week, baring those rare moments of crunch time when we’re trying to hit a deadline or the server room is on fire.
+
+Having said that, **you will be expected to attend client meetings (via Zoom)**, the majority of which occur during working hours in US time zones.
 
 **We promote a distraction-free work environment**. Our work style is modeled after 37signals’ successful approach to productive remote work. We even use Basecamp as our primary communication tool.
 
@@ -71,17 +73,3 @@ Our product teams consist of a Lead Software Developer, dedicated Developer, and
 
 **We learn on the job**. We love learning and are never content with what we already know. As a company, we devote time and resources to learning and expanding our knowledge library. Openness to learning new things is essential. You’ll be expected and encouraged to build your skills and add to your personal toolbox. We encourage self-directed learning, but we may also want you to pursue some particular thread of knowledge for a particular project.
 
-### About Booster Stage
-
-We build new products for the web.
-
-Most of our work involves creating brand-new web apps for startups who are launching their MVP. Though we have also worked for big organizations who act like startups.
-
-We’re a tiny family-owned business. Literally a mom and pop shop. Ryan and Bethany, the owners, have been building stuff for the web since 2004, and we’ve gotten really good at building new products for startups. Over the years [we've created numerous websites and products](https://boosterstage.net/portfolio/) for the web. 
-
-We blog on the [Booster Stage website](https://boosterstage.net/articles), and
-we sometimes tweet what we're reading at
-[@Booster_Stage](https://twitter.com/Booster_Stage). And when we're feeling
-grown up we also hang out on [LinkedIn](https://www.linkedin.com/company/1292733/).
-
-Ready to apply? Send your resume and cover letter to hello+jobs@boosterstage.net. Please include the job title in the subject line.

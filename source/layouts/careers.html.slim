@@ -8,6 +8,26 @@
       header class="mb-12 leading-normal"
         h1 class="font-headline text-grey-darker md:text-5xl "= current_page.data.title
         h2 class="font-headline font-normal text-grey-darker leading-normal"= current_page.data.subtitle
-      section class="markdown"= yield
+      section class="markdown"
+      
+        = yield
+
+        markdown:
+          ## About Booster Stage
+
+          We build great products for the web.
+
+          Most of our work involves creating brand-new web apps for businesses who are launching a new product. We often work with startups, and we have also worked for big organizations who act like startups.
+
+          We’re a tiny family-owned business. Literally a mom and pop shop. Ryan and Bethany, the owners, have been building stuff for the web since 2004, and we’ve gotten really good at building new products for startups. Over the years [we've created numerous websites and products](https://boosterstage.net/portfolio/) for the web. 
+
+          We blog on the [Booster Stage website](https://boosterstage.net/articles), and
+          we sometimes tweet what we're reading at
+          [@Booster_Stage](https://twitter.com/Booster_Stage). And when we're feeling
+          grown up we also hang out on [LinkedIn](https://www.linkedin.com/company/1292733/).
+
+          ## How to Apply
+
+          Ready to apply? Send your resume and cover letter to hello+jobs@boosterstage.net. Please include the job title in the subject line and let us know why you're interested in this job.
 
 == partial 'layouts/main'

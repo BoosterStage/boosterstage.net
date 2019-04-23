@@ -1,6 +1,7 @@
 ---
 
 title: Full Stack Ruby on Rails Developer (Contract)
+short_title: Rails Developer
 date: 2019-03-04 14:18 CST
 subtitle: Booster Stage is hiring a contract/hourly Ruby on Rails developer.
 excerpt: Booster Stage has an immediate opening for a Ruby on Rails developer to help us build cutting-edge, fully-tested, agile web applications for our clients.
@@ -69,23 +70,11 @@ Most projects are at least two weeks in length. Depending on the project, we may
 
 **You’ll also be encouraged to write for our company blog.** Three to six articles per year should just about do it, although we wouldn’t stop you from writing more frequently. Topics include MVP issues, product design, UI/UX, startup launch stories, and best/worst practices for startups. Writing for your personal blog is also A-OK.
 
-**We consistently deliver high-quality work.** All our products are rigorously tested before we deliver them to our clients. You’ll be required to help maintain our test suite and write new tests as you work on features. The full test suite must pass before you merge in your code.
+
+**We have a zero-bug policy**. 
+Our Zero Bug Policy is simple: All bugs take priority over new features and improvements. All our products are rigorously tested before delivery. You’ll be expected to help maintain our test suite and write new tests as you work on features. The full test suite must pass before you deploy your code.
 
 **We sometimes work together.** Through the magic of the Internet, we sometimes will video conference via Zoom, or we might pair program for a while to work out a difficult problem. If you happen to live near Austin, Texas, then we might even get to work together in person sometimes.
 
 **Learning on the Job.** We love learning and are never content with what we already know. As a company, we devote time and resources to learning and expanding our knowledge library. Openness to learning new things is essential. You’ll be expected and encouraged to build your skills and add to your personal toolbox. We encourage self-directed learning, but we may also want you to pursue some particular thread of knowledge for a particular project.
 
-## About Booster Stage
-
-We build new products for the web.
-
-Most of our work involves creating brand-new web apps for startups who are launching their MVP. Though we have also worked for big organizations who act like startups.
-
-We’re a tiny family-owned business. Literally a mom and pop shop. Ryan and Bethany, the owners, have been building stuff for the web since 2004, and we’ve gotten really good at building new products for startups. Over the years we've created numerous websites and products for the web.
-
-We blog on the [Booster Stage website](https://boosterstage.net/articles), and
-we sometimes tweet what we're reading at
-[@Booster_Stage](https://twitter.com/Booster_Stage). And when we're feeling
-grown up we also hang out on [LinkedIn](https://www.linkedin.com/company/1292733/).
-
-Ready to apply? Send your resume and cover letter to hello+jobs@boosterstage.net.
