@@ -1,5 +1,6 @@
 ---
 
+published: false
 title: Full Stack Ruby on Rails Developer (Contract)
 short_title: Rails Developer
 date: 2019-03-04 14:18 CST
