@@ -1,27 +1,23 @@
 ---
-
 title: "How to find product-market fit before your product exists"
 subtitle: "Product validation is not a one-time event. Instead it’s a stair-step. It’s important to stop and test product-market fit at every stage as you develop your business. But that validation looks different at each stage."
-date: 2017-07-28 
-tags: Minimum Viable Product, Lean Startup, Product Validation
-
+date: 2017-07-28
+tags: Minimum Viable Product, Lean Startup, Product Validation, Launch
 ---
 
-
-How can you find product-market fit before your product exists? 
+How can you find product-market fit before your product exists?
 
 If you're thinking this, then you are asking the right questions: after your product has been built is the wrong time to validate product-market fit. The right time is always. Your product will not survive its first contact with the market, but you can increase your chances by validating continually and every step of the way.
-
 
 ## Talk to Potential Customers
 
 I put this first because it always works: The first thing that you should do when you have a product idea is to talk to potential customers. But wait: before you pitch your idea, listen. Try to find out where they're experiencing pain or friction. Figure out what they're doing, why they're doing it that way, and what they've tried to do differently. You're looking for answers to questions like these:
 
-*   What pain or problem are they experiencing in their process?
-*   What solutions have they tried?
-*   Why didn't those solutions work?
-*   Who else is experiencing this problem?
-*   Why hasn't the problem been solved yet?
+- What pain or problem are they experiencing in their process?
+- What solutions have they tried?
+- Why didn't those solutions work?
+- Who else is experiencing this problem?
+- Why hasn't the problem been solved yet?
 
 Don't try to offer solutions at this stage. If you do you may get a false positive answer; any solution you pitch at this stage will seem like an improvement. Your objective in asking these questions is to collect data, not to pitch your idea.
 
@@ -29,9 +25,9 @@ Don't try to offer solutions at this stage. If you do you may get a false positi
 
 Collecting emails is a great way to validate the messaging of your idea. Once you've figured out what kind of language your customers are using to describe their problem, you can turn that around and craft language to describe your solution. At the very least, your landing page should contain:
 
-*   A descriptive headline.
-*   Your [elevator pitch](https://medium.com/the-mission/the-most-important-elevator-pitch-rule-that-you-dont-know-951ad15e8796).
-*   A signup form.
+- A descriptive headline.
+- Your [elevator pitch](https://medium.com/the-mission/the-most-important-elevator-pitch-rule-that-you-dont-know-951ad15e8796).
+- A signup form.
 
 You might also consider structuring your landing page like a sales letter. Most sales letters follow some variation of the following format:
 
@@ -58,4 +54,3 @@ By now you know a lot about your customer. You know who they are. You know what 
 <div style="width: 100%; position: relative;">
   <iframe scrolling="no" width="100%" height="290" frameborder="0" border="no" src="https://contentupgrade.me/Yl4yBeJj.html?ref="></iframe>
 </div>
-
