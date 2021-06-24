@@ -10,7 +10,6 @@
           figure class="image w-full"
             = relative_image_tag(:hero, current_page, class: 'w-full')
 
-      div class="container mx-auto mb-16 pb-12 px-4 border-b #{current_page.data.section_class}"
-        = yield
+      = yield
 
 == partial 'layouts/main'

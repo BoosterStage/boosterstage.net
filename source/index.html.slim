@@ -20,36 +20,24 @@ section id="hero" class="bg-white w-full pb-24"
       | Start Your Project Today
       <svg class="ml-4 w-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon-cheveron-right-circle"><circle cx="12" cy="12" r="10" class="primary"/><path class="secondary" d="M10.3 8.7a1 1 0 0 1 1.4-1.4l4 4a1 1 0 0 1 0 1.4l-4 4a1 1 0 0 1-1.4-1.4l3.29-3.3-3.3-3.3z"/></svg>
 
+
 section id="portfolio" class="bg-red pattern text-white w-full py-24 "
   div class="container px-4"
     div class="md:flex"
-      div class="md:w-2/5 pb-12 md:pb-0 md:pr-8"
-        h3 class="text-white text-4xl" What could you do?
-        h4 class="text-2xl font-normal leading-tight py-6" Design a Custom Lead Generation Platform?
-        p class="text-lg lg:text-xl text-red-lightest leading-normal mb-8" We launched ContentUpgrade.me after just two weeks of development.
-        a href="/portfolio/contentupgrade-me" class="button"
+      div class="md:w-3/5 pb-12 md:pb-0"
+        h3 class="font-headline text-white text-3xl" What could you do?
+        h4 class="text-2xl font-normal leading-normal py-6"
+          span 
+            | Launch a custom online giving portal 
+            br
+            | just in time for the new year?
+        p class="text-lg lg:text-xl text-red-lightest leading-normal mb-8"
+          | Thanks to our agile-based iterative development cycle, Dime Payments launched a fully functional multi-tenant online giving platform specifically designed to serve their existing client base.
+        a href="/portfolio/dime-giving" class="button"
           | Read the Case Study
           <svg class="ml-4 w-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon-cheveron-right-circle"><circle cx="12" cy="12" r="10" class="primary"/><path class="secondary" d="M10.3 8.7a1 1 0 0 1 1.4-1.4l4 4a1 1 0 0 1 0 1.4l-4 4a1 1 0 0 1-1.4-1.4l3.29-3.3-3.3-3.3z"/></svg>
-      a class="md:block md:relative md:w-3/5 md:-my-12 " href="/portfolio/contentupgrade-me"
-        = image_tag "/portfolio/contentupgrade-me/demo2.gif", class: "shadow-lg rounded md:absolute md:-my-24"
-
-/ section id="portfolio" class="bg-red pattern text-white w-full py-24 "
-/   div class="container px-4"
-/     div class="md:flex"
-/       div class="md:w-3/5 pb-12 md:pb-0"
-/         h3 class="text-white text-4xl" What could you do?
-/         h4 class="text-2xl font-normal leading-normal py-6"
-/           span 
-/             | Launch a custom online giving portal 
-/             br
-/             | just in time for the new year?
-/         p class="text-lg lg:text-xl text-red-lightest leading-normal mb-8"
-/           | Thanks to our agile-based iterative development cycle, Dime Payments launched a fully functional multi-tenant online giving platform specifically designed to serve their existing client base.
-/         a href="/work/dime-giving" class="button"
-/           | Read the Case Study
-/           <svg class="ml-4 w-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon-cheveron-right-circle"><circle cx="12" cy="12" r="10" class="primary"/><path class="secondary" d="M10.3 8.7a1 1 0 0 1 1.4-1.4l4 4a1 1 0 0 1 0 1.4l-4 4a1 1 0 0 1-1.4-1.4l3.29-3.3-3.3-3.3z"/></svg>
-/       a class="md:w-2/5 md:-my-12 md:relative" href="/work/dime-giving"
-/         = image_tag "images/case-studies/dime.png", class: "shadow-lg rounded md:absolute md:-my-24"
+      a class="md:w-2/5 md:-my-12 md:relative" href="/portfolio/dime-giving"
+        = image_tag "portfolio/dime.png", class: "shadow-lg rounded md:absolute md:-my-24"
 
 section id="faq" class="bg-red-darkest pattern w-full text-red-lightest mt-0 py-8 lg:py-24"
   div class="container px-4 py-12"
@@ -67,6 +55,7 @@ section id="faq" class="bg-red-darkest pattern w-full text-red-lightest mt-0 py-
       div class="answer lg:w-2/3 text-xl leading-normal"
         p The majority of MVP projects take 3-4 sprints, or 6-8 weeks. Larger projects may last longer, depending on the kind of features we're building. 
         p Typically we'll try to launch something in beta after 4-6 weeks and then iterate on it with your users.
+
     /div class="faq lg:flex border-t-2 border-red-darker my-8 pt-12 pb-4 paragraph"
       div class="question flex lg:w-1/3"
         h4 class="text-2xl" How much will it cost? 
@@ -99,7 +88,6 @@ section id="faq" class="bg-red-darkest pattern w-full text-red-lightest mt-0 py-
                 value="" 
                 data-target="price-calculator.budget"
                 ]
-
           div class="flex flex-wrap md:flex-no-wrap text-xl font-semibold font-headline "
             label for="drip-email" class="hidden" Email Address
             input#drip-email[
@@ -113,7 +101,6 @@ section id="faq" class="bg-red-darkest pattern w-full text-red-lightest mt-0 py-
               type="submit" 
               value="Save Your Estimate" 
               data-drip-attribute="sign-up-button"]
-
             input#drip-estimated-sprints[
               type="hidden"
               name="fields[estimated_weeks]" 
@@ -129,6 +116,20 @@ section id="testimonial" class="bg-white w-full mt-0 py-8 lg:py-24"
     cite class="flex items-center content-center pl-8"
       = image_tag "images/testimonials/beonalert.jpg", class: "rounded-full h-12 mr-2"
       div Diane Strutner, Founder of Be On Alert
+
+
+section id="portfolio" class="bg-red pattern text-white w-full py-24 "
+  div class="container px-4"
+    div class="md:flex"
+      div class="md:w-2/5 pb-12 md:pb-0 md:pr-8"
+        h3 class="text-white text-3xl font-headline" What could you do?
+        h4 class="text-2xl font-normal leading-tight py-6" Design a Custom Lead Generation Platform?
+        p class="text-lg lg:text-xl text-red-lightest leading-normal mb-8" We launched ContentUpgrade.me after just two weeks of development.
+        a href="/portfolio/contentupgrade-me" class="button"
+          | Read the Case Study
+          <svg class="ml-4 w-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon-cheveron-right-circle"><circle cx="12" cy="12" r="10" class="primary"/><path class="secondary" d="M10.3 8.7a1 1 0 0 1 1.4-1.4l4 4a1 1 0 0 1 0 1.4l-4 4a1 1 0 0 1-1.4-1.4l3.29-3.3-3.3-3.3z"/></svg>
+      a class="md:block md:relative md:w-3/5 md:-my-12 " href="/portfolio/contentupgrade-me"
+        = image_tag "/portfolio/contentupgrade-me/demo2.gif", class: "shadow-lg rounded md:absolute md:-my-24"
 
 
 section id="launchpad" class="bg-grey-lightest w-full mt-0 py-8 lg:py-24"
