@@ -1,6 +1,10 @@
 # frozen_string_literal: true
 
 module PageHelper
+  def current_section
+    current_page.eponymous_directory_path.split('/').first
+  end
+
   def archive_date(page_type, year, month = nil, day = nil)
     case page_type
     when 'day'

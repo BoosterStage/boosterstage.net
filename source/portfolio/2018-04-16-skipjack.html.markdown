@@ -1,16 +1,26 @@
 ---
-
 title: Skipjack
-date: 2018-04-16 17:52 CDT
-published: false
-tags: MVP, Freight Logistics
 subtitle: A brand-new product for an established business.
-
+client: <a href="http://skipjacksc.com" target="_blank">Skipjack Supply Chain</a>
+services: Product Development, API Service Integration
+date: 2018-04-16 17:52 CDT
+published: true
 ---
 
+We built Skipjack Cloud Print from the ground up based on our [Lauchpad](/launchpad) starter app.
 
-Skipjack Cloud Print is a printer management ERP application.
+Skipjack Cloud Print is a custom label printer and printer management application for ERP. Users are able to create labels that are automatically populated from data and sent to printers in different areas of the warehouse depending on certain custom-defined rules.
 
+<img alt="Skipjack Dashboard" src="./Dashboard.jpg" srcset="./Dashboard@2x.jpg 2x, ./Dashboard.jpg 1x">
 
-<img src="./Skipjack.png" srcset="./Skipjack@2x.png 2x, ./Skipjack.png 1x">
+Skipjack Cloud Print was able to create labels using a custom templating language. Labels were output to PDF or to a label printer.
 
+<img alt="Skipjack Label" src="./Label.jpg" srcset="./Label@2x.jpg 2x, ./Label.jpg 1x">
+
+We built a custom label editor with custom fields and rules, capable of generating ZPL label files.
+
+<img alt="Skipjack Label-Edit" src="./Label-Edit.jpg" srcset="./Label-Edit@2x.jpg 2x, ./Label-Edit.jpg 1x">
+
+We designed a flexible rule engine that was able to append data to labels, alter label data, and route labels to certain printers based on label data.
+
+<img alt="Skipjack Rule" src="./Rule.jpg" srcset="./Rule@2x.jpg 2x, ./Rule.jpg 1x">
