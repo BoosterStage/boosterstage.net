@@ -2,7 +2,7 @@
 
 source 'http://rubygems.org'
 
-ruby '2.6.2'
+ruby '2.6.5'
 
 gem 'levenshtein-ffi', require: 'levenshtein'
 gem 'middleman'
@@ -21,3 +21,4 @@ gem 'builder', '~> 3.0'
 
 gem 'rake'
 gem 'slim'
+gem 'sqlite3'
