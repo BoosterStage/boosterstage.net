@@ -17,7 +17,7 @@ We built Dime Giving based on our Launchpad starter app. Using [Launchpad](/laun
 
 ## Online Donations and Payment Integration
 
-We built several versions of an online donation portal for Dime Giving. The customizable portable allows organizations to raise money for campaigns.
+We built several versions of an online donation portal for Dime Giving. The customizable portal allows organizations to raise money for campaigns.
 ![Dime Giving Donation Form](/portfolio/dime-giving/DimeGiving-Donation_Form_Step_1.png)
 
 For nonprofit administrators, we created quick-access reports that allow listing, filtering, and reporting of donations on a real-time basis.
