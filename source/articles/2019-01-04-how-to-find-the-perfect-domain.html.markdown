@@ -3,10 +3,10 @@ title: How to Find the Perfect Domain
 subtitle: How to choose the perfect domain for your SaaS product when all the best domains are taken.
 date: 2019-01-04 08:00 CST
 tags: Launch, Branding
-excerpt: Are all the good domains taken? How can you come up with a good brand and a decent domain in 2019?
+excerpt: Are all the good domains taken? How can you come up with a good brand and a decent domain in 2022?
 ---
 
-# It's 2019, and all the good domains are taken
+# It's 2022, and all the good domains are taken
 
 Sure, you didn't expect your first choice to be available, but there must at least be _something_ suitable that isn't being held hostage by domain squatters.
 
@@ -127,7 +127,7 @@ Now we get to the meat of it: how do we actually go about finding a great domain
 ## Use an Alternative Top-Level Domain
 
 Dot com is still king, and .net is still queen, and .org, .edu, .gov, and .us
-fill out the court. But fortunately it’s 2019, and there’s no shortage of new
+fill out the court. But fortunately it’s 2022, and there’s no shortage of new
 TLDs (top level domains).
 
 Gone are the days when people would be confused if your domain didn’t end in .com. Though my dad still adds “.com” to every web address I give him, no matter how much I insist:
