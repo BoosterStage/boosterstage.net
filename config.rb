@@ -82,6 +82,7 @@ configure :build do
   activate :sitemap, hostname: @app.data.settings.site.url
   activate :sitemap_ping do |config|
     config.host = @app.data.settings.site.url.to_s
+    config.ping_bing = false
   end
 
   activate :robots,
