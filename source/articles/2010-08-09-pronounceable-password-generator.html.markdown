@@ -1,6 +1,6 @@
 ---
 title: Pronounceable Password Generator
-date: 2010-08-09 
+date: 2010-08-09 00:00 CST
 tags: Ruby on Rails
 excerpt: Here's a neat little Ruby snippet for generating pronounceable passwords.
 

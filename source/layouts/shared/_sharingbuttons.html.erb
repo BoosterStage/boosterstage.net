@@ -1,4 +1,4 @@
-<% text = URI::encode(current_page.data.title) %>
+<% text = CGI.escape(current_page.data.title || "Share") %>
 
 <!-- Sharingbutton Facebook -->
 <a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=<%= meta_tag_url %>" target="_blank" aria-label="Share on Facebook">

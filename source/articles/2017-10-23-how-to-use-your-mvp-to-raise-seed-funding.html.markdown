@@ -2,7 +2,7 @@
 
 title: How to use your MVP to raise seed funding
 subtitle: You've got your MVP, traction, and revenue. Where can you look to raise funding for growth? 
-date: 2017-10-23 
+date: 2017-10-23 00:00 CST
 tags: Funding, Growth
 
 ---

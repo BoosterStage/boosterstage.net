@@ -2,7 +2,7 @@
 
 title: "ContentUpgrade.me: Lead Magnets on Medium"
 subtitle: "Convert your readers into subscribers with inline, contextual lead magnets, opt-in forms, and calls to action"
-date: 2017-05-05 
+date: 2017-05-05 00:00 CST
 tags: Announcements
 
 ---
