@@ -7,25 +7,24 @@ footer class="footer w-full mt-12 pt-12 pb-24 bg-grey-darkest text-red-lightest"
           = image_tag "images/logos/BoosterStageLogo-Inverse.svg"
 
       div class="md:w-2/3 pb-12"
-        /form action="https://www.getdrip.com/forms/942351450/submissions" method="post" data-drip-embedded-form="942351450"
-          div data-drip-attribute="description" class="mb-4 text-lg leading-normal text-grey-lighter"
+        form action="https://www.getrevue.co/profile/boosterstage/add_subscriber" method="post" id="revue-form" name="revue-form"  target="_blank"
+          div class="mb-4 text-lg leading-normal text-grey-lighter"
             | Join hundreds of other entrepreneurs to get regular tips and articles on building products, MVPs, and startup issues.
+          div class="flex flex-wrap text-xl font-semibold font-headline shadow-lg rounded"
+            label for="member_email" class="hidden" Email Address
 
-          div class="flex flex-wrap text-xl font-semibold font-headline "
-            label for="drip-email" class="hidden" Email Address
-            input#drip-email[
-              class="w-full md:w-2/3 mb-1 md:mb-0 appearance-none rounded shadow p-3 bg-grey-lightest text-grey-darker font-semibold px-6 py-3 no-underline md:rounded-r-none"
+            input#member_email[
+              class="revue w-full md:w-2/3 mb-1 md:mb-0 appearance-none border border-grey-lighter p-3 bg-grey-lightest text-grey-darkest font-semibold px-6 py-3 no-underline rounded md:rounded-r-none"
+              placeholder="Enter your email address..."
               type="email"
-              name="fields[email]"
-              value=""
-              placeholder="Enter your email address"]
-            input[
+              name="member[email]"
+            ] 
+            input#member_submit[
               class="w-full md:w-1/3 py-3 text-white font-semibold bg-red-light rounded md:rounded-l-none"
-              type="submit"
               value="Sign me up!"
-              data-drip-attribute="sign-up-button"]
-
-
+              name="member[subscribe]" 
+              type="submit" 
+            ]
 
     div class="md:flex items-top"
       div class="md:w-1/3 leading-normal"
@@ -50,7 +49,7 @@ footer class="footer w-full mt-12 pt-12 pb-24 bg-grey-darkest text-red-lightest"
               li= link_to "About Our Company", "/about"
               li= link_to "Our Process", "/mvp"
               li= link_to "Launchpad", "/launchpad"
-              li= link_to "Careers", "/careers"
+              / li= link_to "Careers", "/careers"
 
           div class="w-1/3"
             h5 class="text-lg" Build Your Thing

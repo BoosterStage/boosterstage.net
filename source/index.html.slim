@@ -56,16 +56,16 @@ section id="faq" class="bg-red-darkest pattern w-full text-red-lightest mt-0 py-
         p The majority of MVP projects take 3-4 sprints, or 6-8 weeks. Larger projects may last longer, depending on the kind of features we're building. 
         p Typically we'll try to launch something in beta after 4-6 weeks and then iterate on it with your users.
 
-    /div class="faq lg:flex border-t-2 border-red-darker my-8 pt-12 pb-4 paragraph"
+    div class="faq lg:flex border-t-2 border-red-darker my-8 pt-12 pb-4 paragraph"
       div class="question flex lg:w-1/3"
         h4 class="text-2xl" How much will it cost? 
       div class="answer lg:w-2/3 text-xl leading-normal"
         p You're probably expecting us to say "it depends". Well it does depend!
         p The particular features of your app, the complexity of features, and how many features we'll be building all affect the cost.
-        form action="https://www.getdrip.com/forms/868574777/submissions" method="post" data-drip-embedded-form="868574777" data-controller="price-calculator"
+        form action="https://www.getrevue.co/profile/boosterstage/add_subscriber" method="post" data-controller="price-calculator"
           div class="flex mb-12 "
             div class="w-2/3 mr-4 relative pt-2"
-              input#drip-estimated-sprints[
+              input#estimated-sprints[
                 type="range" 
                 min="2" 
                 max="26" 
@@ -76,12 +76,12 @@ section id="faq" class="bg-red-darkest pattern w-full text-red-lightest mt-0 py-
                 ]
               label[
                 class="absolute w-24 h-8 rounded text-center bg-red-darkest text-white text-lg font-semibold"
-                for="drip-estimated-sprints"
+                for="estimated-sprints"
                 data-target="price-calculator.sprintsLabel"
                 ]
             div class="w-1/3"
-              label for="drip-estimated-budget" class="hidden" Budget
-              input#drip-estimated-budget[
+              label for="estimated-budget" class="hidden" Budget
+              input#estimated-budget[
                 class="input w-full bg-red-lightest font-bold"
                 type="text"
                 name="fields[estimated_budget]" 
@@ -89,23 +89,23 @@ section id="faq" class="bg-red-darkest pattern w-full text-red-lightest mt-0 py-
                 data-target="price-calculator.budget"
                 ]
           div class="flex flex-wrap md:flex-no-wrap text-xl font-semibold font-headline "
-            label for="drip-email" class="hidden" Email Address
-            input#drip-email[
+            label for="member_email" class="hidden" Email Address
+            input#member_email[
               class="w-full md:w-2/3 appearance-none rounded shadow bg-red-lightest text-grey-dark font-semibold px-6 py-3 mb-1 md:mb-0 no-underline md:rounded-r-none"
               type="email"
-              name="fields[email]"
-              value=""
+              name="member[email]"
               placeholder="Enter your email address"]
-            input[
-              class="w-full md:w-1/3 p-3 text-white font-semibold bg-red-dark rounded md:rounded-l-none"
-              type="submit" 
+            input#member_submit[
+              class="w-full md:w-1/3 p-3 text-white font-semibold bg-red-dark rounded md:rounded-l-none cursor-pointer"
+              type="submit"
+              name="member[subscribe]"
               value="Save Your Estimate" 
-              data-drip-attribute="sign-up-button"]
-            input#drip-estimated-sprints[
+            ]
+            input#estimated-sprints[
               type="hidden"
               name="fields[estimated_weeks]" 
               data-target="price-calculator.weeks" 
-              ]
+            ]
 
 section id="testimonial" class="bg-white w-full mt-0 py-8 lg:py-24"
   div class="container px-4 lg:max-w-lg"

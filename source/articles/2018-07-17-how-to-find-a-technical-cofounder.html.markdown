@@ -201,9 +201,7 @@ I’d be remiss if I didn’t mention fractional CTOs. This is just a fancy term
 
 The attractiveness of hiring a fractional CTO is that it may put more experienced executives, with extensive experience, within the reach of your budget. This is especially advantageous if you intend to raise capital; having an experienced CTO on your team can look really good to investors. 
 
-
-
-<form action="https://www.getdrip.com/forms/18182175/submissions" method="post" data-drip-embedded-form="18182175">
+<!-- <form action="https://www.getdrip.com/forms/18182175/submissions" method="post" data-drip-embedded-form="18182175">
   <h3 data-drip-attribute="headline">Startup Launch Course</h3>
   <p data-drip-attribute="description">Sign up for our <strong>free email course</strong>: we'll show you everything you need to know to <strong>validate your idea and build the first version of your product</strong>. </p>
     <div>
@@ -219,9 +217,7 @@ The attractiveness of hiring a fractional CTO is that it may put more experience
   <div>
   </div>
 </form>
-
-
-
+ -->
 
 ## Tying the Knot
 
