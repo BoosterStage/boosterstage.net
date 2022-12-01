@@ -19,7 +19,7 @@
         
       nav id="similar" class="my-12"
         div class="flex -mr-4"
-          - similar_articles.first(3).each do |article|
+          / - similar_articles.first(3).each do |article|
             a class="block shadow w-1/3 mr-4 text-grey-darker no-underline leading-normal text-sm" href=article.url
               - if relative_image?('2by1.jpg', article)
                 figure.image.is-2by1
