@@ -79,11 +79,11 @@ configure :build do
   activate :asset_host,
            host: @app.data.settings.site.url
 
-  activate :sitemap, hostname: @app.data.settings.site.url
-  activate :sitemap_ping do |config|
-    config.host = @app.data.settings.site.url.to_s
-    config.ping_bing = false
-  end
+  # activate :sitemap, hostname: @app.data.settings.site.url
+  # activate :sitemap_ping do |config|
+  #   config.host = @app.data.settings.site.url.to_s
+  #   config.ping_bing = false
+  # end
 
   activate :robots,
            rules: [{ user_agent: '*', allow: %w[/] }],
