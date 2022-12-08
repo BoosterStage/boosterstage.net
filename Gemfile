@@ -5,7 +5,7 @@ source 'http://rubygems.org'
 ruby '3.1.2'
 
 gem 'levenshtein-ffi', require: 'levenshtein'
-gem 'middleman', github: 'middleman/middleman'
+gem 'middleman'
 gem 'middleman-blog'
 # gem 'middleman-blog-similar'#, git: 'https://github.com/BoosterStage/middleman-blog-similar'
 gem 'middleman-livereload'#, '~> 3'
