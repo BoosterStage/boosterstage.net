@@ -101,6 +101,8 @@ GEM
     middleman-sitemap-ping (1.0.1)
       middleman (>= 3.1)
     minitest (5.16.3)
+    nokogiri (1.13.10-arm64-darwin)
+      racc (~> 1.4)
     nokogiri (1.13.10-x86_64-darwin)
       racc (~> 1.4)
     padrino-helpers (0.15.1)
@@ -127,6 +129,7 @@ GEM
     slim (4.1.0)
       temple (>= 0.7.6, < 0.9)
       tilt (>= 2.0.6, < 2.1)
+    sqlite3 (1.5.4-arm64-darwin)
     sqlite3 (1.5.4-x86_64-darwin)
     temple (0.8.2)
     thor (1.2.1)
@@ -140,6 +143,7 @@ GEM
     webrick (1.7.0)
 
 PLATFORMS
+  arm64-darwin-22
   x86_64-darwin-21
 
 DEPENDENCIES
@@ -161,7 +165,7 @@ DEPENDENCIES
   webrick
 
 RUBY VERSION
-   ruby 3.1.2p20
+   ruby 3.1.3p185
 
 BUNDLED WITH
    2.3.26
