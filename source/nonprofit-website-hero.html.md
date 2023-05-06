@@ -83,4 +83,4 @@ New websites and redesigns start at $2500.
 
 # Ready to get started?
 
-Give us a call at 512-705-8752 or drop us a note at hello@boosterstage.net.
+Drop us a note at hello@boosterstage.net.

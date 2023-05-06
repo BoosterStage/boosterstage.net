@@ -3,7 +3,6 @@ title: The Booster Stage Manifesto
 subtitle: These are the ideals and values that drive us and make us who we are.
 layout: about
 section_class: markdown
-
 ---
 
 ## Small is Powerful
